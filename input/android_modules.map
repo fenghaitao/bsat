@@ -1,0 +1,528 @@
+libhost: build/libs/host out/host/linux-x86/obj/STATIC_LIBRARIES/libhost_intermediates/libhost.a
+AT_Translated_Set_2_keyboard.kcm: vendor/linuxfoundation/moblin out/target/product/moblin/obj/KEYCHARS/AT_Translated_Set_2_keyboard.kcm_intermediates/AT_Translated_Set_2_keyboard.kcm.bin out/target/product/moblin/system/usr/keychars/AT_Translated_Set_2_keyboard.kcm.bin
+acp: build/tools/acp out/host/linux-x86/obj/EXECUTABLES/acp_intermediates/acp out/host/linux-x86/bin/acp
+apicheck: build/tools/apicheck out/host/linux-x86/obj/EXECUTABLES/apicheck_intermediates/apicheck out/host/linux-x86/bin/apicheck
+apicheck: build/tools/apicheck/src out/host/common/obj/JAVA_LIBRARIES/apicheck_intermediates/javalib.jar out/host/linux-x86/framework/apicheck.jar
+atree: build/tools/atree out/host/linux-x86/obj/EXECUTABLES/atree_intermediates/atree out/host/linux-x86/bin/atree
+icudata: build/tools/bin2asm out/host/linux-x86/obj/EXECUTABLES/icudata_intermediates/icudata out/host/linux-x86/bin/icudata
+check_prereq: build/tools/check_prereq out/target/product/moblin/obj/EXECUTABLES/check_prereq_intermediates/check_prereq out/target/product/moblin/system/bin/check_prereq
+droiddoc: build/tools/droiddoc/src out/host/common/obj/JAVA_LIBRARIES/droiddoc_intermediates/javalib.jar out/host/linux-x86/framework/droiddoc.jar
+fs_get_stats: build/tools/fs_get_stats out/host/linux-x86/obj/EXECUTABLES/fs_get_stats_intermediates/fs_get_stats out/host/linux-x86/bin/fs_get_stats
+kcm: build/tools/kcm out/host/linux-x86/obj/EXECUTABLES/kcm_intermediates/kcm out/host/linux-x86/bin/kcm
+signapk: build/tools/signapk out/host/common/obj/JAVA_LIBRARIES/signapk_intermediates/javalib.jar out/host/linux-x86/framework/signapk.jar
+zipalign: build/tools/zipalign out/host/linux-x86/obj/EXECUTABLES/zipalign_intermediates/zipalign out/host/linux-x86/bin/zipalign
+libdex: dalvik/libdex out/target/product/moblin/obj/STATIC_LIBRARIES/libdex_intermediates/libdex.a
+libdex: dalvik/libdex out/host/linux-x86/obj/STATIC_LIBRARIES/libdex_intermediates/libdex.a
+libdvm: dalvik/vm out/target/product/moblin/obj/lib/libdvm.so out/target/product/moblin/system/lib/libdvm.so
+dalvikvm: dalvik/dalvikvm out/target/product/moblin/obj/EXECUTABLES/dalvikvm_intermediates/dalvikvm out/target/product/moblin/system/bin/dalvikvm
+dexlist: dalvik/dexlist out/host/linux-x86/obj/EXECUTABLES/dexlist_intermediates/dexlist out/host/linux-x86/bin/dexlist
+dexopt: dalvik/dexopt out/target/product/moblin/obj/EXECUTABLES/dexopt_intermediates/dexopt out/target/product/moblin/system/bin/dexopt
+dexdump: dalvik/dexdump out/target/product/moblin/obj/EXECUTABLES/dexdump_intermediates/dexdump out/target/product/moblin/system/xbin/dexdump
+dexdump: dalvik/dexdump out/host/linux-x86/obj/EXECUTABLES/dexdump_intermediates/dexdump out/host/linux-x86/bin/dexdump
+dvz: dalvik/dvz out/target/product/moblin/obj/EXECUTABLES/dvz_intermediates/dvz out/target/product/moblin/system/bin/dvz
+dx: dalvik/dx out/host/linux-x86/obj/EXECUTABLES/dx_intermediates/dx out/host/linux-x86/bin/dx
+jasmin: dalvik/dx out/host/linux-x86/obj/EXECUTABLES/jasmin_intermediates/jasmin out/host/linux-x86/bin/jasmin
+jasmin.jar: dalvik/dx out/host/common/obj/JAVA_LIBRARIES/jasmin.jar_intermediates/jasmin.jar out/host/linux-x86/framework/jasmin.jar
+dx: dalvik/dx/src out/host/common/obj/JAVA_LIBRARIES/dx_intermediates/javalib.jar out/host/linux-x86/framework/dx.jar
+core: dalvik/libcore out/target/common/obj/JAVA_LIBRARIES/core_intermediates/javalib.jar out/target/product/moblin/system/framework/core.jar
+core-tests: dalvik/libcore out/target/common/obj/JAVA_LIBRARIES/core-tests_intermediates/javalib.jar out/target/product/moblin/system/framework/core-tests.jar
+run-core-tests: dalvik/libcore out/target/product/moblin/obj/EXECUTABLES/run-core-tests_intermediates/run-core-tests out/target/product/moblin/system/bin/run-core-tests
+run-core-tests-on-ri: dalvik/libcore out/host/linux-x86/obj/EXECUTABLES/run-core-tests-on-ri_intermediates/run-core-tests-on-ri out/host/linux-x86/bin/run-core-tests-on-ri
+libjavacore: dalvik/libcore out/target/product/moblin/obj/STATIC_LIBRARIES/libjavacore_intermediates/libjavacore.a
+libnativehelper: dalvik/libnativehelper out/target/product/moblin/obj/lib/libnativehelper.so out/target/product/moblin/system/lib/libnativehelper.so
+dmtracedump: dalvik/tools/dmtracedump out/host/linux-x86/obj/EXECUTABLES/dmtracedump_intermediates/dmtracedump out/host/linux-x86/bin/dmtracedump
+create_test_dmtrace: dalvik/tools/dmtracedump out/host/linux-x86/obj/EXECUTABLES/create_test_dmtrace_intermediates/create_test_dmtrace out/host/linux-x86/bin/create_test_dmtrace
+hprof-conv: dalvik/tools/hprof-conv out/host/linux-x86/obj/EXECUTABLES/hprof-conv_intermediates/hprof-conv out/host/linux-x86/bin/hprof-conv
+CustomLocale: development/apps/CustomLocale out/target/product/moblin/obj/APPS/CustomLocale_intermediates/package.apk out/target/product/moblin/system/app/CustomLocale.apk
+Development: development/apps/Development out/target/product/moblin/obj/APPS/Development_intermediates/package.apk out/target/product/moblin/system/app/Development.apk
+Fallback: development/apps/Fallback out/target/product/moblin/obj/APPS/Fallback_intermediates/package.apk out/target/product/moblin/system/app/Fallback.apk
+FontLab: development/apps/FontLab out/target/product/moblin/obj/APPS/FontLab_intermediates/package.apk out/target/product/moblin/data/app/FontLab.apk
+SdkSetup: development/apps/SdkSetup out/target/product/moblin/obj/APPS/SdkSetup_intermediates/package.apk out/target/product/moblin/system/app/SdkSetup.apk
+SpareParts: development/apps/SpareParts out/target/product/moblin/obj/APPS/SpareParts_intermediates/package.apk out/target/product/moblin/system/app/SpareParts.apk
+Term: development/apps/Term out/target/product/moblin/obj/APPS/Term_intermediates/package.apk out/target/product/moblin/system/app/Term.apk
+launchperf: development/apps/launchperf out/target/product/moblin/obj/APPS/launchperf_intermediates/package.apk out/target/product/moblin/data/app/launchperf.apk
+monkey: development/cmds/monkey out/target/common/obj/JAVA_LIBRARIES/monkey_intermediates/javalib.jar out/target/product/moblin/system/framework/monkey.jar
+AliasActivity: development/samples/AliasActivity out/target/product/moblin/obj/APPS/AliasActivity_intermediates/package.apk out/target/product/moblin/system/app/AliasActivity.apk
+ApiDemos: development/samples/ApiDemos out/target/product/moblin/obj/APPS/ApiDemos_intermediates/package.apk out/target/product/moblin/system/app/ApiDemos.apk
+ApiDemosTests: development/samples/ApiDemos/tests out/target/product/moblin/obj/APPS/ApiDemosTests_intermediates/package.apk out/target/product/moblin/data/app/ApiDemosTests.apk
+Compass: development/samples/Compass out/target/product/moblin/obj/APPS/Compass_intermediates/package.apk out/target/product/moblin/system/app/Compass.apk
+FixedGridLayout: development/samples/FixedGridLayout out/target/product/moblin/obj/APPS/FixedGridLayout_intermediates/package.apk out/target/product/moblin/system/app/FixedGridLayout.apk
+GlobalTime: development/samples/GlobalTime out/target/product/moblin/obj/APPS/GlobalTime_intermediates/package.apk out/target/product/moblin/system/app/GlobalTime.apk
+HelloActivity: development/samples/HelloActivity out/target/product/moblin/obj/APPS/HelloActivity_intermediates/package.apk out/target/product/moblin/system/app/HelloActivity.apk
+HelloActivityTests: development/samples/HelloActivity/tests out/target/product/moblin/obj/APPS/HelloActivityTests_intermediates/package.apk out/target/product/moblin/data/app/HelloActivityTests.apk
+Home: development/samples/Home out/target/product/moblin/obj/APPS/Home_intermediates/package.apk out/target/product/moblin/system/app/Home.apk
+JETBoy: development/samples/JetBoy out/target/product/moblin/obj/APPS/JETBoy_intermediates/package.apk out/target/product/moblin/system/app/JETBoy.apk
+LunarLander: development/samples/LunarLander out/target/product/moblin/obj/APPS/LunarLander_intermediates/package.apk out/target/product/moblin/system/app/LunarLander.apk
+LunarLanderTests: development/samples/LunarLander/tests out/target/product/moblin/obj/APPS/LunarLanderTests_intermediates/package.apk out/target/product/moblin/data/app/LunarLanderTests.apk
+NotePad: development/samples/NotePad out/target/product/moblin/obj/APPS/NotePad_intermediates/package.apk out/target/product/moblin/system/app/NotePad.apk
+NotePadTests: development/samples/NotePad/tests out/target/product/moblin/obj/APPS/NotePadTests_intermediates/package.apk out/target/product/moblin/data/app/NotePadTests.apk
+com.example.android.platform_library: development/samples/PlatformLibrary out/target/common/obj/JAVA_LIBRARIES/com.example.android.platform_library_intermediates/javalib.jar out/target/product/moblin/system/framework/com.example.android.platform_library.jar
+com.example.android.platform_library.xml: development/samples/PlatformLibrary out/target/product/moblin/obj/ETC/com.example.android.platform_library.xml_intermediates/com.example.android.platform_library.xml out/target/product/moblin/system/etc/permissions/com.example.android.platform_library.xml
+PlatformLibraryClient: development/samples/PlatformLibrary/client out/target/product/moblin/obj/APPS/PlatformLibraryClient_intermediates/package.apk out/target/product/moblin/system/app/PlatformLibraryClient.apk
+libplatform_library_jni: development/samples/PlatformLibrary/jni out/target/product/moblin/obj/lib/libplatform_library_jni.so out/target/product/moblin/system/lib/libplatform_library_jni.so
+RSSReader: development/samples/RSSReader out/target/product/moblin/obj/APPS/RSSReader_intermediates/package.apk out/target/product/moblin/system/app/RSSReader.apk
+SimpleJNI: development/samples/SimpleJNI out/target/product/moblin/obj/APPS/SimpleJNI_intermediates/package.apk out/target/product/moblin/system/app/SimpleJNI.apk
+libsimplejni: development/samples/SimpleJNI/jni out/target/product/moblin/obj/lib/libsimplejni.so out/target/product/moblin/system/lib/libsimplejni.so
+SkeletonApp: development/samples/SkeletonApp out/target/product/moblin/obj/APPS/SkeletonApp_intermediates/package.apk out/target/product/moblin/system/app/SkeletonApp.apk
+SkeletonAppTests: development/samples/SkeletonApp/tests out/target/product/moblin/obj/APPS/SkeletonAppTests_intermediates/package.apk out/target/product/moblin/data/app/SkeletonAppTests.apk
+Snake: development/samples/Snake out/target/product/moblin/obj/APPS/Snake_intermediates/package.apk out/target/product/moblin/system/app/Snake.apk
+SnakeTests: development/samples/Snake/tests out/target/product/moblin/obj/APPS/SnakeTests_intermediates/package.apk out/target/product/moblin/data/app/SnakeTests.apk
+SoftKeyboard: development/samples/SoftKeyboard out/target/product/moblin/obj/APPS/SoftKeyboard_intermediates/package.apk out/target/product/moblin/system/app/SoftKeyboard.apk
+test_defs.xml: development/testrunner out/target/product/moblin/obj/ETC/test_defs.xml_intermediates/test_defs.xml out/target/product/moblin/data/testinfo/test_defs.xml
+androidprefs: development/tools/androidprefs/src out/host/common/obj/JAVA_LIBRARIES/androidprefs_intermediates/javalib.jar out/host/linux-x86/framework/androidprefs.jar
+anttasks: development/tools/anttasks/src out/host/common/obj/JAVA_LIBRARIES/anttasks_intermediates/javalib.jar out/host/linux-x86/framework/anttasks.jar
+apkbuilder: development/tools/apkbuilder/etc out/host/linux-x86/obj/EXECUTABLES/apkbuilder_intermediates/apkbuilder out/host/linux-x86/bin/apkbuilder
+apkbuilder: development/tools/apkbuilder/src out/host/common/obj/JAVA_LIBRARIES/apkbuilder_intermediates/javalib.jar out/host/linux-x86/framework/apkbuilder.jar
+ddmlib: development/tools/ddms/libs/ddmlib/src out/host/common/obj/JAVA_LIBRARIES/ddmlib_intermediates/javalib.jar out/host/linux-x86/framework/ddmlib.jar
+ddmuilib: development/tools/ddms/libs/ddmuilib/src out/host/common/obj/JAVA_LIBRARIES/ddmuilib_intermediates/javalib.jar out/host/linux-x86/framework/ddmuilib.jar
+ddms: development/tools/ddms/app/etc out/host/linux-x86/obj/EXECUTABLES/ddms_intermediates/ddms out/host/linux-x86/bin/ddms
+ddms: development/tools/ddms/app/src out/host/common/obj/JAVA_LIBRARIES/ddms_intermediates/javalib.jar out/host/linux-x86/framework/ddms.jar
+draw9patch: development/tools/draw9patch/etc out/host/linux-x86/obj/EXECUTABLES/draw9patch_intermediates/draw9patch out/host/linux-x86/bin/draw9patch
+draw9patch: development/tools/draw9patch/src out/host/common/obj/JAVA_LIBRARIES/draw9patch_intermediates/javalib.jar out/host/linux-x86/framework/draw9patch.jar
+dumpeventlog: development/tools/dumpeventlog/etc out/host/linux-x86/obj/EXECUTABLES/dumpeventlog_intermediates/dumpeventlog out/host/linux-x86/bin/dumpeventlog
+dumpeventlog: development/tools/dumpeventlog/src out/host/common/obj/JAVA_LIBRARIES/dumpeventlog_intermediates/javalib.jar out/host/linux-x86/framework/dumpeventlog.jar
+eventanalyzer: development/tools/eventanalyzer/etc out/host/linux-x86/obj/EXECUTABLES/eventanalyzer_intermediates/eventanalyzer out/host/linux-x86/bin/eventanalyzer
+eventanalyzer: development/tools/eventanalyzer/src out/host/common/obj/JAVA_LIBRARIES/eventanalyzer_intermediates/javalib.jar out/host/linux-x86/framework/eventanalyzer.jar
+hierarchyviewer: development/tools/hierarchyviewer/etc out/host/linux-x86/obj/EXECUTABLES/hierarchyviewer_intermediates/hierarchyviewer out/host/linux-x86/bin/hierarchyviewer
+hierarchyviewer: development/tools/hierarchyviewer/src out/host/common/obj/JAVA_LIBRARIES/hierarchyviewer_intermediates/javalib.jar out/host/linux-x86/framework/hierarchyviewer.jar
+idegen: development/tools/idegen out/host/common/obj/JAVA_LIBRARIES/idegen_intermediates/javalib.jar out/host/linux-x86/framework/idegen.jar
+jarutils: development/tools/jarutils/src out/host/common/obj/JAVA_LIBRARIES/jarutils_intermediates/javalib.jar out/host/linux-x86/framework/jarutils.jar
+jdwpspy: development/tools/jdwpspy out/host/linux-x86/obj/EXECUTABLES/jdwpspy_intermediates/jdwpspy out/host/linux-x86/bin/jdwpspy
+layoutlib_utils: development/tools/layoutlib_utils out/host/common/obj/JAVA_LIBRARIES/layoutlib_utils_intermediates/javalib.jar out/host/linux-x86/framework/layoutlib_utils.jar
+line_endings: development/tools/line_endings out/host/linux-x86/obj/EXECUTABLES/line_endings_intermediates/line_endings out/host/linux-x86/bin/line_endings
+makedict: development/tools/makedict out/host/common/obj/JAVA_LIBRARIES/makedict_intermediates/javalib.jar out/host/linux-x86/framework/makedict.jar
+makedict: development/tools/makedict/etc out/host/linux-x86/obj/EXECUTABLES/makedict_intermediates/makedict out/host/linux-x86/bin/makedict
+mkstubs: development/tools/mkstubs out/host/common/obj/JAVA_LIBRARIES/mkstubs_intermediates/javalib.jar out/host/linux-x86/framework/mkstubs.jar
+ninepatch: development/tools/ninepatch out/host/common/obj/JAVA_LIBRARIES/ninepatch_intermediates/javalib.jar out/host/linux-x86/framework/ninepatch.jar
+screenshot2: development/tools/screenshot/etc out/host/linux-x86/obj/EXECUTABLES/screenshot2_intermediates/screenshot2 out/host/linux-x86/bin/screenshot2
+screenshot2: development/tools/screenshot/src out/host/common/obj/JAVA_LIBRARIES/screenshot2_intermediates/javalib.jar out/host/linux-x86/framework/screenshot2.jar
+android: development/tools/sdkmanager/app/etc out/host/linux-x86/obj/EXECUTABLES/android_intermediates/android out/host/linux-x86/bin/android
+sdkmanager: development/tools/sdkmanager/app/src out/host/common/obj/JAVA_LIBRARIES/sdkmanager_intermediates/javalib.jar out/host/linux-x86/framework/sdkmanager.jar
+sdklib: development/tools/sdkmanager/libs/sdklib/src out/host/common/obj/JAVA_LIBRARIES/sdklib_intermediates/javalib.jar out/host/linux-x86/framework/sdklib.jar
+sdkuilib: development/tools/sdkmanager/libs/sdkuilib/src out/host/common/obj/JAVA_LIBRARIES/sdkuilib_intermediates/javalib.jar out/host/linux-x86/framework/sdkuilib.jar
+sdkstats: development/tools/sdkstats/src out/host/common/obj/JAVA_LIBRARIES/sdkstats_intermediates/javalib.jar out/host/linux-x86/framework/sdkstats.jar
+traceview: development/tools/traceview/etc out/host/linux-x86/obj/EXECUTABLES/traceview_intermediates/traceview out/host/linux-x86/bin/traceview
+traceview: development/tools/traceview/src out/host/common/obj/JAVA_LIBRARIES/traceview_intermediates/javalib.jar out/host/linux-x86/framework/traceview.jar
+libaes: external/aes out/target/product/moblin/obj/lib/libaes.so out/target/product/moblin/system/lib/libaes.so
+bison: external/bison out/host/linux-x86/obj/EXECUTABLES/bison_intermediates/bison out/host/linux-x86/bin/bison
+libbz: external/bzip2 out/target/product/moblin/obj/STATIC_LIBRARIES/libbz_intermediates/libbz.a
+libbz: external/bzip2 out/host/linux-x86/obj/STATIC_LIBRARIES/libbz_intermediates/libbz.a
+libneo_cgi: external/clearsilver/cgi out/host/linux-x86/obj/lib/libneo_cgi.so out/host/linux-x86/lib/libneo_cgi.so
+libneo_cs: external/clearsilver/cs out/host/linux-x86/obj/lib/libneo_cs.so out/host/linux-x86/lib/libneo_cs.so
+clearsilver: external/clearsilver/java-jni out/host/common/obj/JAVA_LIBRARIES/clearsilver_intermediates/javalib.jar out/host/linux-x86/framework/clearsilver.jar
+libclearsilver-jni: external/clearsilver/java-jni out/host/linux-x86/obj/lib/libclearsilver-jni.so out/host/linux-x86/lib/libclearsilver-jni.so
+libneo_util: external/clearsilver/util out/host/linux-x86/obj/lib/libneo_util.so out/host/linux-x86/lib/libneo_util.so
+libembunit: external/embunit out/target/product/moblin/obj/lib/libembunit.so out/target/product/moblin/system/lib/libembunit.so
+libfdlibm: external/fdlibm out/target/product/moblin/obj/STATIC_LIBRARIES/libfdlibm_intermediates/libfdlibm.a
+libft2: external/freetype out/target/product/moblin/obj/STATIC_LIBRARIES/libft2_intermediates/libft2.a
+genext2fs: external/genext2fs out/host/linux-x86/obj/EXECUTABLES/genext2fs_intermediates/genext2fs out/host/linux-x86/bin/genext2fs
+libgif: external/giflib out/target/product/moblin/obj/STATIC_LIBRARIES/libgif_intermediates/libgif.a
+libicudata-jp: external/icu4c/stubdata out/target/product/moblin/obj/lib/libicudata-jp.so out/target/product/moblin/system/lib/libicudata-jp.so
+libicudata-eu: external/icu4c/stubdata out/target/product/moblin/obj/lib/libicudata-eu.so out/target/product/moblin/system/lib/libicudata-eu.so
+libicudata-default: external/icu4c/stubdata out/target/product/moblin/obj/lib/libicudata-default.so out/target/product/moblin/system/lib/libicudata-default.so
+libicudata-us: external/icu4c/stubdata out/target/product/moblin/obj/lib/libicudata.so out/target/product/moblin/system/lib/libicudata.so
+libicuuc: external/icu4c/common out/target/product/moblin/obj/lib/libicuuc.so out/target/product/moblin/system/lib/libicuuc.so
+libicui18n: external/icu4c/i18n out/target/product/moblin/obj/lib/libicui18n.so out/target/product/moblin/system/lib/libicui18n.so
+libexif: external/jhead out/target/product/moblin/obj/lib/libexif.so out/target/product/moblin/system/lib/libexif.so
+libjpeg: external/jpeg out/target/product/moblin/obj/STATIC_LIBRARIES/libjpeg_intermediates/libjpeg.a
+libpng: external/libpng out/host/linux-x86/obj/STATIC_LIBRARIES/libpng_intermediates/libpng.a
+libpng: external/libpng out/target/product/moblin/obj/STATIC_LIBRARIES/libpng_intermediates/libpng.a
+libxml2: external/libxml2 out/target/product/moblin/obj/STATIC_LIBRARIES/libxml2_intermediates/libxml2.a
+libxml2: external/libxml2 out/host/linux-x86/obj/STATIC_LIBRARIES/libxml2_intermediates/libxml2.a
+libFFTEm: external/neven out/target/product/moblin/obj/lib/libFFTEm.so out/target/product/moblin/system/lib/libFFTEm.so
+pvplayer: external/opencore out/target/product/moblin/obj/ETC/pvplayer_intermediates/pvplayer.cfg out/target/product/moblin/system/etc/pvplayer.cfg
+libopencore_common: external/opencore/build_config/opencore_dynamic out/target/product/moblin/obj/lib/libopencore_common.so out/target/product/moblin/system/lib/libopencore_common.so
+libosclbase: external/opencore/oscl/oscl/osclbase out/target/product/moblin/obj/STATIC_LIBRARIES/libosclbase_intermediates/libosclbase.a
+libosclerror: external/opencore/oscl/oscl/osclerror out/target/product/moblin/obj/STATIC_LIBRARIES/libosclerror_intermediates/libosclerror.a
+libosclmemory: external/opencore/oscl/oscl/osclmemory out/target/product/moblin/obj/STATIC_LIBRARIES/libosclmemory_intermediates/libosclmemory.a
+libosclutil: external/opencore/oscl/oscl/osclutil out/target/product/moblin/obj/STATIC_LIBRARIES/libosclutil_intermediates/libosclutil.a
+libosclproc: external/opencore/oscl/oscl/osclproc out/target/product/moblin/obj/STATIC_LIBRARIES/libosclproc_intermediates/libosclproc.a
+libosclio: external/opencore/oscl/oscl/osclio out/target/product/moblin/obj/STATIC_LIBRARIES/libosclio_intermediates/libosclio.a
+libosclregserv: external/opencore/oscl/oscl/osclregserv out/target/product/moblin/obj/STATIC_LIBRARIES/libosclregserv_intermediates/libosclregserv.a
+libosclregcli: external/opencore/oscl/oscl/osclregcli out/target/product/moblin/obj/STATIC_LIBRARIES/libosclregcli_intermediates/libosclregcli.a
+liboscllib: external/opencore/oscl/oscl/oscllib out/target/product/moblin/obj/STATIC_LIBRARIES/liboscllib_intermediates/liboscllib.a
+libomx_mastercore_lib: external/opencore/codecs_v2/omx/omx_mastercore out/target/product/moblin/obj/STATIC_LIBRARIES/libomx_mastercore_lib_intermediates/libomx_mastercore_lib.a
+libpv_avc_common_lib: external/opencore/codecs_v2/video/avc_h264/common out/target/product/moblin/obj/STATIC_LIBRARIES/libpv_avc_common_lib_intermediates/libpv_avc_common_lib.a
+libpv_amr_nb_common_lib: external/opencore/codecs_v2/audio/gsm_amr/amr_nb/common out/target/product/moblin/obj/STATIC_LIBRARIES/libpv_amr_nb_common_lib_intermediates/libpv_amr_nb_common_lib.a
+libpvgsmamrparser: external/opencore/fileformats/rawgsmamr/parser out/target/product/moblin/obj/STATIC_LIBRARIES/libpvgsmamrparser_intermediates/libpvgsmamrparser.a
+libgetactualaacconfig: external/opencore/codecs_v2/audio/aac/dec/util/getactualaacconfig out/target/product/moblin/obj/STATIC_LIBRARIES/libgetactualaacconfig_intermediates/libgetactualaacconfig.a
+libm4v_config: external/opencore/codecs_v2/utilities/m4v_config_parser out/target/product/moblin/obj/STATIC_LIBRARIES/libm4v_config_intermediates/libm4v_config.a
+libpv_config_parser: external/opencore/codecs_v2/utilities/pv_config_parser out/target/product/moblin/obj/STATIC_LIBRARIES/libpv_config_parser_intermediates/libpv_config_parser.a
+libcolorconvert: external/opencore/codecs_v2/utilities/colorconvert out/target/product/moblin/obj/STATIC_LIBRARIES/libcolorconvert_intermediates/libcolorconvert.a
+libthreadsafe_callback_ao: external/opencore/baselibs/threadsafe_callback_ao out/target/product/moblin/obj/STATIC_LIBRARIES/libthreadsafe_callback_ao_intermediates/libthreadsafe_callback_ao.a
+libpvmediadatastruct: external/opencore/baselibs/media_data_structures out/target/product/moblin/obj/STATIC_LIBRARIES/libpvmediadatastruct_intermediates/libpvmediadatastruct.a
+libpvmimeutils: external/opencore/baselibs/pv_mime_utils out/target/product/moblin/obj/STATIC_LIBRARIES/libpvmimeutils_intermediates/libpvmimeutils.a
+libpvgendatastruct: external/opencore/baselibs/gen_data_structures out/target/product/moblin/obj/STATIC_LIBRARIES/libpvgendatastruct_intermediates/libpvgendatastruct.a
+libpvmf: external/opencore/pvmi/pvmf out/target/product/moblin/obj/STATIC_LIBRARIES/libpvmf_intermediates/libpvmf.a
+libpvfileoutputnode: external/opencore/nodes/pvfileoutputnode out/target/product/moblin/obj/STATIC_LIBRARIES/libpvfileoutputnode_intermediates/libpvfileoutputnode.a
+libpvmediainputnode: external/opencore/nodes/pvmediainputnode out/target/product/moblin/obj/STATIC_LIBRARIES/libpvmediainputnode_intermediates/libpvmediainputnode.a
+libpvomxencnode: external/opencore/nodes/pvomxencnode out/target/product/moblin/obj/STATIC_LIBRARIES/libpvomxencnode_intermediates/libpvomxencnode.a
+libpvmiofileinput: external/opencore/pvmi/media_io/pvmi_mio_fileinput out/target/product/moblin/obj/STATIC_LIBRARIES/libpvmiofileinput_intermediates/libpvmiofileinput.a
+libpvmioaviwavfileinput: external/opencore/pvmi/media_io/pvmi_mio_avi_wav_fileinput out/target/product/moblin/obj/STATIC_LIBRARIES/libpvmioaviwavfileinput_intermediates/libpvmioaviwavfileinput.a
+libpvavifileparser: external/opencore/fileformats/avi/parser out/target/product/moblin/obj/STATIC_LIBRARIES/libpvavifileparser_intermediates/libpvavifileparser.a
+libpvthreadmessaging: external/opencore/baselibs/thread_messaging out/target/product/moblin/obj/STATIC_LIBRARIES/libpvthreadmessaging_intermediates/libpvthreadmessaging.a
+libpvmiofileoutput: external/opencore/pvmi/media_io/pvmiofileoutput out/target/product/moblin/obj/STATIC_LIBRARIES/libpvmiofileoutput_intermediates/libpvmiofileoutput.a
+libpvmediaoutputnode: external/opencore/nodes/pvmediaoutputnode out/target/product/moblin/obj/STATIC_LIBRARIES/libpvmediaoutputnode_intermediates/libpvmediaoutputnode.a
+libpvomxvideodecnode: external/opencore/nodes/pvomxvideodecnode out/target/product/moblin/obj/STATIC_LIBRARIES/libpvomxvideodecnode_intermediates/libpvomxvideodecnode.a
+libpvomxaudiodecnode: external/opencore/nodes/pvomxaudiodecnode out/target/product/moblin/obj/STATIC_LIBRARIES/libpvomxaudiodecnode_intermediates/libpvomxaudiodecnode.a
+libpvomxbasedecnode: external/opencore/nodes/pvomxbasedecnode out/target/product/moblin/obj/STATIC_LIBRARIES/libpvomxbasedecnode_intermediates/libpvomxbasedecnode.a
+libpvlatmpayloadparser: external/opencore/protocols/rtp_payload_parser/util/build out/target/product/moblin/obj/STATIC_LIBRARIES/libpvlatmpayloadparser_intermediates/libpvlatmpayloadparser.a
+libpvwav: external/opencore/fileformats/wav/parser out/target/product/moblin/obj/STATIC_LIBRARIES/libpvwav_intermediates/libpvwav.a
+libpvfileparserutils: external/opencore/fileformats/common/parser out/target/product/moblin/obj/STATIC_LIBRARIES/libpvfileparserutils_intermediates/libpvfileparserutils.a
+libscsp: external/opencore/fileformats/scsp out/target/product/moblin/obj/STATIC_LIBRARIES/libscsp_intermediates/libscsp.a
+libopencore_author: external/opencore/build_config/opencore_dynamic out/target/product/moblin/obj/lib/libopencore_author.so out/target/product/moblin/system/lib/libopencore_author.so
+libpvmp4ffcomposer: external/opencore/fileformats/mp4/composer out/target/product/moblin/obj/STATIC_LIBRARIES/libpvmp4ffcomposer_intermediates/libpvmp4ffcomposer.a
+libpvmp4ffcomposernode: external/opencore/nodes/pvmp4ffcomposernode out/target/product/moblin/obj/STATIC_LIBRARIES/libpvmp4ffcomposernode_intermediates/libpvmp4ffcomposernode.a
+libpvauthorengine: external/opencore/engines/author out/target/product/moblin/obj/STATIC_LIBRARIES/libpvauthorengine_intermediates/libpvauthorengine.a
+libandroidpvauthor: external/opencore/android/author out/target/product/moblin/obj/STATIC_LIBRARIES/libandroidpvauthor_intermediates/libandroidpvauthor.a
+libopencore_player: external/opencore/build_config/opencore_dynamic out/target/product/moblin/obj/lib/libopencore_player.so out/target/product/moblin/system/lib/libopencore_player.so
+libcpm: external/opencore/pvmi/content_policy_manager out/target/product/moblin/obj/STATIC_LIBRARIES/libcpm_intermediates/libcpm.a
+libpvpvxparser: external/opencore/fileformats/pvx/parser out/target/product/moblin/obj/STATIC_LIBRARIES/libpvpvxparser_intermediates/libpvpvxparser.a
+libpvid3parcom: external/opencore/fileformats/id3parcom out/target/product/moblin/obj/STATIC_LIBRARIES/libpvid3parcom_intermediates/libpvid3parcom.a
+libpvamrffparsernode: external/opencore/nodes/pvamrffparsernode out/target/product/moblin/obj/STATIC_LIBRARIES/libpvamrffparsernode_intermediates/libpvamrffparsernode.a
+libpvamrffrecognizer: external/opencore/pvmi/recognizer/plugins/pvamrffrecognizer out/target/product/moblin/obj/STATIC_LIBRARIES/libpvamrffrecognizer_intermediates/libpvamrffrecognizer.a
+libpvmp3ff: external/opencore/fileformats/mp3/parser out/target/product/moblin/obj/STATIC_LIBRARIES/libpvmp3ff_intermediates/libpvmp3ff.a
+libpvmp3ffparsernode: external/opencore/nodes/pvmp3ffparsernode out/target/product/moblin/obj/STATIC_LIBRARIES/libpvmp3ffparsernode_intermediates/libpvmp3ffparsernode.a
+libpvmp3ffrecognizer: external/opencore/pvmi/recognizer/plugins/pvmp3ffrecognizer out/target/product/moblin/obj/STATIC_LIBRARIES/libpvmp3ffrecognizer_intermediates/libpvmp3ffrecognizer.a
+libpvmp4ff: external/opencore/fileformats/mp4/parser out/target/product/moblin/obj/STATIC_LIBRARIES/libpvmp4ff_intermediates/libpvmp4ff.a
+libmp4recognizer_utility: external/opencore/fileformats/mp4/parser/utils/mp4recognizer out/target/product/moblin/obj/STATIC_LIBRARIES/libmp4recognizer_utility_intermediates/libmp4recognizer_utility.a
+libpvaacparser: external/opencore/fileformats/rawaac/parser out/target/product/moblin/obj/STATIC_LIBRARIES/libpvaacparser_intermediates/libpvaacparser.a
+libpvaacffparsernode: external/opencore/nodes/pvaacffparsernode out/target/product/moblin/obj/STATIC_LIBRARIES/libpvaacffparsernode_intermediates/libpvaacffparsernode.a
+libpvaacffrecognizer: external/opencore/pvmi/recognizer/plugins/pvaacffrecognizer out/target/product/moblin/obj/STATIC_LIBRARIES/libpvaacffrecognizer_intermediates/libpvaacffrecognizer.a
+libpvwavffparsernode: external/opencore/nodes/pvwavffparsernode out/target/product/moblin/obj/STATIC_LIBRARIES/libpvwavffparsernode_intermediates/libpvwavffparsernode.a
+libpvwavffrecognizer: external/opencore/pvmi/recognizer/plugins/pvwavffrecognizer out/target/product/moblin/obj/STATIC_LIBRARIES/libpvwavffrecognizer_intermediates/libpvwavffrecognizer.a
+libpvmfrecognizer: external/opencore/pvmi/recognizer out/target/product/moblin/obj/STATIC_LIBRARIES/libpvmfrecognizer_intermediates/libpvmfrecognizer.a
+libpvframemetadatautility: external/opencore/engines/adapters/player/framemetadatautility out/target/product/moblin/obj/STATIC_LIBRARIES/libpvframemetadatautility_intermediates/libpvframemetadatautility.a
+libpvplayer_engine: external/opencore/engines/player out/target/product/moblin/obj/STATIC_LIBRARIES/libpvplayer_engine_intermediates/libpvplayer_engine.a
+libandroidpv: external/opencore/android out/target/product/moblin/obj/STATIC_LIBRARIES/libandroidpv_intermediates/libandroidpv.a
+libomx_sharedlibrary: external/opencore/build_config/opencore_dynamic out/target/product/moblin/obj/lib/libomx_sharedlibrary.so out/target/product/moblin/system/lib/libomx_sharedlibrary.so
+libomx_common_lib: external/opencore/codecs_v2/omx/omx_common out/target/product/moblin/obj/STATIC_LIBRARIES/libomx_common_lib_intermediates/libomx_common_lib.a
+libomx_queue_lib: external/opencore/codecs_v2/omx/omx_queue out/target/product/moblin/obj/STATIC_LIBRARIES/libomx_queue_lib_intermediates/libomx_queue_lib.a
+libpvomx_proxy_lib: external/opencore/codecs_v2/omx/omx_proxy out/target/product/moblin/obj/STATIC_LIBRARIES/libpvomx_proxy_lib_intermediates/libpvomx_proxy_lib.a
+libomx_baseclass_lib: external/opencore/codecs_v2/omx/omx_baseclass out/target/product/moblin/obj/STATIC_LIBRARIES/libomx_baseclass_lib_intermediates/libomx_baseclass_lib.a
+libpv_omx_interface: external/opencore/codecs_v2/omx/omx_sharedlibrary/interface out/target/product/moblin/obj/STATIC_LIBRARIES/libpv_omx_interface_intermediates/libpv_omx_interface.a
+libomx_avcdec_sharedlibrary: external/opencore/build_config/opencore_dynamic out/target/product/moblin/obj/lib/libomx_avcdec_sharedlibrary.so out/target/product/moblin/system/lib/libomx_avcdec_sharedlibrary.so
+libomx_avc_component_lib: external/opencore/codecs_v2/omx/omx_h264 out/target/product/moblin/obj/STATIC_LIBRARIES/libomx_avc_component_lib_intermediates/libomx_avc_component_lib.a
+libpvavcdecoder: external/opencore/codecs_v2/video/avc_h264/dec out/target/product/moblin/obj/STATIC_LIBRARIES/libpvavcdecoder_intermediates/libpvavcdecoder.a
+libomx_m4vdec_sharedlibrary: external/opencore/build_config/opencore_dynamic out/target/product/moblin/obj/lib/libomx_m4vdec_sharedlibrary.so out/target/product/moblin/system/lib/libomx_m4vdec_sharedlibrary.so
+libomx_m4v_component_lib: external/opencore/codecs_v2/omx/omx_m4v out/target/product/moblin/obj/STATIC_LIBRARIES/libomx_m4v_component_lib_intermediates/libomx_m4v_component_lib.a
+libpvmp4decoder: external/opencore/codecs_v2/video/m4v_h263/dec out/target/product/moblin/obj/STATIC_LIBRARIES/libpvmp4decoder_intermediates/libpvmp4decoder.a
+libomx_aacdec_sharedlibrary: external/opencore/build_config/opencore_dynamic out/target/product/moblin/obj/lib/libomx_aacdec_sharedlibrary.so out/target/product/moblin/system/lib/libomx_aacdec_sharedlibrary.so
+libomx_aac_component_lib: external/opencore/codecs_v2/omx/omx_aac out/target/product/moblin/obj/STATIC_LIBRARIES/libomx_aac_component_lib_intermediates/libomx_aac_component_lib.a
+libpv_aac_dec: external/opencore/codecs_v2/audio/aac/dec out/target/product/moblin/obj/STATIC_LIBRARIES/libpv_aac_dec_intermediates/libpv_aac_dec.a
+libomx_amrdec_sharedlibrary: external/opencore/build_config/opencore_dynamic out/target/product/moblin/obj/lib/libomx_amrdec_sharedlibrary.so out/target/product/moblin/system/lib/libomx_amrdec_sharedlibrary.so
+libomx_amr_component_lib: external/opencore/codecs_v2/omx/omx_amr out/target/product/moblin/obj/STATIC_LIBRARIES/libomx_amr_component_lib_intermediates/libomx_amr_component_lib.a
+libpvdecoder_gsmamr: external/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec out/target/product/moblin/obj/STATIC_LIBRARIES/libpvdecoder_gsmamr_intermediates/libpvdecoder_gsmamr.a
+libpvamrwbdecoder: external/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec out/target/product/moblin/obj/STATIC_LIBRARIES/libpvamrwbdecoder_intermediates/libpvamrwbdecoder.a
+libomx_mp3dec_sharedlibrary: external/opencore/build_config/opencore_dynamic out/target/product/moblin/obj/lib/libomx_mp3dec_sharedlibrary.so out/target/product/moblin/system/lib/libomx_mp3dec_sharedlibrary.so
+libomx_mp3_component_lib: external/opencore/codecs_v2/omx/omx_mp3 out/target/product/moblin/obj/STATIC_LIBRARIES/libomx_mp3_component_lib_intermediates/libomx_mp3_component_lib.a
+libpvmp3: external/opencore/codecs_v2/audio/mp3/dec out/target/product/moblin/obj/STATIC_LIBRARIES/libpvmp3_intermediates/libpvmp3.a
+libomx_avcenc_sharedlibrary: external/opencore/build_config/opencore_dynamic out/target/product/moblin/obj/lib/libomx_avcenc_sharedlibrary.so out/target/product/moblin/system/lib/libomx_avcenc_sharedlibrary.so
+libomx_avcenc_component_lib: external/opencore/codecs_v2/omx/omx_h264enc out/target/product/moblin/obj/STATIC_LIBRARIES/libomx_avcenc_component_lib_intermediates/libomx_avcenc_component_lib.a
+libpvavch264enc: external/opencore/codecs_v2/video/avc_h264/enc out/target/product/moblin/obj/STATIC_LIBRARIES/libpvavch264enc_intermediates/libpvavch264enc.a
+libomx_m4venc_sharedlibrary: external/opencore/build_config/opencore_dynamic out/target/product/moblin/obj/lib/libomx_m4venc_sharedlibrary.so out/target/product/moblin/system/lib/libomx_m4venc_sharedlibrary.so
+libomx_m4venc_component_lib: external/opencore/codecs_v2/omx/omx_m4venc out/target/product/moblin/obj/STATIC_LIBRARIES/libomx_m4venc_component_lib_intermediates/libomx_m4venc_component_lib.a
+libpvm4vencoder: external/opencore/codecs_v2/video/m4v_h263/enc out/target/product/moblin/obj/STATIC_LIBRARIES/libpvm4vencoder_intermediates/libpvm4vencoder.a
+libomx_amrenc_sharedlibrary: external/opencore/build_config/opencore_dynamic out/target/product/moblin/obj/lib/libomx_amrenc_sharedlibrary.so out/target/product/moblin/system/lib/libomx_amrenc_sharedlibrary.so
+libomx_amrenc_component_lib: external/opencore/codecs_v2/omx/omx_amrenc out/target/product/moblin/obj/STATIC_LIBRARIES/libomx_amrenc_component_lib_intermediates/libomx_amrenc_component_lib.a
+libpvencoder_gsmamr: external/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc out/target/product/moblin/obj/STATIC_LIBRARIES/libpvencoder_gsmamr_intermediates/libpvencoder_gsmamr.a
+libopencore_net_support: external/opencore/build_config/opencore_dynamic out/target/product/moblin/obj/lib/libopencore_net_support.so out/target/product/moblin/system/lib/libopencore_net_support.so
+libpvsocketnode: external/opencore/nodes/pvsocketnode out/target/product/moblin/obj/STATIC_LIBRARIES/libpvsocketnode_intermediates/libpvsocketnode.a
+libpv_http_parcom: external/opencore/protocols/http_parcom out/target/product/moblin/obj/STATIC_LIBRARIES/libpv_http_parcom_intermediates/libpv_http_parcom.a
+libprotocolenginenode_base: external/opencore/nodes/pvprotocolenginenode/base out/target/product/moblin/obj/STATIC_LIBRARIES/libprotocolenginenode_base_intermediates/libprotocolenginenode_base.a
+libprotocolenginenode_common: external/opencore/nodes/pvprotocolenginenode/protocol_common out/target/product/moblin/obj/STATIC_LIBRARIES/libprotocolenginenode_common_intermediates/libprotocolenginenode_common.a
+libprotocolenginenode_download_common: external/opencore/nodes/pvprotocolenginenode/download_protocols/common out/target/product/moblin/obj/STATIC_LIBRARIES/libprotocolenginenode_download_common_intermediates/libprotocolenginenode_download_common.a
+libprotocolenginenode_pdl: external/opencore/nodes/pvprotocolenginenode/download_protocols/progressive_download out/target/product/moblin/obj/STATIC_LIBRARIES/libprotocolenginenode_pdl_intermediates/libprotocolenginenode_pdl.a
+libprotocolenginenode_ps: external/opencore/nodes/pvprotocolenginenode/download_protocols/progressive_streaming out/target/product/moblin/obj/STATIC_LIBRARIES/libprotocolenginenode_ps_intermediates/libprotocolenginenode_ps.a
+libprotocolenginenode_shoutcast: external/opencore/nodes/pvprotocolenginenode/download_protocols/shoutcast out/target/product/moblin/obj/STATIC_LIBRARIES/libprotocolenginenode_shoutcast_intermediates/libprotocolenginenode_shoutcast.a
+libopencore_downloadreg: external/opencore/build_config/opencore_dynamic out/target/product/moblin/obj/lib/libopencore_downloadreg.so out/target/product/moblin/system/lib/libopencore_downloadreg.so
+libpvdownloadreginterface: external/opencore/modules/linux_download/node_registry out/target/product/moblin/obj/STATIC_LIBRARIES/libpvdownloadreginterface_intermediates/libpvdownloadreginterface.a
+libopencore_download: external/opencore/build_config/opencore_dynamic out/target/product/moblin/obj/lib/libopencore_download.so out/target/product/moblin/system/lib/libopencore_download.so
+libpvdownloadmanagernode: external/opencore/nodes/pvdownloadmanagernode out/target/product/moblin/obj/STATIC_LIBRARIES/libpvdownloadmanagernode_intermediates/libpvdownloadmanagernode.a
+libpvdownloadinterface: external/opencore/modules/linux_download/core out/target/product/moblin/obj/STATIC_LIBRARIES/libpvdownloadinterface_intermediates/libpvdownloadinterface.a
+libopencore_rtspreg: external/opencore/build_config/opencore_dynamic out/target/product/moblin/obj/lib/libopencore_rtspreg.so out/target/product/moblin/system/lib/libopencore_rtspreg.so
+libpvrtspreginterface: external/opencore/modules/linux_rtsp/node_registry out/target/product/moblin/obj/STATIC_LIBRARIES/libpvrtspreginterface_intermediates/libpvrtspreginterface.a
+libopencore_rtsp: external/opencore/build_config/opencore_dynamic out/target/product/moblin/obj/lib/libopencore_rtsp.so out/target/product/moblin/system/lib/libopencore_rtsp.so
+libpvrtspinterface: external/opencore/modules/linux_rtsp/core out/target/product/moblin/obj/STATIC_LIBRARIES/libpvrtspinterface_intermediates/libpvrtspinterface.a
+libpvstreamingmanagernode: external/opencore/nodes/streaming/streamingmanager out/target/product/moblin/obj/STATIC_LIBRARIES/libpvstreamingmanagernode_intermediates/libpvstreamingmanagernode.a
+libpv_rtsp_parcom: external/opencore/protocols/rtsp_parcom out/target/product/moblin/obj/STATIC_LIBRARIES/libpv_rtsp_parcom_intermediates/libpv_rtsp_parcom.a
+libpvrtsp_cli_eng_node: external/opencore/protocols/rtsp_client_engine out/target/product/moblin/obj/STATIC_LIBRARIES/libpvrtsp_cli_eng_node_intermediates/libpvrtsp_cli_eng_node.a
+librtppayloadparser: external/opencore/protocols/rtp_payload_parser out/target/product/moblin/obj/STATIC_LIBRARIES/librtppayloadparser_intermediates/librtppayloadparser.a
+librtprtcp: external/opencore/protocols/rtp out/target/product/moblin/obj/STATIC_LIBRARIES/librtprtcp_intermediates/librtprtcp.a
+libpvjitterbuffer: external/opencore/nodes/streaming/jitterbuffernode/jitterbuffer/common out/target/product/moblin/obj/STATIC_LIBRARIES/libpvjitterbuffer_intermediates/libpvjitterbuffer.a
+libpvjitterbufferrtp: external/opencore/nodes/streaming/jitterbuffernode/jitterbuffer/rtp out/target/product/moblin/obj/STATIC_LIBRARIES/libpvjitterbufferrtp_intermediates/libpvjitterbufferrtp.a
+libpvjitterbuffernode: external/opencore/nodes/streaming/jitterbuffernode out/target/product/moblin/obj/STATIC_LIBRARIES/libpvjitterbuffernode_intermediates/libpvjitterbuffernode.a
+libpvmedialayernode: external/opencore/nodes/streaming/medialayernode out/target/product/moblin/obj/STATIC_LIBRARIES/libpvmedialayernode_intermediates/libpvmedialayernode.a
+libpvsdpparser: external/opencore/protocols/sdp/parser out/target/product/moblin/obj/STATIC_LIBRARIES/libpvsdpparser_intermediates/libpvsdpparser.a
+libopencore_mp4localreg: external/opencore/build_config/opencore_dynamic out/target/product/moblin/obj/lib/libopencore_mp4localreg.so out/target/product/moblin/system/lib/libopencore_mp4localreg.so
+libpvmp4reginterface: external/opencore/modules/linux_mp4/node_registry out/target/product/moblin/obj/STATIC_LIBRARIES/libpvmp4reginterface_intermediates/libpvmp4reginterface.a
+libpvmp4ffrecognizer: external/opencore/pvmi/recognizer/plugins/pvmp4ffrecognizer out/target/product/moblin/obj/STATIC_LIBRARIES/libpvmp4ffrecognizer_intermediates/libpvmp4ffrecognizer.a
+libopencore_mp4local: external/opencore/build_config/opencore_dynamic out/target/product/moblin/obj/lib/libopencore_mp4local.so out/target/product/moblin/system/lib/libopencore_mp4local.so
+libpvmp4interface: external/opencore/modules/linux_mp4/core out/target/product/moblin/obj/STATIC_LIBRARIES/libpvmp4interface_intermediates/libpvmp4interface.a
+libpvmp4ffparsernode: external/opencore/nodes/pvmp4ffparsernode out/target/product/moblin/obj/STATIC_LIBRARIES/libpvmp4ffparsernode_intermediates/libpvmp4ffparsernode.a
+libpvoma1passthru: external/opencore/build_config/opencore_dynamic out/target/product/moblin/obj/lib/libpvoma1passthru.so out/target/product/moblin/system/lib/libpvoma1passthru.so
+libpvoma1passthruplugin: external/opencore/pvmi/content_policy_manager/plugins/oma1/passthru out/target/product/moblin/obj/STATIC_LIBRARIES/libpvoma1passthruplugin_intermediates/libpvoma1passthruplugin.a
+libpvoma1passthruplugininterface: external/opencore/modules/cpm_oma1_passthru out/target/product/moblin/obj/STATIC_LIBRARIES/libpvoma1passthruplugininterface_intermediates/libpvoma1passthruplugininterface.a
+libunit_test: external/opencore/oscl/unit_test out/target/product/moblin/obj/STATIC_LIBRARIES/libunit_test_intermediates/libunit_test.a
+libsafe_iop: external/safe-iop out/target/product/moblin/obj/STATIC_LIBRARIES/libsafe_iop_intermediates/libsafe_iop.a
+safe_iop_test: external/safe-iop/testsuite out/target/product/moblin/obj/EXECUTABLES/safe_iop_test_intermediates/safe_iop_test out/target/product/moblin/system/xbin/safe_iop_test
+libcorecg: external/skia out/target/product/moblin/obj/lib/libcorecg.so out/target/product/moblin/system/lib/libcorecg.so
+libsgl: external/skia out/target/product/moblin/obj/lib/libsgl.so out/target/product/moblin/system/lib/libsgl.so
+libskiagl: external/skia out/target/product/moblin/obj/lib/libskiagl.so out/target/product/moblin/system/lib/libskiagl.so
+libsonivox: external/sonivox/arm-wt-22k out/target/product/moblin/obj/lib/libsonivox.so out/target/product/moblin/system/lib/libsonivox.so
+libsqlite3_android: external/sqlite/android out/target/product/moblin/obj/STATIC_LIBRARIES/libsqlite3_android_intermediates/libsqlite3_android.a
+libsqlite3_phonetic_string_utils_test: external/sqlite/android out/target/product/moblin/obj/EXECUTABLES/libsqlite3_phonetic_string_utils_test_intermediates/libsqlite3_phonetic_string_utils_test out/target/product/moblin/system/bin/libsqlite3_phonetic_string_utils_test
+libsqlite: external/sqlite/dist out/target/product/moblin/obj/lib/libsqlite.so out/target/product/moblin/system/lib/libsqlite.so
+sqlite3: external/sqlite/dist out/target/product/moblin/obj/EXECUTABLES/sqlite3_intermediates/sqlite3 out/target/product/moblin/system/xbin/sqlite3
+sqlite3: external/sqlite/dist out/host/linux-x86/obj/EXECUTABLES/sqlite3_intermediates/sqlite3 out/host/linux-x86/bin/sqlite3
+libSR_AudioIn: external/srec/audio/AudioIn/UNIX/src out/target/product/moblin/obj/STATIC_LIBRARIES/libSR_AudioIn_intermediates/libSR_AudioIn.a
+AudioHardwareRecord: external/srec/audio/test/AudioHardwareRecord out/target/product/moblin/obj/EXECUTABLES/AudioHardwareRecord_intermediates/AudioHardwareRecord out/target/product/moblin/system/xbin/AudioHardwareRecord
+AudioHardwareRecordLoop: external/srec/audio/test/AudioHardwareRecordLoop out/target/product/moblin/obj/EXECUTABLES/AudioHardwareRecordLoop_intermediates/AudioHardwareRecordLoop out/target/product/moblin/system/xbin/AudioHardwareRecordLoop
+AudioInRecord: external/srec/audio/test/AudioInRecord out/target/product/moblin/obj/EXECUTABLES/AudioInRecord_intermediates/AudioInRecord out/target/product/moblin/system/xbin/AudioInRecord
+cmu2nuance: external/srec/config/en.us out/host/linux-x86/obj/EXECUTABLES/cmu2nuance_intermediates/cmu2nuance out/host/linux-x86/bin/cmu2nuance
+libESR_Portable: external/srec/portable out/host/linux-x86/obj/lib/libESR_Portable.so out/host/linux-x86/lib/libESR_Portable.so
+libESR_Portable: external/srec/portable out/target/product/moblin/obj/STATIC_LIBRARIES/libESR_Portable_intermediates/libESR_Portable.a
+libSR_G2P: external/srec/seti/sltsEngine out/host/linux-x86/obj/lib/libSR_G2P.so out/host/linux-x86/lib/libSR_G2P.so
+libSR_G2P: external/srec/seti/sltsEngine out/target/product/moblin/obj/STATIC_LIBRARIES/libSR_G2P_intermediates/libSR_G2P.a
+libESR_Shared: external/srec/shared out/host/linux-x86/obj/lib/libESR_Shared.so out/host/linux-x86/lib/libESR_Shared.so
+libESR_Shared: external/srec/shared out/target/product/moblin/obj/STATIC_LIBRARIES/libESR_Shared_intermediates/libESR_Shared.a
+libSR_AcousticModels: external/srec/srec/AcousticModels out/host/linux-x86/obj/lib/libSR_AcousticModels.so out/host/linux-x86/lib/libSR_AcousticModels.so
+libSR_AcousticModels: external/srec/srec/AcousticModels out/target/product/moblin/obj/STATIC_LIBRARIES/libSR_AcousticModels_intermediates/libSR_AcousticModels.a
+libSR_AcousticState: external/srec/srec/AcousticState out/host/linux-x86/obj/lib/libSR_AcousticState.so out/host/linux-x86/lib/libSR_AcousticState.so
+libSR_AcousticState: external/srec/srec/AcousticState out/target/product/moblin/obj/STATIC_LIBRARIES/libSR_AcousticState_intermediates/libSR_AcousticState.a
+libSR_Core: external/srec/srec/ca out/host/linux-x86/obj/lib/libSR_Core.so out/host/linux-x86/lib/libSR_Core.so
+libSR_Core: external/srec/srec/ca out/target/product/moblin/obj/STATIC_LIBRARIES/libSR_Core_intermediates/libSR_Core.a
+libSR_EventLog: external/srec/srec/EventLog out/host/linux-x86/obj/lib/libSR_EventLog.so out/host/linux-x86/lib/libSR_EventLog.so
+libSR_EventLog: external/srec/srec/EventLog out/target/product/moblin/obj/STATIC_LIBRARIES/libSR_EventLog_intermediates/libSR_EventLog.a
+libSR_Grammar: external/srec/srec/Grammar out/host/linux-x86/obj/lib/libSR_Grammar.so out/host/linux-x86/lib/libSR_Grammar.so
+libSR_Grammar: external/srec/srec/Grammar out/target/product/moblin/obj/STATIC_LIBRARIES/libSR_Grammar_intermediates/libSR_Grammar.a
+libSR_Nametag: external/srec/srec/Nametag out/host/linux-x86/obj/lib/libSR_Nametag.so out/host/linux-x86/lib/libSR_Nametag.so
+libSR_Nametag: external/srec/srec/Nametag out/target/product/moblin/obj/STATIC_LIBRARIES/libSR_Nametag_intermediates/libSR_Nametag.a
+libSR_Recognizer: external/srec/srec/Recognizer out/host/linux-x86/obj/lib/libSR_Recognizer.so out/host/linux-x86/lib/libSR_Recognizer.so
+libSR_Recognizer: external/srec/srec/Recognizer out/target/product/moblin/obj/STATIC_LIBRARIES/libSR_Recognizer_intermediates/libSR_Recognizer.a
+libSR_Semproc: external/srec/srec/Semproc out/host/linux-x86/obj/lib/libSR_Semproc.so out/host/linux-x86/lib/libSR_Semproc.so
+libSR_Semproc: external/srec/srec/Semproc out/target/product/moblin/obj/STATIC_LIBRARIES/libSR_Semproc_intermediates/libSR_Semproc.a
+libSR_Session: external/srec/srec/Session out/host/linux-x86/obj/lib/libSR_Session.so out/host/linux-x86/lib/libSR_Session.so
+libSR_Session: external/srec/srec/Session out/target/product/moblin/obj/STATIC_LIBRARIES/libSR_Session_intermediates/libSR_Session.a
+SRecTest: external/srec/srec/test/SRecTest out/target/product/moblin/obj/EXECUTABLES/SRecTest_intermediates/SRecTest out/target/product/moblin/system/bin/SRecTest
+SRecTestAudio: external/srec/srec/test/SRecTestAudio out/target/product/moblin/obj/EXECUTABLES/SRecTestAudio_intermediates/SRecTestAudio out/target/product/moblin/system/bin/SRecTestAudio
+libSR_Vocabulary: external/srec/srec/Vocabulary out/host/linux-x86/obj/lib/libSR_Vocabulary.so out/host/linux-x86/lib/libSR_Vocabulary.so
+libSR_Vocabulary: external/srec/srec/Vocabulary out/target/product/moblin/obj/STATIC_LIBRARIES/libSR_Vocabulary_intermediates/libSR_Vocabulary.a
+libsrec_jni: external/srec/srec_jni out/target/product/moblin/obj/lib/libsrec_jni.so out/target/product/moblin/system/lib/libsrec_jni.so
+dictTest: external/srec/tools/dictTest out/host/linux-x86/obj/EXECUTABLES/dictTest_intermediates/dictTest out/host/linux-x86/bin/dictTest
+grxmlcompile: external/srec/tools/grxmlcompile out/host/linux-x86/obj/EXECUTABLES/grxmlcompile_intermediates/grxmlcompile out/host/linux-x86/bin/grxmlcompile
+make_cfst: external/srec/tools/make_cfst out/host/linux-x86/obj/EXECUTABLES/make_cfst_intermediates/make_cfst out/host/linux-x86/bin/make_cfst
+make_g2g: external/srec/tools/make_g2g out/host/linux-x86/obj/EXECUTABLES/make_g2g_intermediates/make_g2g out/host/linux-x86/bin/make_g2g
+make_ve_grammar: external/srec/tools/make_ve_grammar out/host/linux-x86/obj/EXECUTABLES/make_ve_grammar_intermediates/make_ve_grammar out/host/linux-x86/bin/make_ve_grammar
+parseStringTest: external/srec/tools/parseStringTest out/host/linux-x86/obj/EXECUTABLES/parseStringTest_intermediates/parseStringTest out/host/linux-x86/bin/parseStringTest
+test_g2g: external/srec/tools/test_g2g out/host/linux-x86/obj/EXECUTABLES/test_g2g_intermediates/test_g2g out/host/linux-x86/bin/test_g2g
+test_swiarb: external/srec/tools/test_swiarb out/host/linux-x86/obj/EXECUTABLES/test_swiarb_intermediates/test_swiarb out/host/linux-x86/bin/test_swiarb
+libfst: external/srec/tools/thirdparty/OpenFst/fst/lib out/host/linux-x86/obj/lib/libfst.so out/host/linux-x86/lib/libfst.so
+libtinyxml: external/tinyxml out/host/linux-x86/obj/STATIC_LIBRARIES/libtinyxml_intermediates/libtinyxml.a
+libvorbisidec: external/tremor out/target/product/moblin/obj/lib/libvorbisidec.so out/target/product/moblin/system/lib/libvorbisidec.so
+libwebcore: external/webkit out/target/product/moblin/obj/lib/libwebcore.so out/target/product/moblin/system/lib/libwebcore.so
+browsertestplugin: external/webkit/WebKit/android/plugins/sample out/target/product/moblin/obj/lib/browsertestplugin.so out/target/product/moblin/system/lib/browsertestplugin.so
+wdsclient: external/webkit/WebKit/android/wds/client out/host/linux-x86/obj/EXECUTABLES/wdsclient_intermediates/wdsclient out/host/linux-x86/bin/wdsclient
+libwpa_client: external/wpa_supplicant out/target/product/moblin/obj/lib/libwpa_client.so out/target/product/moblin/system/lib/libwpa_client.so
+framework: frameworks/base out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/javalib.jar out/target/product/moblin/system/framework/framework.jar
+ext: frameworks/base out/target/common/obj/JAVA_LIBRARIES/ext_intermediates/javalib.jar out/target/product/moblin/system/framework/ext.jar
+android.awt: frameworks/base/awt out/target/common/obj/JAVA_LIBRARIES/android.awt_intermediates/javalib.jar out/target/product/moblin/system/framework/android.awt.jar
+libcameraservice: frameworks/base/camera/libcameraservice out/target/product/moblin/obj/lib/libcameraservice.so out/target/product/moblin/system/lib/libcameraservice.so
+am: frameworks/base/cmds/am out/target/common/obj/JAVA_LIBRARIES/am_intermediates/javalib.jar out/target/product/moblin/system/framework/am.jar
+app_process: frameworks/base/cmds/app_process out/target/product/moblin/obj/EXECUTABLES/app_process_intermediates/app_process out/target/product/moblin/system/bin/app_process
+gamb: frameworks/base/cmds/application_bridge out/target/product/moblin/obj/EXECUTABLES/gamb_intermediates/gamb out/target/product/moblin/system/bin/gamb
+dumpstate: frameworks/base/cmds/dumpstate out/target/product/moblin/obj/EXECUTABLES/dumpstate_intermediates/dumpstate out/target/product/moblin/system/bin/dumpstate
+dumpsys: frameworks/base/cmds/dumpsys out/target/product/moblin/obj/EXECUTABLES/dumpsys_intermediates/dumpsys out/target/product/moblin/system/bin/dumpsys
+gtkwindow: frameworks/base/cmds/gtkwindow out/target/product/moblin/obj/EXECUTABLES/gtkwindow_intermediates/gtkwindow out/target/product/moblin/system/bin/gtkwindow
+ime: frameworks/base/cmds/ime out/target/common/obj/JAVA_LIBRARIES/ime_intermediates/javalib.jar out/target/product/moblin/system/framework/ime.jar
+input: frameworks/base/cmds/input out/target/common/obj/JAVA_LIBRARIES/input_intermediates/javalib.jar out/target/product/moblin/system/framework/input.jar
+installd: frameworks/base/cmds/installd out/target/product/moblin/obj/EXECUTABLES/installd_intermediates/installd out/target/product/moblin/system/bin/installd
+pm: frameworks/base/cmds/pm out/target/common/obj/JAVA_LIBRARIES/pm_intermediates/javalib.jar out/target/product/moblin/system/framework/pm.jar
+service: frameworks/base/cmds/service out/target/product/moblin/obj/EXECUTABLES/service_intermediates/service out/target/product/moblin/system/bin/service
+servicemanager: frameworks/base/cmds/servicemanager out/target/product/moblin/obj/EXECUTABLES/servicemanager_intermediates/servicemanager out/target/product/moblin/system/bin/servicemanager
+surfaceflinger: frameworks/base/cmds/surfaceflinger out/target/product/moblin/obj/EXECUTABLES/surfaceflinger_intermediates/surfaceflinger out/target/product/moblin/system/bin/surfaceflinger
+svc: frameworks/base/cmds/svc out/target/common/obj/JAVA_LIBRARIES/svc_intermediates/javalib.jar out/target/product/moblin/system/framework/svc.jar
+system_server: frameworks/base/cmds/system_server out/target/product/moblin/obj/EXECUTABLES/system_server_intermediates/system_server out/target/product/moblin/system/bin/system_server
+libsystem_server: frameworks/base/cmds/system_server/library out/target/product/moblin/obj/lib/libsystem_server.so out/target/product/moblin/system/lib/libsystem_server.so
+libandroid_runtime: frameworks/base/core/jni out/target/product/moblin/obj/lib/libandroid_runtime.so out/target/product/moblin/system/lib/libandroid_runtime.so
+framework-res: frameworks/base/core/res out/target/product/moblin/obj/APPS/framework-res_intermediates/package.apk out/target/product/moblin/system/framework/framework-res.apk
+platform.xml: frameworks/base/data/etc out/target/product/moblin/obj/ETC/platform.xml_intermediates/platform.xml out/target/product/moblin/system/etc/permissions/platform.xml
+libaudiointerface: frameworks/base/libs/audioflinger out/target/product/moblin/obj/STATIC_LIBRARIES/libaudiointerface_intermediates/libaudiointerface.a
+libaudioflinger: frameworks/base/libs/audioflinger out/target/product/moblin/obj/lib/libaudioflinger.so out/target/product/moblin/system/lib/libaudioflinger.so
+libgtkwindow: frameworks/base/libs/gtkwindow out/target/product/moblin/obj/lib/libgtkwindow.so out/target/product/moblin/system/lib/libgtkwindow.so
+libsurfaceflinger: frameworks/base/libs/surfaceflinger out/target/product/moblin/obj/lib/libsurfaceflinger.so out/target/product/moblin/system/lib/libsurfaceflinger.so
+libui: frameworks/base/libs/ui out/target/product/moblin/obj/lib/libui.so out/target/product/moblin/system/lib/libui.so
+libutils: frameworks/base/libs/utils out/host/linux-x86/obj/STATIC_LIBRARIES/libutils_intermediates/libutils.a
+libutils: frameworks/base/libs/utils out/target/product/moblin/obj/lib/libutils.so out/target/product/moblin/system/lib/libutils.so
+nmea: frameworks/base/location/data out/target/product/moblin/obj/ETC/nmea_intermediates/nmea out/target/product/moblin/data/location/gps/nmea
+location: frameworks/base/location/data out/target/product/moblin/obj/ETC/location_intermediates/location out/target/product/moblin/data/location/gps/location
+properties: frameworks/base/location/data out/target/product/moblin/obj/ETC/properties_intermediates/properties out/target/product/moblin/data/location/gps/properties
+libmedia_jni: frameworks/base/media/jni out/target/product/moblin/obj/lib/libmedia_jni.so out/target/product/moblin/system/lib/libmedia_jni.so
+libsoundpool: frameworks/base/media/jni/soundpool out/target/product/moblin/obj/lib/libsoundpool.so out/target/product/moblin/system/lib/libsoundpool.so
+libdrm1: frameworks/base/media/libdrm/mobile1 out/target/product/moblin/obj/lib/libdrm1.so out/target/product/moblin/system/lib/libdrm1.so
+libdrm1_jni: frameworks/base/media/libdrm/mobile1 out/target/product/moblin/obj/lib/libdrm1_jni.so out/target/product/moblin/system/lib/libdrm1_jni.so
+libdrm2: frameworks/base/media/libdrm/mobile2 out/target/product/moblin/obj/STATIC_LIBRARIES/libdrm2_intermediates/libdrm2.a
+libmedia: frameworks/base/media/libmedia out/target/product/moblin/obj/lib/libmedia.so out/target/product/moblin/system/lib/libmedia.so
+libmediaplayerservice: frameworks/base/media/libmediaplayerservice out/target/product/moblin/obj/lib/libmediaplayerservice.so out/target/product/moblin/system/lib/libmediaplayerservice.so
+mediaserver: frameworks/base/media/mediaserver out/target/product/moblin/obj/EXECUTABLES/mediaserver_intermediates/mediaserver out/target/product/moblin/system/bin/mediaserver
+mediaframeworktest: frameworks/base/media/tests/MediaFrameworkTest out/target/product/moblin/obj/APPS/mediaframeworktest_intermediates/package.apk out/target/product/moblin/data/app/mediaframeworktest.apk
+libagl: frameworks/base/opengl/libagl out/target/product/moblin/obj/lib/libagl.so out/target/product/moblin/system/lib/libagl.so
+libhgl: frameworks/base/opengl/libhgl out/target/product/moblin/obj/lib/libhgl.so out/target/product/moblin/system/lib/libhgl.so
+libEGL: frameworks/base/opengl/libs out/target/product/moblin/obj/lib/libEGL.so out/target/product/moblin/system/lib/libEGL.so
+libGLESv1_CM: frameworks/base/opengl/libs out/target/product/moblin/obj/lib/libGLESv1_CM.so out/target/product/moblin/system/lib/libGLESv1_CM.so
+angeles: frameworks/base/opengl/tests/angeles out/target/product/moblin/obj/EXECUTABLES/angeles_intermediates/angeles out/target/product/moblin/system/bin/angeles
+gpustate: frameworks/base/opengl/tests/angeles out/target/product/moblin/obj/EXECUTABLES/gpustate_intermediates/gpustate out/target/product/moblin/system/bin/gpustate
+test-opengl-filter: frameworks/base/opengl/tests/filter out/target/product/moblin/obj/EXECUTABLES/test-opengl-filter_intermediates/test-opengl-filter out/target/product/moblin/system/bin/test-opengl-filter
+test-opengl-finish: frameworks/base/opengl/tests/finish out/target/product/moblin/obj/EXECUTABLES/test-opengl-finish_intermediates/test-opengl-finish out/target/product/moblin/system/bin/test-opengl-finish
+test-opengl-textures: frameworks/base/opengl/tests/textures out/target/product/moblin/obj/EXECUTABLES/test-opengl-textures_intermediates/test-opengl-textures out/target/product/moblin/system/bin/test-opengl-textures
+test-opengl-tritex: frameworks/base/opengl/tests/tritex out/target/product/moblin/obj/EXECUTABLES/test-opengl-tritex_intermediates/test-opengl-tritex out/target/product/moblin/system/bin/test-opengl-tritex
+SettingsProvider: frameworks/base/packages/SettingsProvider out/target/product/moblin/obj/APPS/SettingsProvider_intermediates/package.apk out/target/product/moblin/system/app/SettingsProvider.apk
+bookmarks.xml: frameworks/base/packages/SettingsProvider/etc out/target/product/moblin/obj/ETC/bookmarks.xml_intermediates/bookmarks.xml out/target/product/moblin/system/etc/bookmarks.xml
+SubscribedFeedsProvider: frameworks/base/packages/SubscribedFeedsProvider out/target/product/moblin/obj/APPS/SubscribedFeedsProvider_intermediates/package.apk out/target/product/moblin/system/app/SubscribedFeedsProvider.apk
+services: frameworks/base/services/java out/target/common/obj/JAVA_LIBRARIES/services_intermediates/javalib.jar out/target/product/moblin/system/framework/services.jar
+libandroid_servers: frameworks/base/services/jni out/target/product/moblin/obj/lib/libandroid_servers.so out/target/product/moblin/system/lib/libandroid_servers.so
+android.test.runner: frameworks/base/test-runner out/target/common/obj/JAVA_LIBRARIES/android.test.runner_intermediates/javalib.jar out/target/product/moblin/system/framework/android.test.runner.jar
+AndroidTests: frameworks/base/tests/AndroidTests out/target/product/moblin/obj/APPS/AndroidTests_intermediates/package.apk out/target/product/moblin/data/app/AndroidTests.apk
+DisabledTestApp: frameworks/base/tests/AndroidTests/DisabledTestApp out/target/product/moblin/obj/APPS/DisabledTestApp_intermediates/package.apk out/target/product/moblin/data/app/DisabledTestApp.apk
+EnabledTestApp: frameworks/base/tests/AndroidTests/EnabledTestApp out/target/product/moblin/obj/APPS/EnabledTestApp_intermediates/package.apk out/target/product/moblin/data/app/EnabledTestApp.apk
+CoreTests: frameworks/base/tests/CoreTests/android out/target/product/moblin/obj/APPS/CoreTests_intermediates/package.apk out/target/product/moblin/data/app/CoreTests.apk
+DensityTest: frameworks/base/tests/DpiTest out/target/product/moblin/obj/APPS/DensityTest_intermediates/package.apk out/target/product/moblin/data/app/DensityTest.apk
+DumpRenderTree: frameworks/base/tests/DumpRenderTree out/target/product/moblin/obj/APPS/DumpRenderTree_intermediates/package.apk out/target/product/moblin/data/app/DumpRenderTree.apk
+FrameworkTest: frameworks/base/tests/FrameworkTest out/target/product/moblin/obj/APPS/FrameworkTest_intermediates/package.apk out/target/product/moblin/data/app/FrameworkTest.apk
+FrameworkTestTests: frameworks/base/tests/FrameworkTest/tests out/target/product/moblin/obj/APPS/FrameworkTestTests_intermediates/package.apk out/target/product/moblin/data/app/FrameworkTestTests.apk
+ImfTest: frameworks/base/tests/ImfTest out/target/product/moblin/obj/APPS/ImfTest_intermediates/package.apk out/target/product/moblin/data/app/ImfTest.apk
+ImfTestTests: frameworks/base/tests/ImfTest/tests out/target/product/moblin/obj/APPS/ImfTestTests_intermediates/package.apk out/target/product/moblin/data/app/ImfTestTests.apk
+SmokeTestApp: frameworks/base/tests/SmokeTest out/target/product/moblin/obj/APPS/SmokeTestApp_intermediates/package.apk out/target/product/moblin/data/app/SmokeTestApp.apk
+SmokeTest: frameworks/base/tests/SmokeTest/tests out/target/product/moblin/obj/APPS/SmokeTest_intermediates/package.apk out/target/product/moblin/data/app/SmokeTest.apk
+SslLoad: frameworks/base/tests/SslLoad out/target/product/moblin/obj/APPS/SslLoad_intermediates/package.apk out/target/product/moblin/data/app/SslLoad.apk
+StatusBarTest: frameworks/base/tests/StatusBar out/target/product/moblin/obj/APPS/StatusBarTest_intermediates/package.apk out/target/product/moblin/data/app/StatusBarTest.apk
+AppWidgetHostTest: frameworks/base/tests/appwidgets/AppWidgetHostTest out/target/product/moblin/obj/APPS/AppWidgetHostTest_intermediates/package.apk out/target/product/moblin/system/app/AppWidgetHostTest.apk
+AppWidgetProvider: frameworks/base/tests/appwidgets/AppWidgetProviderTest out/target/product/moblin/obj/APPS/AppWidgetProvider_intermediates/package.apk out/target/product/moblin/system/app/AppWidgetProvider.apk
+framework-tests: frameworks/base/tests/framework-tests/src out/target/common/obj/JAVA_LIBRARIES/framework-tests_intermediates/javalib.jar out/target/product/moblin/system/framework/framework-tests.jar
+aapt: frameworks/base/tools/aapt out/host/linux-x86/obj/EXECUTABLES/aapt_intermediates/aapt out/host/linux-x86/bin/aapt
+aidl: frameworks/base/tools/aidl out/host/linux-x86/obj/EXECUTABLES/aidl_intermediates/aidl out/host/linux-x86/bin/aidl
+temp_layoutlib: frameworks/base/tools/layoutlib out/host/common/obj/JAVA_LIBRARIES/temp_layoutlib_intermediates/javalib.jar out/host/linux-x86/framework/temp_layoutlib.jar
+layoutlib_api: frameworks/base/tools/layoutlib/api out/host/common/obj/JAVA_LIBRARIES/layoutlib_api_intermediates/javalib.jar out/host/linux-x86/framework/layoutlib_api.jar
+layoutlib: frameworks/base/tools/layoutlib/bridge out/host/common/obj/JAVA_LIBRARIES/layoutlib_intermediates/javalib.jar out/host/linux-x86/framework/layoutlib.jar
+layoutlib_create: frameworks/base/tools/layoutlib/create out/host/common/obj/JAVA_LIBRARIES/layoutlib_create_intermediates/javalib.jar out/host/linux-x86/framework/layoutlib_create.jar
+localize: frameworks/base/tools/localize out/host/linux-x86/obj/EXECUTABLES/localize_intermediates/localize out/host/linux-x86/bin/localize
+makekeycodes: frameworks/base/tools/makekeycodes out/host/linux-x86/obj/EXECUTABLES/makekeycodes_intermediates/makekeycodes out/host/linux-x86/bin/makekeycodes
+preload: frameworks/base/tools/preload out/host/common/obj/JAVA_LIBRARIES/preload_intermediates/javalib.jar out/host/linux-x86/framework/preload.jar
+googlelogin-client: frameworks/opt/com.google.android.googlelogin out/target/common/obj/JAVA_LIBRARIES/googlelogin-client_intermediates/javalib.jar
+google-framework: frameworks/opt/com.google.android out/target/common/obj/JAVA_LIBRARIES/google-framework_intermediates/javalib.jar
+libemoji: frameworks/opt/emoji out/target/product/moblin/obj/lib/libemoji.so out/target/product/moblin/system/lib/libemoji.so
+android.policy_mid: frameworks/policies/base/mid out/target/common/obj/JAVA_LIBRARIES/android.policy_mid_intermediates/javalib.jar
+android.policy_phone: frameworks/policies/base/phone out/target/common/obj/JAVA_LIBRARIES/android.policy_phone_intermediates/javalib.jar
+lights.default: hardware/libhardware/modules/lights out/target/product/moblin/obj/lib/lights.default.so out/target/product/moblin/system/lib/hw/lights.default.so
+libhardware: hardware/libhardware out/target/product/moblin/obj/lib/libhardware.so out/target/product/moblin/system/lib/libhardware.so
+libhardware_legacy: hardware/libhardware_legacy out/target/product/moblin/obj/lib/libhardware_legacy.so out/target/product/moblin/system/lib/libhardware_legacy.so
+libril: hardware/ril/libril out/target/product/moblin/obj/lib/libril.so out/target/product/moblin/system/lib/libril.so
+libreference-ril: hardware/ril/reference-ril out/target/product/moblin/obj/lib/libreference-ril.so out/target/product/moblin/system/lib/libreference-ril.so
+rild: hardware/ril/rild out/target/product/moblin/obj/EXECUTABLES/rild_intermediates/rild out/target/product/moblin/system/bin/rild
+radiooptions: hardware/ril/rild out/target/product/moblin/obj/EXECUTABLES/radiooptions_intermediates/radiooptions out/target/product/moblin/system/bin/radiooptions
+libgstmediarecorder: intel-extras/gstmediarecorder out/target/product/moblin/obj/lib/libgstmediarecorder.so out/target/product/moblin/system/lib/libgstmediarecorder.so
+libgstreamer: intel-extras/gstreamerplayer out/target/product/moblin/obj/lib/libgstreamer.so out/target/product/moblin/system/lib/libgstreamer.so
+libaudio: intel-extras/libaudio_pulse out/target/product/moblin/obj/lib/libaudio.so out/target/product/moblin/system/lib/libaudio.so
+libcamera: intel-extras/libcamera_v4l2 out/target/product/moblin/obj/lib/libcamera.so out/target/product/moblin/system/lib/libcamera.so
+AlarmClock: packages/apps/AlarmClock out/target/product/moblin/obj/APPS/AlarmClock_intermediates/package.apk out/target/product/moblin/system/app/AlarmClock.apk
+Browser: packages/apps/Browser out/target/product/moblin/obj/APPS/Browser_intermediates/package.apk out/target/product/moblin/system/app/Browser.apk
+Calculator: packages/apps/Calculator out/target/product/moblin/obj/APPS/Calculator_intermediates/package.apk out/target/product/moblin/system/app/Calculator.apk
+libarity: packages/apps/Calculator out/target/common/obj/JAVA_LIBRARIES/libarity_intermediates/javalib.jar
+CalculatorTests: packages/apps/Calculator/tests out/target/product/moblin/obj/APPS/CalculatorTests_intermediates/package.apk out/target/product/moblin/data/app/CalculatorTests.apk
+Calendar: packages/apps/Calendar out/target/product/moblin/obj/APPS/Calendar_intermediates/package.apk out/target/product/moblin/system/app/Calendar.apk
+CalendarTests: packages/apps/Calendar/tests out/target/product/moblin/obj/APPS/CalendarTests_intermediates/package.apk out/target/product/moblin/data/app/CalendarTests.apk
+Camera: packages/apps/Camera out/target/product/moblin/obj/APPS/Camera_intermediates/package.apk out/target/product/moblin/system/app/Camera.apk
+CameraTests: packages/apps/Camera/tests out/target/product/moblin/obj/APPS/CameraTests_intermediates/package.apk out/target/product/moblin/data/app/CameraTests.apk
+Contacts: packages/apps/Contacts out/target/product/moblin/obj/APPS/Contacts_intermediates/package.apk out/target/product/moblin/system/app/Contacts.apk
+ContactsTests: packages/apps/Contacts/tests out/target/product/moblin/obj/APPS/ContactsTests_intermediates/package.apk out/target/product/moblin/data/app/ContactsTests.apk
+Email: packages/apps/Email out/target/product/moblin/obj/APPS/Email_intermediates/package.apk out/target/product/moblin/system/app/Email.apk
+EmailTests: packages/apps/Email/tests out/target/product/moblin/obj/APPS/EmailTests_intermediates/package.apk out/target/product/moblin/data/app/EmailTests.apk
+GoogleSearch: packages/apps/GoogleSearch out/target/product/moblin/obj/APPS/GoogleSearch_intermediates/package.apk out/target/product/moblin/system/app/GoogleSearch.apk
+HTMLViewer: packages/apps/HTMLViewer out/target/product/moblin/obj/APPS/HTMLViewer_intermediates/package.apk out/target/product/moblin/system/app/HTMLViewer.apk
+IM: packages/apps/IM out/target/product/moblin/obj/APPS/IM_intermediates/package.apk out/target/product/moblin/system/app/IM.apk
+libwbxml: packages/apps/IM/libwbxml out/target/product/moblin/obj/lib/libwbxml.so out/target/product/moblin/system/lib/libwbxml.so
+libxml2wbxml: packages/apps/IM/libwbxml out/target/product/moblin/obj/lib/libxml2wbxml.so out/target/product/moblin/system/lib/libxml2wbxml.so
+wbxmltest: packages/apps/IM/libwbxml out/target/product/moblin/obj/EXECUTABLES/wbxmltest_intermediates/wbxmltest out/target/product/moblin/system/bin/wbxmltest
+libwbxml_jni: packages/apps/IM/libwbxml out/target/product/moblin/obj/lib/libwbxml_jni.so out/target/product/moblin/system/lib/libwbxml_jni.so
+com.android.im.plugin: packages/apps/IM/plugin out/target/common/obj/JAVA_LIBRARIES/com.android.im.plugin_intermediates/javalib.jar out/target/product/moblin/system/framework/com.android.im.plugin.jar
+Launcher: packages/apps/Launcher out/target/product/moblin/obj/APPS/Launcher_intermediates/package.apk out/target/product/moblin/system/app/Launcher.apk
+Mms: packages/apps/Mms out/target/product/moblin/obj/APPS/Mms_intermediates/package.apk out/target/product/moblin/system/app/Mms.apk
+Music: packages/apps/Music out/target/product/moblin/obj/APPS/Music_intermediates/package.apk out/target/product/moblin/system/app/Music.apk
+MusicTests: packages/apps/Music/tests out/target/product/moblin/obj/APPS/MusicTests_intermediates/package.apk out/target/product/moblin/data/app/MusicTests.apk
+PackageInstaller: packages/apps/PackageInstaller out/target/product/moblin/obj/APPS/PackageInstaller_intermediates/package.apk out/target/product/moblin/system/app/PackageInstaller.apk
+Phone: packages/apps/Phone out/target/product/moblin/obj/APPS/Phone_intermediates/package.apk out/target/product/moblin/system/app/Phone.apk
+Settings: packages/apps/Settings out/target/product/moblin/obj/APPS/Settings_intermediates/package.apk out/target/product/moblin/system/app/Settings.apk
+SettingsTests: packages/apps/Settings/tests out/target/product/moblin/obj/APPS/SettingsTests_intermediates/package.apk out/target/product/moblin/data/app/SettingsTests.apk
+SoundRecorder: packages/apps/SoundRecorder out/target/product/moblin/obj/APPS/SoundRecorder_intermediates/package.apk out/target/product/moblin/system/app/SoundRecorder.apk
+Stk: packages/apps/Stk out/target/product/moblin/obj/APPS/Stk_intermediates/package.apk out/target/product/moblin/system/app/Stk.apk
+VoiceDialer: packages/apps/VoiceDialer out/target/product/moblin/obj/APPS/VoiceDialer_intermediates/package.apk out/target/product/moblin/system/app/VoiceDialer.apk
+PinyinIME: packages/inputmethods/PinyinIME/PinyinIME out/target/product/moblin/obj/APPS/PinyinIME_intermediates/package.apk out/target/product/moblin/system/app/PinyinIME.apk
+libjni_pinyinime: packages/inputmethods/PinyinIME/PinyinIME/jni out/target/product/moblin/obj/lib/libjni_pinyinime.so out/target/product/moblin/system/lib/libjni_pinyinime.so
+com.android.inputmethod.pinyin.lib: packages/inputmethods/PinyinIME/PinyinIME/lib out/target/common/obj/JAVA_LIBRARIES/com.android.inputmethod.pinyin.lib_intermediates/javalib.jar
+CalendarProvider: packages/providers/CalendarProvider out/target/product/moblin/obj/APPS/CalendarProvider_intermediates/package.apk out/target/product/moblin/system/app/CalendarProvider.apk
+CalendarProviderTests: packages/providers/CalendarProvider/tests out/target/product/moblin/obj/APPS/CalendarProviderTests_intermediates/package.apk out/target/product/moblin/data/app/CalendarProviderTests.apk
+ContactsProvider: packages/providers/ContactsProvider out/target/product/moblin/obj/APPS/ContactsProvider_intermediates/package.apk out/target/product/moblin/system/app/ContactsProvider.apk
+DownloadProvider: packages/providers/DownloadProvider out/target/product/moblin/obj/APPS/DownloadProvider_intermediates/package.apk out/target/product/moblin/system/app/DownloadProvider.apk
+DrmProvider: packages/providers/DrmProvider out/target/product/moblin/obj/APPS/DrmProvider_intermediates/package.apk out/target/product/moblin/system/app/DrmProvider.apk
+GoogleContactsProvider: packages/providers/GoogleContactsProvider out/target/product/moblin/obj/APPS/GoogleContactsProvider_intermediates/package.apk out/target/product/moblin/system/app/GoogleContactsProvider.apk
+GoogleContactsProviderTests: packages/providers/GoogleContactsProvider/tests out/target/product/moblin/obj/APPS/GoogleContactsProviderTests_intermediates/package.apk out/target/product/moblin/data/app/GoogleContactsProviderTests.apk
+GoogleSubscribedFeedsProvider: packages/providers/GoogleSubscribedFeedsProvider out/target/product/moblin/obj/APPS/GoogleSubscribedFeedsProvider_intermediates/package.apk out/target/product/moblin/system/app/GoogleSubscribedFeedsProvider.apk
+ImProvider: packages/providers/ImProvider out/target/product/moblin/obj/APPS/ImProvider_intermediates/package.apk out/target/product/moblin/system/app/ImProvider.apk
+MediaProvider: packages/providers/MediaProvider out/target/product/moblin/obj/APPS/MediaProvider_intermediates/package.apk out/target/product/moblin/system/app/MediaProvider.apk
+TelephonyProvider: packages/providers/TelephonyProvider out/target/product/moblin/obj/APPS/TelephonyProvider_intermediates/package.apk out/target/product/moblin/system/app/TelephonyProvider.apk
+ant: prebuilt/common/ant out/host/common/obj/JAVA_LIBRARIES/ant_intermediates/javalib.jar out/host/linux-x86/framework/ant.jar
+asm-3.1: prebuilt/common/asm out/host/common/obj/JAVA_LIBRARIES/asm-3.1_intermediates/javalib.jar out/host/linux-x86/framework/asm-3.1.jar
+jcommon-1.0.12: prebuilt/common/jfreechart out/host/common/obj/JAVA_LIBRARIES/jcommon-1.0.12_intermediates/javalib.jar out/host/linux-x86/framework/jcommon-1.0.12.jar
+jfreechart-1.0.9-swt: prebuilt/common/jfreechart out/host/common/obj/JAVA_LIBRARIES/jfreechart-1.0.9-swt_intermediates/javalib.jar out/host/linux-x86/framework/jfreechart-1.0.9-swt.jar
+jfreechart-1.0.9: prebuilt/common/jfreechart out/host/common/obj/JAVA_LIBRARIES/jfreechart-1.0.9_intermediates/javalib.jar out/host/linux-x86/framework/jfreechart-1.0.9.jar
+kxml2-2.3.0: prebuilt/common/kxml2 out/host/common/obj/JAVA_LIBRARIES/kxml2-2.3.0_intermediates/javalib.jar out/host/linux-x86/framework/kxml2-2.3.0.jar
+org-netbeans-api-visual: prebuilt/common/netbeans-visual out/host/common/obj/JAVA_LIBRARIES/org-netbeans-api-visual_intermediates/javalib.jar out/host/linux-x86/framework/org-netbeans-api-visual.jar
+org-openide-util: prebuilt/common/netbeans-visual out/host/common/obj/JAVA_LIBRARIES/org-openide-util_intermediates/javalib.jar out/host/linux-x86/framework/org-openide-util.jar
+swing-worker-1.1: prebuilt/common/swing-worker out/host/common/obj/JAVA_LIBRARIES/swing-worker-1.1_intermediates/javalib.jar out/host/linux-x86/framework/swing-worker-1.1.jar
+libswt-gtk-3236: prebuilt/linux-x86/swt out/host/linux-x86/obj/lib/libswt-gtk-3236.so out/host/linux-x86/lib/libswt-gtk-3236.so
+libswt-atk-gtk-3236: prebuilt/linux-x86/swt out/host/linux-x86/obj/lib/libswt-atk-gtk-3236.so out/host/linux-x86/lib/libswt-atk-gtk-3236.so
+libswt-pi-gtk-3236: prebuilt/linux-x86/swt out/host/linux-x86/obj/lib/libswt-pi-gtk-3236.so out/host/linux-x86/lib/libswt-pi-gtk-3236.so
+libswt-cairo-gtk-3236: prebuilt/linux-x86/swt out/host/linux-x86/obj/lib/libswt-cairo-gtk-3236.so out/host/linux-x86/lib/libswt-cairo-gtk-3236.so
+swt: prebuilt/linux-x86/swt out/host/common/obj/JAVA_LIBRARIES/swt_intermediates/javalib.jar out/host/linux-x86/framework/swt.jar
+org.eclipse.jface_3.2.0.I20060605-1400: prebuilt/linux-x86/swt out/host/common/obj/JAVA_LIBRARIES/org.eclipse.jface_3.2.0.I20060605-1400_intermediates/javalib.jar out/host/linux-x86/framework/org.eclipse.jface_3.2.0.I20060605-1400.jar
+org.eclipse.equinox.common_3.2.0.v20060603: prebuilt/linux-x86/swt out/host/common/obj/JAVA_LIBRARIES/org.eclipse.equinox.common_3.2.0.v20060603_intermediates/javalib.jar out/host/linux-x86/framework/org.eclipse.equinox.common_3.2.0.v20060603.jar
+org.eclipse.core.commands_3.2.0.I20060605-1400: prebuilt/linux-x86/swt out/host/common/obj/JAVA_LIBRARIES/org.eclipse.core.commands_3.2.0.I20060605-1400_intermediates/javalib.jar out/host/linux-x86/framework/org.eclipse.core.commands_3.2.0.I20060605-1400.jar
+adb: system/core/adb out/host/linux-x86/obj/EXECUTABLES/adb_intermediates/adb out/host/linux-x86/bin/adb
+adbd: system/core/adb out/target/product/moblin/obj/EXECUTABLES/adbd_intermediates/adbd out/target/product/moblin/root/sbin/adbd
+mkbootfs: system/core/cpio out/host/linux-x86/obj/EXECUTABLES/mkbootfs_intermediates/mkbootfs out/host/linux-x86/bin/mkbootfs
+android-init: system/core/init out/target/product/moblin/obj/EXECUTABLES/android-init_intermediates/android-init out/target/product/moblin/root/usr/bin/android-init
+libcutils: system/core/libcutils out/host/linux-x86/obj/STATIC_LIBRARIES/libcutils_intermediates/libcutils.a
+libcutils: system/core/libcutils out/target/product/moblin/obj/STATIC_LIBRARIES/libcutils_intermediates/libcutils.a
+libcutils: system/core/libcutils out/target/product/moblin/obj/lib/libcutils.so out/target/product/moblin/system/lib/libcutils.so
+liblog: system/core/liblog out/host/linux-x86/obj/STATIC_LIBRARIES/liblog_intermediates/liblog.a
+liblog: system/core/liblog out/target/product/moblin/obj/STATIC_LIBRARIES/liblog_intermediates/liblog.a
+liblog: system/core/liblog out/target/product/moblin/obj/lib/liblog.so out/target/product/moblin/system/lib/liblog.so
+libmincrypt: system/core/libmincrypt out/target/product/moblin/obj/STATIC_LIBRARIES/libmincrypt_intermediates/libmincrypt.a
+libmincrypt: system/core/libmincrypt out/host/linux-x86/obj/STATIC_LIBRARIES/libmincrypt_intermediates/libmincrypt.a
+dumpkey: system/core/libmincrypt/tools out/host/common/obj/JAVA_LIBRARIES/dumpkey_intermediates/javalib.jar out/host/linux-x86/framework/dumpkey.jar
+libnetutils: system/core/libnetutils out/target/product/moblin/obj/lib/libnetutils.so out/target/product/moblin/system/lib/libnetutils.so
+libpixelflinger: system/core/libpixelflinger out/target/product/moblin/obj/lib/libpixelflinger.so out/target/product/moblin/system/lib/libpixelflinger.so
+libpixelflinger_static: system/core/libpixelflinger out/target/product/moblin/obj/STATIC_LIBRARIES/libpixelflinger_static_intermediates/libpixelflinger_static.a
+test-opengl-codegen: system/core/libpixelflinger/tests/codegen out/target/product/moblin/obj/EXECUTABLES/test-opengl-codegen_intermediates/test-opengl-codegen out/target/product/moblin/system/bin/test-opengl-codegen
+libzipfile: system/core/libzipfile out/host/linux-x86/obj/STATIC_LIBRARIES/libzipfile_intermediates/libzipfile.a
+libzipfile: system/core/libzipfile out/target/product/moblin/obj/STATIC_LIBRARIES/libzipfile_intermediates/libzipfile.a
+libzipfile: system/core/libzipfile out/host/linux-x86/obj/lib/libzipfile.so out/host/linux-x86/lib/libzipfile.so
+libzipfile: system/core/libzipfile out/target/product/moblin/obj/lib/libzipfile.so out/target/product/moblin/system/lib/libzipfile.so
+test_zipfile: system/core/libzipfile out/host/linux-x86/obj/EXECUTABLES/test_zipfile_intermediates/test_zipfile out/host/linux-x86/bin/test_zipfile
+logcat: system/core/logcat out/target/product/moblin/obj/EXECUTABLES/logcat_intermediates/logcat out/target/product/moblin/system/bin/logcat
+event-log-tags: system/core/logcat out/target/product/moblin/obj/ETC/event-log-tags_intermediates/event-log-tags out/target/product/moblin/system/etc/event-log-tags
+logwrapper: system/core/logwrapper out/target/product/moblin/obj/EXECUTABLES/logwrapper_intermediates/logwrapper out/target/product/moblin/system/bin/logwrapper
+mkbootimg: system/core/mkbootimg out/host/linux-x86/obj/EXECUTABLES/mkbootimg_intermediates/mkbootimg out/host/linux-x86/bin/mkbootimg
+toolbox: system/core/toolbox out/target/product/moblin/obj/EXECUTABLES/toolbox_intermediates/toolbox out/target/product/moblin/system/bin/toolbox
+backup: system/extras/backup out/target/product/moblin/obj/EXECUTABLES/backup_intermediates/backup out/target/product/moblin/system/xbin/backup
+latencytop: system/extras/latencytop out/target/product/moblin/obj/EXECUTABLES/latencytop_intermediates/latencytop out/target/product/moblin/system/xbin/latencytop
+libpagemap: system/extras/libpagemap out/target/product/moblin/obj/lib/libpagemap.so out/target/product/moblin/system/lib/libpagemap.so
+librank: system/extras/librank out/target/product/moblin/obj/EXECUTABLES/librank_intermediates/librank out/target/product/moblin/system/xbin/librank
+procmem: system/extras/procmem out/target/product/moblin/obj/EXECUTABLES/procmem_intermediates/procmem out/target/product/moblin/system/xbin/procmem
+procrank: system/extras/procrank out/target/product/moblin/obj/EXECUTABLES/procrank_intermediates/procrank out/target/product/moblin/system/xbin/procrank
+showmap: system/extras/showmap out/target/product/moblin/obj/EXECUTABLES/showmap_intermediates/showmap out/target/product/moblin/system/xbin/showmap
+showslab: system/extras/showslab out/target/product/moblin/obj/EXECUTABLES/showslab_intermediates/showslab out/target/product/moblin/system/xbin/showslab
+sound: system/extras/sound out/target/product/moblin/obj/EXECUTABLES/sound_intermediates/sound out/target/product/moblin/system/bin/sound
+su: system/extras/su out/target/product/moblin/obj/EXECUTABLES/su_intermediates/su out/target/product/moblin/system/xbin/su
+timeinfo: system/extras/timeinfo out/target/product/moblin/obj/EXECUTABLES/timeinfo_intermediates/timeinfo out/target/product/moblin/system/xbin/timeinfo
+android.policy: frameworks/policies/base out/target/common/obj/JAVA_LIBRARIES/android.policy_intermediates/javalib.jar out/target/product/moblin/system/framework/android.policy.jar

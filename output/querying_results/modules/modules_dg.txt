@@ -1,0 +1,115 @@
+graph { flow: down; }
+
+node.prebuilt { fill: pink; }
+node.system { fill: red; }
+node.frameworks { fill: lightblue; }
+node.external { fill: greenyellow; }
+node.build { fill: lightgrey; }
+node.intel_extras { fill: olive; }
+node.packages { fill: plum; }
+node.hardware { fill: orange; }
+node.dalvik { fill: brown; }
+node.development { fill: green; }
+node.vendor { fill: yellow; }
+
+[ libsgl ] { label: libsgl:\nexternal/skia; class: external; }
+[ libft2 ] { label: libft2:\nexternal/freetype; class: external; }
+[ libsonivox ] { label: libsonivox:\nexternal/sonivox/\narm-wt-22k; class: external; }
+[ acp ] { label: acp:\nbuild/tools/\nacp; class: build; }
+[ libutils ] { label: libutils:\nframeworks/base/\nlibs/utils; class: frameworks; }
+[ libmedia ] { label: libmedia:\nframeworks/base/\nmedia/libmedia; class: frameworks; }
+[ libcutils ] { label: libcutils:\nsystem/core/\nlibcutils; class: system; }
+[ liblog ] { label: liblog:\nsystem/core/\nliblog; class: system; }
+[ libhost ] { label: libhost:\nbuild/libs/\nhost; class: build; }
+[ libui ] { label: libui:\nframeworks/base/\nlibs/ui; class: frameworks; }
+[ libpixelflinger ] { label: libpixelflinger:\nsystem/core/\nlibpixelflinger; class: system; }
+[ libnetutils ] { label: libnetutils:\nsystem/core/\nlibnetutils; class: system; }
+[ libhardware_legacy ] { label: libhardware_legacy:\nhardware/libhardware_legacy; class: hardware; }
+[ libaudioflinger ] { label: libaudioflinger:\nframeworks/base/\nlibs/audioflinger; class: frameworks; }
+[ libsurfaceflinger ] { label: libsurfaceflinger:\nframeworks/base/\nlibs/surfaceflinger; class: frameworks; }
+[ libcorecg ] { label: libcorecg:\nexternal/skia; class: external; }
+[ libhardware ] { label: libhardware:\nhardware/libhardware; class: hardware; }
+[ libEGL ] { label: libEGL:\nframeworks/base/\nopengl/libs; class: frameworks; }
+[ libemoji ] { label: libemoji:\nframeworks/opt/\nemoji; class: frameworks; }
+[ libGLESv1_CM ] { label: libGLESv1_CM:\nframeworks/base/\nopengl/libs; class: frameworks; }
+[ libgtkwindow ] { label: libgtkwindow:\nframeworks/base/\nlibs/gtkwindow; class: frameworks; }
+[ libaudio ] { label: libaudio:\nintel-extras/libaudio_pulse; class: intel_extras; }
+[ libwpa_client ] { label: libwpa_client:\nexternal/wpa_supplicant; class: external; }
+[ libpng ] { label: libpng:\nexternal/libpng; class: external; }
+[ libaudiointerface ] { label: libaudiointerface:\nframeworks/base/\nlibs/audioflinger; class: frameworks; }
+[ libjpeg ] { label: libjpeg:\nexternal/jpeg; class: external; }
+[ libgif ] { label: libgif:\nexternal/giflib; class: external; }
+[ libsurfaceflinger ] -> [ libEGL ]
+[ libpixelflinger ] -> [ liblog ]
+[ libmedia ] -> [ libsonivox ]
+[ libemoji ] -> [ acp ]
+[ libaudio ] -> [ libutils ]
+[ libsgl ] -> [ libemoji ]
+[ libaudio ] -> [ libcutils ]
+[ libEGL ] -> [ libutils ]
+[ libsonivox ] -> [ libcutils ]
+[ libhardware_legacy ] -> [ libnetutils ]
+[ libgtkwindow ] -> [ libcutils ]
+[ libEGL ] -> [ liblog ]
+[ libsurfaceflinger ] -> [ libgtkwindow ]
+[ libaudio ] -> [ libaudiointerface ]
+[ libui ] -> [ libpixelflinger ]
+[ libhardware_legacy ] -> [ libwpa_client ]
+[ libaudioflinger ] -> [ libhardware_legacy ]
+[ libaudioflinger ] -> [ libaudio ]
+[ libsgl ] -> [ libft2 ]
+[ libemoji ] -> [ libcutils ]
+[ libemoji ] -> [ liblog ]
+[ libEGL ] -> [ libcutils ]
+[ liblog ] -> [ acp ]
+[ libcutils ] -> [ acp ]
+[ libEGL ] -> [ libui ]
+[ libsgl ] -> [ libpng ]
+[ libsurfaceflinger ] -> [ libpixelflinger ]
+[ libui ] -> [ libhardware ]
+[ libgtkwindow ] -> [ acp ]
+[ libwpa_client ] -> [ liblog ]
+[ libhardware ] -> [ libcutils ]
+[ libsurfaceflinger ] -> [ libcorecg ]
+[ libGLESv1_CM ] -> [ libutils ]
+[ libsgl ] -> [ libgif ]
+[ libpixelflinger ] -> [ acp ]
+[ libhardware_legacy ] -> [ libutils ]
+[ libaudio ] -> [ liblog ]
+[ libsonivox ] -> [ liblog ]
+[ libGLESv1_CM ] -> [ libui ]
+[ libcorecg ] -> [ libutils ]
+[ libnetutils ] -> [ acp ]
+[ libui ] -> [ libgtkwindow ]
+[ libaudioflinger ] -> [ libmedia ]
+[ libhardware ] -> [ liblog ]
+[ libnetutils ] -> [ liblog ]
+[ libGLESv1_CM ] -> [ libcutils ]
+[ libwpa_client ] -> [ acp ]
+[ libcorecg ] -> [ libcutils ]
+[ libsurfaceflinger ] -> [ libsgl ]
+[ libemoji ] -> [ libutils ]
+[ libsonivox ] -> [ libutils ]
+[ libGLESv1_CM ] -> [ acp ]
+[ libui ] -> [ libcorecg ]
+[ libsurfaceflinger ] -> [ libhardware ]
+[ libpixelflinger ] -> [ libhardware_legacy ]
+[ libmedia ] -> [ libui ]
+[ acp ] -> [ libhost ]
+[ libsonivox ] -> [ acp ]
+[ libgtkwindow ] -> [ liblog ]
+[ libwpa_client ] -> [ libcutils ]
+[ libsurfaceflinger ] -> [ libGLESv1_CM ]
+[ libhardware ] -> [ acp ]
+[ libcutils ] -> [ liblog ]
+[ libGLESv1_CM ] -> [ liblog ]
+[ libutils ] -> [ libcutils ]
+[ libpixelflinger ] -> [ libutils ]
+[ libgtkwindow ] -> [ libutils ]
+[ libcorecg ] -> [ acp ]
+[ libaudio ] -> [ acp ]
+[ libnetutils ] -> [ libcutils ]
+[ libsgl ] -> [ libjpeg ]
+[ libpixelflinger ] -> [ libcutils ]
+[ libEGL ] -> [ acp ]
+[ libcorecg ] -> [ liblog ]

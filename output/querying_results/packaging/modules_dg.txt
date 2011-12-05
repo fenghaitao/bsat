@@ -1,0 +1,85 @@
+graph { flow: down; }
+
+node.prebuilt { fill: pink; }
+node.system { fill: red; }
+node.frameworks { fill: lightblue; }
+node.external { fill: greenyellow; }
+node.build { fill: lightgrey; }
+node.intel_extras { fill: olive; }
+node.packages { fill: plum; }
+node.hardware { fill: orange; }
+node.dalvik { fill: brown; }
+node.development { fill: green; }
+node.vendor { fill: yellow; }
+
+[ aapt ] { label: aapt:\nframeworks/base/\ntools/aapt; class: frameworks; }
+[ core ] { label: core:\ndalvik/libcore; class: dalvik; }
+[ dx ] { label: dx:\ndalvik/dx; class: dalvik; }
+[ libpng ] { label: libpng:\nexternal/libpng; class: external; }
+[ acp ] { label: acp:\nbuild/tools/\nacp; class: build; }
+[ libcutils ] { label: libcutils:\nsystem/core/\nlibcutils; class: system; }
+[ libutils ] { label: libutils:\nframeworks/base/\nlibs/utils; class: frameworks; }
+[ dexdump ] { label: dexdump:\ndalvik/dexdump; class: dalvik; }
+[ libdex ] { label: libdex:\ndalvik/libdex; class: dalvik; }
+[ libicudata-us ] { label: libicudata-us:\nexternal/icu4c/\nstubdata; class: external; }
+[ icudata ] { label: icudata:\nbuild/tools/\nbin2asm; class: build; }
+[ libdvm ] { label: libdvm:\ndalvik/vm; class: dalvik; }
+[ dalvikvm ] { label: dalvikvm:\ndalvik/dalvikvm; class: dalvik; }
+[ run-core-tests-on-ri ] { label: run-core-tests-on-ri:\ndalvik/libcore; class: dalvik; }
+[ dmtracedump ] { label: dmtracedump:\ndalvik/tools/\ndmtracedump; class: dalvik; }
+[ dvz ] { label: dvz:\ndalvik/dvz; class: dalvik; }
+[ libicui18n ] { label: libicui18n:\nexternal/icu4c/\ni18n; class: external; }
+[ libicuuc ] { label: libicuuc:\nexternal/icu4c/\ncommon; class: external; }
+[ liblog ] { label: liblog:\nsystem/core/\nliblog; class: system; }
+[ run-core-tests ] { label: run-core-tests:\ndalvik/libcore; class: dalvik; }
+[ jasmin ] { label: jasmin:\ndalvik/dx; class: dalvik; }
+[ create_test_dmtrace ] { label: create_test_dmtrace:\ndalvik/tools/\ndmtracedump; class: dalvik; }
+[ libsqlite ] { label: libsqlite:\nexternal/sqlite/\ndist; class: external; }
+[ libsqlite3_android ] { label: libsqlite3_android:\nexternal/sqlite/\nandroid; class: external; }
+[ core-tests ] { label: core-tests:\ndalvik/libcore; class: dalvik; }
+[ libnativehelper ] { label: libnativehelper:\ndalvik/libnativehelper; class: dalvik; }
+[ libfdlibm ] { label: libfdlibm:\nexternal/fdlibm; class: external; }
+[ jasmin.jar ] { label: jasmin.jar:\ndalvik/dx; class: dalvik; }
+[ dexlist ] { label: dexlist:\ndalvik/dexlist; class: dalvik; }
+[ hprof-conv ] { label: hprof-conv:\ndalvik/tools/\nhprof-conv; class: dalvik; }
+[ dexopt ] { label: dexopt:\ndalvik/dexopt; class: dalvik; }
+[ libhost ] { label: libhost:\nbuild/libs/\nhost; class: build; }
+[ libjavacore ] { label: libjavacore:\ndalvik/libcore; class: dalvik; }
+[ aapt ] -> [ libutils ]
+[ dmtracedump ] -> [ acp ]
+[ libnativehelper ] -> [ libfdlibm ]
+[ dalvikvm ] -> [ libdvm ]
+[ run-core-tests ] -> [ acp ]
+[ libnativehelper ] -> [ libjavacore ]
+[ libcutils ] -> [ liblog ]
+[ acp ] -> [ libhost ]
+[ libnativehelper ] -> [ libsqlite ]
+[ libicuuc ] -> [ libicudata-us ]
+[ dexlist ] -> [ libcutils ]
+[ core-tests ] -> [ aapt ]
+[ liblog ] -> [ acp ]
+[ libsqlite ] -> [ libsqlite3_android ]
+[ libicudata-us ] -> [ icudata ]
+[ libsqlite ] -> [ liblog ]
+[ icudata ] -> [ acp ]
+[ aapt ] -> [ libpng ]
+[ create_test_dmtrace ] -> [ acp ]
+[ core ] -> [ aapt ]
+[ libdvm ] -> [ libdex ]
+[ libicui18n ] -> [ libicuuc ]
+[ run-core-tests-on-ri ] -> [ acp ]
+[ core ] -> [ dx ]
+[ dvz ] -> [ libcutils ]
+[ libnativehelper ] -> [ libutils ]
+[ jasmin ] -> [ acp ]
+[ dexdump ] -> [ libdex ]
+[ libutils ] -> [ libcutils ]
+[ hprof-conv ] -> [ acp ]
+[ jasmin.jar ] -> [ acp ]
+[ dexdump ] -> [ liblog ]
+[ core-tests ] -> [ dx ]
+[ libsqlite ] -> [ libicui18n ]
+[ dx ] -> [ acp ]
+[ libdvm ] -> [ libnativehelper ]
+[ dexlist ] -> [ libdex ]
+[ dexopt ] -> [ libdvm ]

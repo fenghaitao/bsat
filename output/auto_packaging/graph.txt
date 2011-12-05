@@ -1,0 +1,985 @@
+graph { flow: down; }
+
+node.prebuilt { fill: pink; }
+node.system { fill: red; }
+node.frameworks { fill: lightblue; }
+node.external { fill: greenyellow; }
+node.build { fill: lightgrey; }
+node.intel_extras { fill: olive; }
+node.packages { fill: plum; }
+node.hardware { fill: orange; }
+node.dalvik { fill: brown; }
+node.development { fill: green; }
+node.vendor { fill: yellow; }
+
+[ mediaframeworktest ] { label: mediaframeworktest:\nframeworks/base/\nmedia/tests/\nMediaFrameworkTest; class: frameworks; }
+[ zipalign ] { label: zipalign:\nbuild/tools/\nzipalign; class: build; }
+[ libopencore_player ] { label: libopencore_player:\nexternal/opencore/\nbuild_config/opencore_dynamic; class: external; }
+[ libandroid_runtime ] { label: libandroid_runtime:\nframeworks/base/\ncore/jni; class: frameworks; }
+[ Snake ] { label: Snake:\ndevelopment/samples/\nSnake; class: development; }
+[ Launcher ] { label: Launcher:\npackages/apps/\nLauncher; class: packages; }
+[ signapk ] { label: signapk:\nbuild/tools/\nsignapk; class: build; }
+[ libopencore_net_support ] { label: libopencore_net_support:\nexternal/opencore/\nbuild_config/opencore_dynamic; class: external; }
+[ libpv_http_parcom ] { label: libpv_http_parcom:\nexternal/opencore/\nprotocols/http_parcom; class: external; }
+[ libopencore_mp4local ] { label: libopencore_mp4local:\nexternal/opencore/\nbuild_config/opencore_dynamic; class: external; }
+[ NotePadTests ] { label: NotePadTests:\ndevelopment/samples/\nNotePad/tests; class: development; }
+[ NotePad ] { label: NotePad:\ndevelopment/samples/\nNotePad; class: development; }
+[ aapt ] { label: aapt:\nframeworks/base/\ntools/aapt; class: frameworks; }
+[ EnabledTestApp ] { label: EnabledTestApp:\nframeworks/base/\ntests/AndroidTests/\nEnabledTestApp; class: frameworks; }
+[ framework ] { label: framework:\nframeworks/base; class: frameworks; }
+[ ddmuilib ] { label: ddmuilib:\ndevelopment/tools/\nddms/libs/\nddmuilib/src; class: development; }
+[ org.eclipse.equinox.common_3.2.0.v20060603 ] { label: org.eclipse.equinox.common_3.2.0.v20060603:\nprebuilt/linux-x86/\nswt; class: prebuilt; }
+[ pvplayer ] { label: pvplayer:\nexternal/opencore; class: external; }
+[ core ] { label: core:\ndalvik/libcore; class: dalvik; }
+[ dx ] { label: dx:\ndalvik/dx; class: dalvik; }
+[ android.awt ] { label: android.awt:\nframeworks/base/\nawt; class: frameworks; }
+[ libsgl ] { label: libsgl:\nexternal/skia; class: external; }
+[ libpng ] { label: libpng:\nexternal/libpng; class: external; }
+[ SslLoad ] { label: SslLoad:\nframeworks/base/\ntests/SslLoad; class: frameworks; }
+[ line_endings ] { label: line_endings:\ndevelopment/tools/\nline_endings; class: development; }
+[ acp ] { label: acp:\nbuild/tools/\nacp; class: build; }
+[ libGLESv1_CM ] { label: libGLESv1_CM:\nframeworks/base/\nopengl/libs; class: frameworks; }
+[ libui ] { label: libui:\nframeworks/base/\nlibs/ui; class: frameworks; }
+[ dumpstate ] { label: dumpstate:\nframeworks/base/\ncmds/dumpstate; class: frameworks; }
+[ libcutils ] { label: libcutils:\nsystem/core/\nlibcutils; class: system; }
+[ SettingsProvider ] { label: SettingsProvider:\nframeworks/base/\npackages/SettingsProvider; class: frameworks; }
+[ libneo_util ] { label: libneo_util:\nexternal/clearsilver/\nutil; class: external; }
+[ libSR_Semproc ] { label: libSR_Semproc:\nexternal/srec/\nsrec/Semproc; class: external; }
+[ libSR_Core ] { label: libSR_Core:\nexternal/srec/\nsrec/ca; class: external; }
+[ AliasActivity ] { label: AliasActivity:\ndevelopment/samples/\nAliasActivity; class: development; }
+[ SnakeTests ] { label: SnakeTests:\ndevelopment/samples/\nSnake/tests; class: development; }
+[ libopencore_common ] { label: libopencore_common:\nexternal/opencore/\nbuild_config/opencore_dynamic; class: external; }
+[ libosclmemory ] { label: libosclmemory:\nexternal/opencore/\noscl/oscl/\nosclmemory; class: external; }
+[ PackageInstaller ] { label: PackageInstaller:\npackages/apps/\nPackageInstaller; class: packages; }
+[ libutils ] { label: libutils:\nframeworks/base/\nlibs/utils; class: frameworks; }
+[ libzipfile ] { label: libzipfile:\nsystem/core/\nlibzipfile; class: system; }
+[ MediaProvider ] { label: MediaProvider:\npackages/providers/\nMediaProvider; class: packages; }
+[ HelloActivity ] { label: HelloActivity:\ndevelopment/samples/\nHelloActivity; class: development; }
+[ ext ] { label: ext:\nframeworks/base; class: frameworks; }
+[ libplatform_library_jni ] { label: libplatform_library_jni:\ndevelopment/samples/\nPlatformLibrary/jni; class: development; }
+[ system_server ] { label: system_server:\nframeworks/base/\ncmds/system_server; class: frameworks; }
+[ dexdump ] { label: dexdump:\ndalvik/dexdump; class: dalvik; }
+[ libdex ] { label: libdex:\ndalvik/libdex; class: dalvik; }
+[ framework-res ] { label: framework-res:\nframeworks/base/\ncore/res; class: frameworks; }
+[ LunarLander ] { label: LunarLander:\ndevelopment/samples/\nLunarLander; class: development; }
+[ libomx_sharedlibrary ] { label: libomx_sharedlibrary:\nexternal/opencore/\nbuild_config/opencore_dynamic; class: external; }
+[ dictTest ] { label: dictTest:\nexternal/srec/\ntools/dictTest; class: external; }
+[ libSR_Recognizer ] { label: libSR_Recognizer:\nexternal/srec/\nsrec/Recognizer; class: external; }
+[ adbd ] { label: adbd:\nsystem/core/\nadb; class: system; }
+[ libomx_aacdec_sharedlibrary ] { label: libomx_aacdec_sharedlibrary:\nexternal/opencore/\nbuild_config/opencore_dynamic; class: external; }
+[ libomx_aac_component_lib ] { label: libomx_aac_component_lib:\nexternal/opencore/\ncodecs_v2/omx/\nomx_aac; class: external; }
+[ ddmlib ] { label: ddmlib:\ndevelopment/tools/\nddms/libs/\nddmlib/src; class: development; }
+[ lights.default ] { label: lights.default:\nhardware/libhardware/\nmodules/lights; class: hardware; }
+[ Browser ] { label: Browser:\npackages/apps/\nBrowser; class: packages; }
+[ android.test.runner ] { label: android.test.runner:\nframeworks/base/\ntest-runner; class: frameworks; }
+[ su ] { label: su:\nsystem/extras/\nsu; class: system; }
+[ HelloActivityTests ] { label: HelloActivityTests:\ndevelopment/samples/\nHelloActivity/tests; class: development; }
+[ libomx_baseclass_lib ] { label: libomx_baseclass_lib:\nexternal/opencore/\ncodecs_v2/omx/\nomx_baseclass; class: external; }
+[ libpvomxencnode ] { label: libpvomxencnode:\nexternal/opencore/\nnodes/pvomxencnode; class: external; }
+[ libvorbisidec ] { label: libvorbisidec:\nexternal/tremor; class: external; }
+[ layoutlib ] { label: layoutlib:\nframeworks/base/\ntools/layoutlib/\nbridge; class: frameworks; }
+[ FrameworkTest ] { label: FrameworkTest:\nframeworks/base/\ntests/FrameworkTest; class: frameworks; }
+[ GoogleSubscribedFeedsProvider ] { label: GoogleSubscribedFeedsProvider:\npackages/providers/\nGoogleSubscribedFeedsProvider; class: packages; }
+[ layoutlib_create ] { label: layoutlib_create:\nframeworks/base/\ntools/layoutlib/\ncreate; class: frameworks; }
+[ FixedGridLayout ] { label: FixedGridLayout:\ndevelopment/samples/\nFixedGridLayout; class: development; }
+[ temp_layoutlib ] { label: temp_layoutlib:\nframeworks/base/\ntools/layoutlib; class: frameworks; }
+[ SRecTestAudio ] { label: SRecTestAudio:\nexternal/srec/\nsrec/test/\nSRecTestAudio; class: external; }
+[ libopencore_mp4localreg ] { label: libopencore_mp4localreg:\nexternal/opencore/\nbuild_config/opencore_dynamic; class: external; }
+[ libpvmp4reginterface ] { label: libpvmp4reginterface:\nexternal/opencore/\nmodules/linux_mp4/\nnode_registry; class: external; }
+[ libicudata-default ] { label: libicudata-default:\nexternal/icu4c/\nstubdata; class: external; }
+[ libicudata-us ] { label: libicudata-us:\nexternal/icu4c/\nstubdata; class: external; }
+[ icudata ] { label: icudata:\nbuild/tools/\nbin2asm; class: build; }
+[ jfreechart-1.0.9-swt ] { label: jfreechart-1.0.9-swt:\nprebuilt/common/\njfreechart; class: prebuilt; }
+[ AppWidgetProvider ] { label: AppWidgetProvider:\nframeworks/base/\ntests/appwidgets/\nAppWidgetProviderTest; class: frameworks; }
+[ ApiDemos ] { label: ApiDemos:\ndevelopment/samples/\nApiDemos; class: development; }
+[ libpvid3parcom ] { label: libpvid3parcom:\nexternal/opencore/\nfileformats/id3parcom; class: external; }
+[ launchperf ] { label: launchperf:\ndevelopment/apps/\nlaunchperf; class: development; }
+[ radiooptions ] { label: radiooptions:\nhardware/ril/\nrild; class: hardware; }
+[ libbz ] { label: libbz:\nexternal/bzip2; class: external; }
+[ SoftKeyboard ] { label: SoftKeyboard:\ndevelopment/samples/\nSoftKeyboard; class: development; }
+[ service ] { label: service:\nframeworks/base/\ncmds/service; class: frameworks; }
+[ libEGL ] { label: libEGL:\nframeworks/base/\nopengl/libs; class: frameworks; }
+[ RSSReader ] { label: RSSReader:\ndevelopment/samples/\nRSSReader; class: development; }
+[ libESR_Shared ] { label: libESR_Shared:\nexternal/srec/\nshared; class: external; }
+[ libhardware ] { label: libhardware:\nhardware/libhardware; class: hardware; }
+[ libomx_avcdec_sharedlibrary ] { label: libomx_avcdec_sharedlibrary:\nexternal/opencore/\nbuild_config/opencore_dynamic; class: external; }
+[ libpvavcdecoder ] { label: libpvavcdecoder:\nexternal/opencore/\ncodecs_v2/video/\navc_h264/dec; class: external; }
+[ libhardware_legacy ] { label: libhardware_legacy:\nhardware/libhardware_legacy; class: hardware; }
+[ SdkSetup ] { label: SdkSetup:\ndevelopment/apps/\nSdkSetup; class: development; }
+[ sdkstats ] { label: sdkstats:\ndevelopment/tools/\nsdkstats/src; class: development; }
+[ org.eclipse.core.commands_3.2.0.I20060605-1400 ] { label: org.eclipse.core.commands_3.2.0.I20060605-1400:\nprebuilt/linux-x86/\nswt; class: prebuilt; }
+[ procrank ] { label: procrank:\nsystem/extras/\nprocrank; class: system; }
+[ libpagemap ] { label: libpagemap:\nsystem/extras/\nlibpagemap; class: system; }
+[ libopencore_rtsp ] { label: libopencore_rtsp:\nexternal/opencore/\nbuild_config/opencore_dynamic; class: external; }
+[ libpv_rtsp_parcom ] { label: libpv_rtsp_parcom:\nexternal/opencore/\nprotocols/rtsp_parcom; class: external; }
+[ draw9patch ] { label: draw9patch:\ndevelopment/tools/\ndraw9patch; class: development; }
+[ swing-worker-1.1 ] { label: swing-worker-1.1:\nprebuilt/common/\nswing-worker; class: prebuilt; }
+[ libsoundpool ] { label: libsoundpool:\nframeworks/base/\nmedia/jni/\nsoundpool; class: frameworks; }
+[ event-log-tags ] { label: event-log-tags:\nsystem/core/\nlogcat; class: system; }
+[ libpvomx_proxy_lib ] { label: libpvomx_proxy_lib:\nexternal/opencore/\ncodecs_v2/omx/\nomx_proxy; class: external; }
+[ Compass ] { label: Compass:\ndevelopment/samples/\nCompass; class: development; }
+[ ContactsProvider ] { label: ContactsProvider:\npackages/providers/\nContactsProvider; class: packages; }
+[ libdvm ] { label: libdvm:\ndalvik/vm; class: dalvik; }
+[ AppWidgetHostTest ] { label: AppWidgetHostTest:\nframeworks/base/\ntests/appwidgets/\nAppWidgetHostTest; class: frameworks; }
+[ framework-tests ] { label: framework-tests:\nframeworks/base/\ntests/framework-tests/\nsrc; class: frameworks; }
+[ libwpa_client ] { label: libwpa_client:\nexternal/wpa_supplicant; class: external; }
+[ DownloadProvider ] { label: DownloadProvider:\npackages/providers/\nDownloadProvider; class: packages; }
+[ dalvikvm ] { label: dalvikvm:\ndalvik/dalvikvm; class: dalvik; }
+[ Development ] { label: Development:\ndevelopment/apps/\nDevelopment; class: development; }
+[ libgetactualaacconfig ] { label: libgetactualaacconfig:\nexternal/opencore/\ncodecs_v2/audio/\naac/dec/util/getactualaacconfig; class: external; }
+[ HTMLViewer ] { label: HTMLViewer:\npackages/apps/\nHTMLViewer; class: packages; }
+[ libgstreamer ] { label: libgstreamer:\nintel-extras/gstreamerplayer; class: intel_extras; }
+[ AT_Translated_Set_2_keyboard.kcm ] { label: AT_Translated_Set_2_keyboard.kcm:\nvendor/linuxfoundation/\nmoblin; class: vendor; }
+[ run-core-tests-on-ri ] { label: run-core-tests-on-ri:\ndalvik/libcore; class: dalvik; }
+[ libcamera ] { label: libcamera:\nintel-extras/libcamera_v4l2; class: intel_extras; }
+[ libjpeg ] { label: libjpeg:\nexternal/jpeg; class: external; }
+[ dumpeventlog ] { label: dumpeventlog:\ndevelopment/tools/\ndumpeventlog; class: development; }
+[ libomx_common_lib ] { label: libomx_common_lib:\nexternal/opencore/\ncodecs_v2/omx/\nomx_common; class: external; }
+[ pm ] { label: pm:\nframeworks/base/\ncmds/pm; class: frameworks; }
+[ libagl ] { label: libagl:\nframeworks/base/\nopengl/libagl; class: frameworks; }
+[ dmtracedump ] { label: dmtracedump:\ndalvik/tools/\ndmtracedump; class: dalvik; }
+[ StatusBarTest ] { label: StatusBarTest:\nframeworks/base/\ntests/StatusBar; class: frameworks; }
+[ libandroid_servers ] { label: libandroid_servers:\nframeworks/base/\nservices/jni; class: frameworks; }
+[ swt ] { label: swt:\nprebuilt/linux-x86/\nswt; class: prebuilt; }
+[ DumpRenderTree ] { label: DumpRenderTree:\nframeworks/base/\ntests/DumpRenderTree; class: frameworks; }
+[ ImfTest ] { label: ImfTest:\nframeworks/base/\ntests/ImfTest; class: frameworks; }
+[ androidprefs ] { label: androidprefs:\ndevelopment/tools/\nandroidprefs/src; class: development; }
+[ procmem ] { label: procmem:\nsystem/extras/\nprocmem; class: system; }
+[ libopencore_downloadreg ] { label: libopencore_downloadreg:\nexternal/opencore/\nbuild_config/opencore_dynamic; class: external; }
+[ genext2fs ] { label: genext2fs:\nexternal/genext2fs; class: external; }
+[ libril ] { label: libril:\nhardware/ril/\nlibril; class: hardware; }
+[ input ] { label: input:\nframeworks/base/\ncmds/input; class: frameworks; }
+[ hierarchyviewer ] { label: hierarchyviewer:\ndevelopment/tools/\nhierarchyviewer; class: development; }
+[ sdkuilib ] { label: sdkuilib:\ndevelopment/tools/\nsdkmanager/libs/\nsdkuilib/src; class: development; }
+[ sound ] { label: sound:\nsystem/extras/\nsound; class: system; }
+[ libpvmf ] { label: libpvmf:\nexternal/opencore/\npvmi/pvmf; class: external; }
+[ FontLab ] { label: FontLab:\ndevelopment/apps/\nFontLab; class: development; }
+[ kcm ] { label: kcm:\nbuild/tools/\nkcm; class: build; }
+[ libwebcore ] { label: libwebcore:\nexternal/webkit; class: external; }
+[ traceview ] { label: traceview:\ndevelopment/tools/\ntraceview; class: development; }
+[ ddms ] { label: ddms:\ndevelopment/tools/\nddms/app; class: development; }
+[ eventanalyzer ] { label: eventanalyzer:\ndevelopment/tools/\neventanalyzer; class: development; }
+[ Phone ] { label: Phone:\npackages/apps/\nPhone; class: packages; }
+[ libpvmp3ff ] { label: libpvmp3ff:\nexternal/opencore/\nfileformats/mp3/\nparser; class: external; }
+[ libpvoma1passthru ] { label: libpvoma1passthru:\nexternal/opencore/\nbuild_config/opencore_dynamic; class: external; }
+[ libdrm1 ] { label: libdrm1:\nframeworks/base/\nmedia/libdrm/\nmobile1; class: frameworks; }
+[ libicudata-jp ] { label: libicudata-jp:\nexternal/icu4c/\nstubdata; class: external; }
+[ adb ] { label: adb:\nsystem/core/\nadb; class: system; }
+[ apicheck ] { label: apicheck:\nbuild/tools/\napicheck; class: build; }
+[ test-opengl-textures ] { label: test-opengl-textures:\nframeworks/base/\nopengl/tests/\ntextures; class: frameworks; }
+[ gpustate ] { label: gpustate:\nframeworks/base/\nopengl/tests/\nangeles; class: frameworks; }
+[ libomx_m4vdec_sharedlibrary ] { label: libomx_m4vdec_sharedlibrary:\nexternal/opencore/\nbuild_config/opencore_dynamic; class: external; }
+[ Mms ] { label: Mms:\npackages/apps/\nMms; class: packages; }
+[ SoundRecorder ] { label: SoundRecorder:\npackages/apps/\nSoundRecorder; class: packages; }
+[ libsonivox ] { label: libsonivox:\nexternal/sonivox/\narm-wt-22k; class: external; }
+[ GoogleContactsProvider ] { label: GoogleContactsProvider:\npackages/providers/\nGoogleContactsProvider; class: packages; }
+[ AlarmClock ] { label: AlarmClock:\npackages/apps/\nAlarmClock; class: packages; }
+[ dvz ] { label: dvz:\ndalvik/dvz; class: dalvik; }
+[ libicui18n ] { label: libicui18n:\nexternal/icu4c/\ni18n; class: external; }
+[ libicuuc ] { label: libicuuc:\nexternal/icu4c/\ncommon; class: external; }
+[ anttasks ] { label: anttasks:\ndevelopment/tools/\nanttasks/src; class: development; }
+[ apkbuilder ] { label: apkbuilder:\ndevelopment/tools/\napkbuilder; class: development; }
+[ libpvthreadmessaging ] { label: libpvthreadmessaging:\nexternal/opencore/\nbaselibs/thread_messaging; class: external; }
+[ libSR_AcousticModels ] { label: libSR_AcousticModels:\nexternal/srec/\nsrec/AcousticModels; class: external; }
+[ libmp4recognizer_utility ] { label: libmp4recognizer_utility:\nexternal/opencore/\nfileformats/mp4/\nparser/utils/mp4recognizer; class: external; }
+[ libopencore_author ] { label: libopencore_author:\nexternal/opencore/\nbuild_config/opencore_dynamic; class: external; }
+[ libandroidpvauthor ] { label: libandroidpvauthor:\nexternal/opencore/\nandroid/author; class: external; }
+[ org.eclipse.jface_3.2.0.I20060605-1400 ] { label: org.eclipse.jface_3.2.0.I20060605-1400:\nprebuilt/linux-x86/\nswt; class: prebuilt; }
+[ libclearsilver-jni ] { label: libclearsilver-jni:\nexternal/clearsilver/\njava-jni; class: external; }
+[ GoogleContactsProviderTests ] { label: GoogleContactsProviderTests:\npackages/providers/\nGoogleContactsProvider/tests; class: packages; }
+[ test_zipfile ] { label: test_zipfile:\nsystem/core/\nlibzipfile; class: system; }
+[ JETBoy ] { label: JETBoy:\ndevelopment/samples/\nJetBoy; class: development; }
+[ libpvauthorengine ] { label: libpvauthorengine:\nexternal/opencore/\nengines/author; class: external; }
+[ AndroidTests ] { label: AndroidTests:\nframeworks/base/\ntests/AndroidTests; class: frameworks; }
+[ libomx_amrenc_sharedlibrary ] { label: libomx_amrenc_sharedlibrary:\nexternal/opencore/\nbuild_config/opencore_dynamic; class: external; }
+[ ImProvider ] { label: ImProvider:\npackages/providers/\nImProvider; class: packages; }
+[ com.android.im.plugin ] { label: com.android.im.plugin:\npackages/apps/\nIM/plugin; class: packages; }
+[ ant ] { label: ant:\nprebuilt/common/\nant; class: prebuilt; }
+[ AudioInRecord ] { label: AudioInRecord:\nexternal/srec/\naudio/test/\nAudioInRecord; class: external; }
+[ libsrec_jni ] { label: libsrec_jni:\nexternal/srec/\nsrec_jni; class: external; }
+[ sqlite3 ] { label: sqlite3:\nexternal/sqlite/\ndist; class: external; }
+[ liblog ] { label: liblog:\nsystem/core/\nliblog; class: system; }
+[ jdwpspy ] { label: jdwpspy:\ndevelopment/tools/\njdwpspy; class: development; }
+[ libmedia_jni ] { label: libmedia_jni:\nframeworks/base/\nmedia/jni; class: frameworks; }
+[ libomx_amrdec_sharedlibrary ] { label: libomx_amrdec_sharedlibrary:\nexternal/opencore/\nbuild_config/opencore_dynamic; class: external; }
+[ libsystem_server ] { label: libsystem_server:\nframeworks/base/\ncmds/system_server/\nlibrary; class: frameworks; }
+[ platform.xml ] { label: platform.xml:\nframeworks/base/\ndata/etc; class: frameworks; }
+[ ApiDemosTests ] { label: ApiDemosTests:\ndevelopment/samples/\nApiDemos/tests; class: development; }
+[ libESR_Portable ] { label: libESR_Portable:\nexternal/srec/\nportable; class: external; }
+[ GoogleSearch ] { label: GoogleSearch:\npackages/apps/\nGoogleSearch; class: packages; }
+[ VoiceDialer ] { label: VoiceDialer:\npackages/apps/\nVoiceDialer; class: packages; }
+[ CustomLocale ] { label: CustomLocale:\ndevelopment/apps/\nCustomLocale; class: development; }
+[ mkbootfs ] { label: mkbootfs:\nsystem/core/\ncpio; class: system; }
+[ wbxmltest ] { label: wbxmltest:\npackages/apps/\nIM/libwbxml; class: packages; }
+[ asm-3.1 ] { label: asm-3.1:\nprebuilt/common/\nasm; class: prebuilt; }
+[ test-opengl-codegen ] { label: test-opengl-codegen:\nsystem/core/\nlibpixelflinger/tests/\ncodegen; class: system; }
+[ libcpm ] { label: libcpm:\nexternal/opencore/\npvmi/content_policy_manager; class: external; }
+[ run-core-tests ] { label: run-core-tests:\ndalvik/libcore; class: dalvik; }
+[ makekeycodes ] { label: makekeycodes:\nframeworks/base/\ntools/makekeycodes; class: frameworks; }
+[ Settings ] { label: Settings:\npackages/apps/\nSettings; class: packages; }
+[ Music ] { label: Music:\npackages/apps/\nMusic; class: packages; }
+[ fs_get_stats ] { label: fs_get_stats:\nbuild/tools/\nfs_get_stats; class: build; }
+[ libomx_mastercore_lib ] { label: libomx_mastercore_lib:\nexternal/opencore/\ncodecs_v2/omx/\nomx_mastercore; class: external; }
+[ libgstmediarecorder ] { label: libgstmediarecorder:\nintel-extras/gstmediarecorder; class: intel_extras; }
+[ libmedia ] { label: libmedia:\nframeworks/base/\nmedia/libmedia; class: frameworks; }
+[ libopencore_download ] { label: libopencore_download:\nexternal/opencore/\nbuild_config/opencore_dynamic; class: external; }
+[ libpvdownloadmanagernode ] { label: libpvdownloadmanagernode:\nexternal/opencore/\nnodes/pvdownloadmanagernode; class: external; }
+[ jcommon-1.0.12 ] { label: jcommon-1.0.12:\nprebuilt/common/\njfreechart; class: prebuilt; }
+[ libpvaacffparsernode ] { label: libpvaacffparsernode:\nexternal/opencore/\nnodes/pvaacffparsernode; class: external; }
+[ DrmProvider ] { label: DrmProvider:\npackages/providers/\nDrmProvider; class: packages; }
+[ logwrapper ] { label: logwrapper:\nsystem/core/\nlogwrapper; class: system; }
+[ test-opengl-filter ] { label: test-opengl-filter:\nframeworks/base/\nopengl/tests/\nfilter; class: frameworks; }
+[ droiddoc ] { label: droiddoc:\nbuild/tools/\ndroiddoc/src; class: build; }
+[ libSR_G2P ] { label: libSR_G2P:\nexternal/srec/\nseti/sltsEngine; class: external; }
+[ parseStringTest ] { label: parseStringTest:\nexternal/srec/\ntools/parseStringTest; class: external; }
+[ idegen ] { label: idegen:\ndevelopment/tools/\nidegen; class: development; }
+[ CalculatorTests ] { label: CalculatorTests:\npackages/apps/\nCalculator/tests; class: packages; }
+[ DisabledTestApp ] { label: DisabledTestApp:\nframeworks/base/\ntests/AndroidTests/\nDisabledTestApp; class: frameworks; }
+[ AudioHardwareRecordLoop ] { label: AudioHardwareRecordLoop:\nexternal/srec/\naudio/test/\nAudioHardwareRecordLoop; class: external; }
+[ libSR_AudioIn ] { label: libSR_AudioIn:\nexternal/srec/\naudio/AudioIn/\nUNIX/src; class: external; }
+[ android.policy ] { label: android.policy:\nframeworks/policies/\nbase; class: frameworks; }
+[ jasmin ] { label: jasmin:\ndalvik/dx; class: dalvik; }
+[ SimpleJNI ] { label: SimpleJNI:\ndevelopment/samples/\nSimpleJNI; class: development; }
+[ libpvjitterbuffernode ] { label: libpvjitterbuffernode:\nexternal/opencore/\nnodes/streaming/\njitterbuffernode; class: external; }
+[ safe_iop_test ] { label: safe_iop_test:\nexternal/safe-iop/\ntestsuite; class: external; }
+[ grxmlcompile ] { label: grxmlcompile:\nexternal/srec/\ntools/grxmlcompile; class: external; }
+[ libfst ] { label: libfst:\nexternal/srec/\ntools/thirdparty/\nOpenFst/fst/lib; class: external; }
+[ libpvwav ] { label: libpvwav:\nexternal/opencore/\nfileformats/wav/\nparser; class: external; }
+[ CalendarProvider ] { label: CalendarProvider:\npackages/providers/\nCalendarProvider; class: packages; }
+[ app_process ] { label: app_process:\nframeworks/base/\ncmds/app_process; class: frameworks; }
+[ Calendar ] { label: Calendar:\npackages/apps/\nCalendar; class: packages; }
+[ libomx_m4v_component_lib ] { label: libomx_m4v_component_lib:\nexternal/opencore/\ncodecs_v2/omx/\nomx_m4v; class: external; }
+[ android ] { label: android:\ndevelopment/tools/\nsdkmanager/app/\netc; class: development; }
+[ makedict ] { label: makedict:\ndevelopment/tools/\nmakedict; class: development; }
+[ am ] { label: am:\nframeworks/base/\ncmds/am; class: frameworks; }
+[ libwbxml ] { label: libwbxml:\npackages/apps/\nIM/libwbxml; class: packages; }
+[ SkeletonAppTests ] { label: SkeletonAppTests:\ndevelopment/samples/\nSkeletonApp/tests; class: development; }
+[ com.example.android.platform_library ] { label: com.example.android.platform_library:\ndevelopment/samples/\nPlatformLibrary; class: development; }
+[ toolbox ] { label: toolbox:\nsystem/core/\ntoolbox; class: system; }
+[ CalendarTests ] { label: CalendarTests:\npackages/apps/\nCalendar/tests; class: packages; }
+[ installd ] { label: installd:\nframeworks/base/\ncmds/installd; class: frameworks; }
+[ create_test_dmtrace ] { label: create_test_dmtrace:\ndalvik/tools/\ndmtracedump; class: dalvik; }
+[ libarity ] { label: libarity:\npackages/apps/\nCalculator; class: packages; }
+[ DensityTest ] { label: DensityTest:\nframeworks/base/\ntests/DpiTest; class: frameworks; }
+[ CoreTests ] { label: CoreTests:\nframeworks/base/\ntests/CoreTests/\nandroid; class: frameworks; }
+[ Camera ] { label: Camera:\npackages/apps/\nCamera; class: packages; }
+[ libpv_config_parser ] { label: libpv_config_parser:\nexternal/opencore/\ncodecs_v2/utilities/\npv_config_parser; class: external; }
+[ SRecTest ] { label: SRecTest:\nexternal/srec/\nsrec/test/\nSRecTest; class: external; }
+[ libopencore_rtspreg ] { label: libopencore_rtspreg:\nexternal/opencore/\nbuild_config/opencore_dynamic; class: external; }
+[ libpvmioaviwavfileinput ] { label: libpvmioaviwavfileinput:\nexternal/opencore/\npvmi/media_io/\npvmi_mio_avi_wav_fileinput; class: external; }
+[ libomx_mp3dec_sharedlibrary ] { label: libomx_mp3dec_sharedlibrary:\nexternal/opencore/\nbuild_config/opencore_dynamic; class: external; }
+[ libpvmp3 ] { label: libpvmp3:\nexternal/opencore/\ncodecs_v2/audio/\nmp3/dec; class: external; }
+[ sdkmanager ] { label: sdkmanager:\ndevelopment/tools/\nsdkmanager/app/\nsrc; class: development; }
+[ libcorecg ] { label: libcorecg:\nexternal/skia; class: external; }
+[ libpvoma1passthruplugin ] { label: libpvoma1passthruplugin:\nexternal/opencore/\npvmi/content_policy_manager/\nplugins/oma1/passthru; class: external; }
+[ libSR_Vocabulary ] { label: libSR_Vocabulary:\nexternal/srec/\nsrec/Vocabulary; class: external; }
+[ libpvmp4ffcomposer ] { label: libpvmp4ffcomposer:\nexternal/opencore/\nfileformats/mp4/\ncomposer; class: external; }
+[ bookmarks.xml ] { label: bookmarks.xml:\nframeworks/base/\npackages/SettingsProvider/\netc; class: frameworks; }
+[ AudioHardwareRecord ] { label: AudioHardwareRecord:\nexternal/srec/\naudio/test/\nAudioHardwareRecord; class: external; }
+[ TelephonyProvider ] { label: TelephonyProvider:\npackages/providers/\nTelephonyProvider; class: packages; }
+[ android.policy_phone ] { label: android.policy_phone:\nframeworks/policies/\nbase/phone; class: frameworks; }
+[ libsqlite ] { label: libsqlite:\nexternal/sqlite/\ndist; class: external; }
+[ libsqlite3_android ] { label: libsqlite3_android:\nexternal/sqlite/\nandroid; class: external; }
+[ libomx_m4venc_sharedlibrary ] { label: libomx_m4venc_sharedlibrary:\nexternal/opencore/\nbuild_config/opencore_dynamic; class: external; }
+[ core-tests ] { label: core-tests:\ndalvik/libcore; class: dalvik; }
+[ libpvlatmpayloadparser ] { label: libpvlatmpayloadparser:\nexternal/opencore/\nprotocols/rtp_payload_parser/\nutil/build; class: external; }
+[ libswt-atk-gtk-3236 ] { label: libswt-atk-gtk-3236:\nprebuilt/linux-x86/\nswt; class: prebuilt; }
+[ properties ] { label: properties:\nframeworks/base/\nlocation/data; class: frameworks; }
+[ SpareParts ] { label: SpareParts:\ndevelopment/apps/\nSpareParts; class: development; }
+[ libswt-gtk-3236 ] { label: libswt-gtk-3236:\nprebuilt/linux-x86/\nswt; class: prebuilt; }
+[ libnativehelper ] { label: libnativehelper:\ndalvik/libnativehelper; class: dalvik; }
+[ libfdlibm ] { label: libfdlibm:\nexternal/fdlibm; class: external; }
+[ SmokeTest ] { label: SmokeTest:\nframeworks/base/\ntests/SmokeTest/\ntests; class: frameworks; }
+[ SmokeTestApp ] { label: SmokeTestApp:\nframeworks/base/\ntests/SmokeTest; class: frameworks; }
+[ make_cfst ] { label: make_cfst:\nexternal/srec/\ntools/make_cfst; class: external; }
+[ libpvamrwbdecoder ] { label: libpvamrwbdecoder:\nexternal/opencore/\ncodecs_v2/audio/\ngsm_amr/amr_wb/dec; class: external; }
+[ googlelogin-client ] { label: googlelogin-client:\nframeworks/opt/\ncom.google.android.googlelogin; class: frameworks; }
+[ PinyinIME ] { label: PinyinIME:\npackages/inputmethods/\nPinyinIME/PinyinIME; class: packages; }
+[ libskiagl ] { label: libskiagl:\nexternal/skia; class: external; }
+[ libosclbase ] { label: libosclbase:\nexternal/opencore/\noscl/oscl/\nosclbase; class: external; }
+[ logcat ] { label: logcat:\nsystem/core/\nlogcat; class: system; }
+[ libpixelflinger ] { label: libpixelflinger:\nsystem/core/\nlibpixelflinger; class: system; }
+[ libthreadsafe_callback_ao ] { label: libthreadsafe_callback_ao:\nexternal/opencore/\nbaselibs/threadsafe_callback_ao; class: external; }
+[ SettingsTests ] { label: SettingsTests:\npackages/apps/\nSettings/tests; class: packages; }
+[ SubscribedFeedsProvider ] { label: SubscribedFeedsProvider:\nframeworks/base/\npackages/SubscribedFeedsProvider; class: frameworks; }
+[ mkbootimg ] { label: mkbootimg:\nsystem/core/\nmkbootimg; class: system; }
+[ libmincrypt ] { label: libmincrypt:\nsystem/core/\nlibmincrypt; class: system; }
+[ PlatformLibraryClient ] { label: PlatformLibraryClient:\ndevelopment/samples/\nPlatformLibrary/client; class: development; }
+[ libxml2wbxml ] { label: libxml2wbxml:\npackages/apps/\nIM/libwbxml; class: packages; }
+[ libgtkwindow ] { label: libgtkwindow:\nframeworks/base/\nlibs/gtkwindow; class: frameworks; }
+[ preload ] { label: preload:\nframeworks/base/\ntools/preload; class: frameworks; }
+[ IM ] { label: IM:\npackages/apps/\nIM; class: packages; }
+[ make_ve_grammar ] { label: make_ve_grammar:\nexternal/srec/\ntools/make_ve_grammar; class: external; }
+[ jarutils ] { label: jarutils:\ndevelopment/tools/\njarutils/src; class: development; }
+[ EmailTests ] { label: EmailTests:\npackages/apps/\nEmail/tests; class: packages; }
+[ android.policy_mid ] { label: android.policy_mid:\nframeworks/policies/\nbase/mid; class: frameworks; }
+[ Home ] { label: Home:\ndevelopment/samples/\nHome; class: development; }
+[ Term ] { label: Term:\ndevelopment/apps/\nTerm; class: development; }
+[ test-opengl-finish ] { label: test-opengl-finish:\nframeworks/base/\nopengl/tests/\nfinish; class: frameworks; }
+[ Fallback ] { label: Fallback:\ndevelopment/apps/\nFallback; class: development; }
+[ libprotocolenginenode_shoutcast ] { label: libprotocolenginenode_shoutcast:\nexternal/opencore/\nnodes/pvprotocolenginenode/\ndownload_protocols/shoutcast; class: external; }
+[ libomx_avcenc_sharedlibrary ] { label: libomx_avcenc_sharedlibrary:\nexternal/opencore/\nbuild_config/opencore_dynamic; class: external; }
+[ libpvmiofileoutput ] { label: libpvmiofileoutput:\nexternal/opencore/\npvmi/media_io/\npvmiofileoutput; class: external; }
+[ aidl ] { label: aidl:\nframeworks/base/\ntools/aidl; class: frameworks; }
+[ libwbxml_jni ] { label: libwbxml_jni:\npackages/apps/\nIM/libwbxml; class: packages; }
+[ libmediaplayerservice ] { label: libmediaplayerservice:\nframeworks/base/\nmedia/libmediaplayerservice; class: frameworks; }
+[ libunit_test ] { label: libunit_test:\nexternal/opencore/\noscl/unit_test; class: external; }
+[ libpvjitterbufferrtp ] { label: libpvjitterbufferrtp:\nexternal/opencore/\nnodes/streaming/\njitterbuffernode/jitterbuffer/rtp; class: external; }
+[ libpvamrffrecognizer ] { label: libpvamrffrecognizer:\nexternal/opencore/\npvmi/recognizer/\nplugins/pvamrffrecognizer; class: external; }
+[ libpvrtspinterface ] { label: libpvrtspinterface:\nexternal/opencore/\nmodules/linux_rtsp/\ncore; class: external; }
+[ ninepatch ] { label: ninepatch:\ndevelopment/tools/\nninepatch; class: development; }
+[ libembunit ] { label: libembunit:\nexternal/embunit; class: external; }
+[ libneo_cs ] { label: libneo_cs:\nexternal/clearsilver/\ncs; class: external; }
+[ jasmin.jar ] { label: jasmin.jar:\ndalvik/dx; class: dalvik; }
+[ libomx_avc_component_lib ] { label: libomx_avc_component_lib:\nexternal/opencore/\ncodecs_v2/omx/\nomx_h264; class: external; }
+[ libSR_Session ] { label: libSR_Session:\nexternal/srec/\nsrec/Session; class: external; }
+[ libSR_AcousticState ] { label: libSR_AcousticState:\nexternal/srec/\nsrec/AcousticState; class: external; }
+[ android-init ] { label: android-init:\nsystem/core/\ninit; class: system; }
+[ dumpsys ] { label: dumpsys:\nframeworks/base/\ncmds/dumpsys; class: frameworks; }
+[ libpvencoder_gsmamr ] { label: libpvencoder_gsmamr:\nexternal/opencore/\ncodecs_v2/audio/\ngsm_amr/amr_nb/enc; class: external; }
+[ libpv_omx_interface ] { label: libpv_omx_interface:\nexternal/opencore/\ncodecs_v2/omx/\nomx_sharedlibrary/interface; class: external; }
+[ com.example.android.platform_library.xml ] { label: com.example.android.platform_library.xml:\ndevelopment/samples/\nPlatformLibrary; class: development; }
+[ check_prereq ] { label: check_prereq:\nbuild/tools/\ncheck_prereq; class: build; }
+[ svc ] { label: svc:\nframeworks/base/\ncmds/svc; class: frameworks; }
+[ make_g2g ] { label: make_g2g:\nexternal/srec/\ntools/make_g2g; class: external; }
+[ libpvamrffparsernode ] { label: libpvamrffparsernode:\nexternal/opencore/\nnodes/pvamrffparsernode; class: external; }
+[ libomx_mp3_component_lib ] { label: libomx_mp3_component_lib:\nexternal/opencore/\ncodecs_v2/omx/\nomx_mp3; class: external; }
+[ Stk ] { label: Stk:\npackages/apps/\nStk; class: packages; }
+[ libpvoma1passthruplugininterface ] { label: libpvoma1passthruplugininterface:\nexternal/opencore/\nmodules/cpm_oma1_passthru; class: external; }
+[ libnetutils ] { label: libnetutils:\nsystem/core/\nlibnetutils; class: system; }
+[ libprotocolenginenode_download_common ] { label: libprotocolenginenode_download_common:\nexternal/opencore/\nnodes/pvprotocolenginenode/\ndownload_protocols/common; class: external; }
+[ CameraTests ] { label: CameraTests:\npackages/apps/\nCamera/tests; class: packages; }
+[ test_g2g ] { label: test_g2g:\nexternal/srec/\ntools/test_g2g; class: external; }
+[ latencytop ] { label: latencytop:\nsystem/extras/\nlatencytop; class: system; }
+[ libpvdecoder_gsmamr ] { label: libpvdecoder_gsmamr:\nexternal/opencore/\ncodecs_v2/audio/\ngsm_amr/amr_nb/dec; class: external; }
+[ libpvmediaoutputnode ] { label: libpvmediaoutputnode:\nexternal/opencore/\nnodes/pvmediaoutputnode; class: external; }
+[ google-framework ] { label: google-framework:\nframeworks/opt/\ncom.google.android; class: frameworks; }
+[ librtppayloadparser ] { label: librtppayloadparser:\nexternal/opencore/\nprotocols/rtp_payload_parser; class: external; }
+[ GlobalTime ] { label: GlobalTime:\ndevelopment/samples/\nGlobalTime; class: development; }
+[ mediaserver ] { label: mediaserver:\nframeworks/base/\nmedia/mediaserver; class: frameworks; }
+[ libpvplayer_engine ] { label: libpvplayer_engine:\nexternal/opencore/\nengines/player; class: external; }
+[ screenshot2 ] { label: screenshot2:\ndevelopment/tools/\nscreenshot; class: development; }
+[ Calculator ] { label: Calculator:\npackages/apps/\nCalculator; class: packages; }
+[ libpvmediainputnode ] { label: libpvmediainputnode:\nexternal/opencore/\nnodes/pvmediainputnode; class: external; }
+[ CalendarProviderTests ] { label: CalendarProviderTests:\npackages/providers/\nCalendarProvider/tests; class: packages; }
+[ monkey ] { label: monkey:\ndevelopment/cmds/\nmonkey; class: development; }
+[ SkeletonApp ] { label: SkeletonApp:\ndevelopment/samples/\nSkeletonApp; class: development; }
+[ libsafe_iop ] { label: libsafe_iop:\nexternal/safe-iop; class: external; }
+[ libswt-cairo-gtk-3236 ] { label: libswt-cairo-gtk-3236:\nprebuilt/linux-x86/\nswt; class: prebuilt; }
+[ libpv_amr_nb_common_lib ] { label: libpv_amr_nb_common_lib:\nexternal/opencore/\ncodecs_v2/audio/\ngsm_amr/amr_nb/common; class: external; }
+[ libosclregserv ] { label: libosclregserv:\nexternal/opencore/\noscl/oscl/\nosclregserv; class: external; }
+[ libaudio ] { label: libaudio:\nintel-extras/libaudio_pulse; class: intel_extras; }
+[ libreference-ril ] { label: libreference-ril:\nhardware/ril/\nreference-ril; class: hardware; }
+[ libpvdownloadinterface ] { label: libpvdownloadinterface:\nexternal/opencore/\nmodules/linux_download/\ncore; class: external; }
+[ libosclutil ] { label: libosclutil:\nexternal/opencore/\noscl/oscl/\nosclutil; class: external; }
+[ libSR_Grammar ] { label: libSR_Grammar:\nexternal/srec/\nsrec/Grammar; class: external; }
+[ nmea ] { label: nmea:\nframeworks/base/\nlocation/data; class: frameworks; }
+[ libsqlite3_phonetic_string_utils_test ] { label: libsqlite3_phonetic_string_utils_test:\nexternal/sqlite/\nandroid; class: external; }
+[ test_swiarb ] { label: test_swiarb:\nexternal/srec/\ntools/test_swiarb; class: external; }
+[ dexlist ] { label: dexlist:\ndalvik/dexlist; class: dalvik; }
+[ gtkwindow ] { label: gtkwindow:\nframeworks/base/\ncmds/gtkwindow; class: frameworks; }
+[ libpvwavffparsernode ] { label: libpvwavffparsernode:\nexternal/opencore/\nnodes/pvwavffparsernode; class: external; }
+[ sdklib ] { label: sdklib:\ndevelopment/tools/\nsdkmanager/libs/\nsdklib/src; class: development; }
+[ libaudioflinger ] { label: libaudioflinger:\nframeworks/base/\nlibs/audioflinger; class: frameworks; }
+[ libomx_amr_component_lib ] { label: libomx_amr_component_lib:\nexternal/opencore/\ncodecs_v2/omx/\nomx_amr; class: external; }
+[ services ] { label: services:\nframeworks/base/\nservices/java; class: frameworks; }
+[ libexif ] { label: libexif:\nexternal/jhead; class: external; }
+[ libsimplejni ] { label: libsimplejni:\ndevelopment/samples/\nSimpleJNI/jni; class: development; }
+[ librank ] { label: librank:\nsystem/extras/\nlibrank; class: system; }
+[ libpvdownloadreginterface ] { label: libpvdownloadreginterface:\nexternal/opencore/\nmodules/linux_download/\nnode_registry; class: external; }
+[ libpvjitterbuffer ] { label: libpvjitterbuffer:\nexternal/opencore/\nnodes/streaming/\njitterbuffernode/jitterbuffer/common; class: external; }
+[ Contacts ] { label: Contacts:\npackages/apps/\nContacts; class: packages; }
+[ libsurfaceflinger ] { label: libsurfaceflinger:\nframeworks/base/\nlibs/surfaceflinger; class: frameworks; }
+[ libpvmediadatastruct ] { label: libpvmediadatastruct:\nexternal/opencore/\nbaselibs/media_data_structures; class: external; }
+[ location ] { label: location:\nframeworks/base/\nlocation/data; class: frameworks; }
+[ libemoji ] { label: libemoji:\nframeworks/opt/\nemoji; class: frameworks; }
+[ browsertestplugin ] { label: browsertestplugin:\nexternal/webkit/\nWebKit/android/\nplugins/sample; class: external; }
+[ kxml2-2.3.0 ] { label: kxml2-2.3.0:\nprebuilt/common/\nkxml2; class: prebuilt; }
+[ ImfTestTests ] { label: ImfTestTests:\nframeworks/base/\ntests/ImfTest/\ntests; class: frameworks; }
+[ libpvgendatastruct ] { label: libpvgendatastruct:\nexternal/opencore/\nbaselibs/gen_data_structures; class: external; }
+[ libSR_Nametag ] { label: libSR_Nametag:\nexternal/srec/\nsrec/Nametag; class: external; }
+[ localize ] { label: localize:\nframeworks/base/\ntools/localize; class: frameworks; }
+[ libhgl ] { label: libhgl:\nframeworks/base/\nopengl/libhgl; class: frameworks; }
+[ clearsilver ] { label: clearsilver:\nexternal/clearsilver/\njava-jni; class: external; }
+[ ime ] { label: ime:\nframeworks/base/\ncmds/ime; class: frameworks; }
+[ libpvrtspreginterface ] { label: libpvrtspreginterface:\nexternal/opencore/\nmodules/linux_rtsp/\nnode_registry; class: external; }
+[ layoutlib_utils ] { label: layoutlib_utils:\ndevelopment/tools/\nlayoutlib_utils; class: development; }
+[ layoutlib_api ] { label: layoutlib_api:\nframeworks/base/\ntools/layoutlib/\napi; class: frameworks; }
+[ cmu2nuance ] { label: cmu2nuance:\nexternal/srec/\nconfig/en.us; class: external; }
+[ libcameraservice ] { label: libcameraservice:\nframeworks/base/\ncamera/libcameraservice; class: frameworks; }
+[ MusicTests ] { label: MusicTests:\npackages/apps/\nMusic/tests; class: packages; }
+[ FrameworkTestTests ] { label: FrameworkTestTests:\nframeworks/base/\ntests/FrameworkTest/\ntests; class: frameworks; }
+[ libpvmp4ffparsernode ] { label: libpvmp4ffparsernode:\nexternal/opencore/\nnodes/pvmp4ffparsernode; class: external; }
+[ libscsp ] { label: libscsp:\nexternal/opencore/\nfileformats/scsp; class: external; }
+[ libpvpvxparser ] { label: libpvpvxparser:\nexternal/opencore/\nfileformats/pvx/\nparser; class: external; }
+[ showslab ] { label: showslab:\nsystem/extras/\nshowslab; class: system; }
+[ ContactsTests ] { label: ContactsTests:\npackages/apps/\nContacts/tests; class: packages; }
+[ hprof-conv ] { label: hprof-conv:\ndalvik/tools/\nhprof-conv; class: dalvik; }
+[ libSR_EventLog ] { label: libSR_EventLog:\nexternal/srec/\nsrec/EventLog; class: external; }
+[ dumpkey ] { label: dumpkey:\nsystem/core/\nlibmincrypt/tools; class: system; }
+[ libpvmp3ffrecognizer ] { label: libpvmp3ffrecognizer:\nexternal/opencore/\npvmi/recognizer/\nplugins/pvmp3ffrecognizer; class: external; }
+[ org-netbeans-api-visual ] { label: org-netbeans-api-visual:\nprebuilt/common/\nnetbeans-visual; class: prebuilt; }
+[ libft2 ] { label: libft2:\nexternal/freetype; class: external; }
+[ org-openide-util ] { label: org-openide-util:\nprebuilt/common/\nnetbeans-visual; class: prebuilt; }
+[ libpvmiofileinput ] { label: libpvmiofileinput:\nexternal/opencore/\npvmi/media_io/\npvmi_mio_fileinput; class: external; }
+[ timeinfo ] { label: timeinfo:\nsystem/extras/\ntimeinfo; class: system; }
+[ libneo_cgi ] { label: libneo_cgi:\nexternal/clearsilver/\ncgi; class: external; }
+[ mkstubs ] { label: mkstubs:\ndevelopment/tools/\nmkstubs; class: development; }
+[ bison ] { label: bison:\nexternal/bison; class: external; }
+[ libswt-pi-gtk-3236 ] { label: libswt-pi-gtk-3236:\nprebuilt/linux-x86/\nswt; class: prebuilt; }
+[ libosclregcli ] { label: libosclregcli:\nexternal/opencore/\noscl/oscl/\nosclregcli; class: external; }
+[ test-opengl-tritex ] { label: test-opengl-tritex:\nframeworks/base/\nopengl/tests/\ntritex; class: frameworks; }
+[ libpvstreamingmanagernode ] { label: libpvstreamingmanagernode:\nexternal/opencore/\nnodes/streaming/\nstreamingmanager; class: external; }
+[ libpvmp3ffparsernode ] { label: libpvmp3ffparsernode:\nexternal/opencore/\nnodes/pvmp3ffparsernode; class: external; }
+[ liboscllib ] { label: liboscllib:\nexternal/opencore/\noscl/oscl/\noscllib; class: external; }
+[ angeles ] { label: angeles:\nframeworks/base/\nopengl/tests/\nangeles; class: frameworks; }
+[ libdrm2 ] { label: libdrm2:\nframeworks/base/\nmedia/libdrm/\nmobile2; class: frameworks; }
+[ libpvomxvideodecnode ] { label: libpvomxvideodecnode:\nexternal/opencore/\nnodes/pvomxvideodecnode; class: external; }
+[ gamb ] { label: gamb:\nframeworks/base/\ncmds/application_bridge; class: frameworks; }
+[ libpv_avc_common_lib ] { label: libpv_avc_common_lib:\nexternal/opencore/\ncodecs_v2/video/\navc_h264/common; class: external; }
+[ com.android.inputmethod.pinyin.lib ] { label: com.android.inputmethod.pinyin.lib:\npackages/inputmethods/\nPinyinIME/PinyinIME/\nlib; class: packages; }
+[ libprotocolenginenode_pdl ] { label: libprotocolenginenode_pdl:\nexternal/opencore/\nnodes/pvprotocolenginenode/\ndownload_protocols/progressive_download; class: external; }
+[ libomx_avcenc_component_lib ] { label: libomx_avcenc_component_lib:\nexternal/opencore/\ncodecs_v2/omx/\nomx_h264enc; class: external; }
+[ libaes ] { label: libaes:\nexternal/aes; class: external; }
+[ libpixelflinger_static ] { label: libpixelflinger_static:\nsystem/core/\nlibpixelflinger; class: system; }
+[ libaudiointerface ] { label: libaudiointerface:\nframeworks/base/\nlibs/audioflinger; class: frameworks; }
+[ libcolorconvert ] { label: libcolorconvert:\nexternal/opencore/\ncodecs_v2/utilities/\ncolorconvert; class: external; }
+[ libpv_aac_dec ] { label: libpv_aac_dec:\nexternal/opencore/\ncodecs_v2/audio/\naac/dec; class: external; }
+[ libpvsocketnode ] { label: libpvsocketnode:\nexternal/opencore/\nnodes/pvsocketnode; class: external; }
+[ dexopt ] { label: dexopt:\ndalvik/dexopt; class: dalvik; }
+[ libFFTEm ] { label: libFFTEm:\nexternal/neven; class: external; }
+[ libpvavch264enc ] { label: libpvavch264enc:\nexternal/opencore/\ncodecs_v2/video/\navc_h264/enc; class: external; }
+[ libjni_pinyinime ] { label: libjni_pinyinime:\npackages/inputmethods/\nPinyinIME/PinyinIME/\njni; class: packages; }
+[ libm4v_config ] { label: libm4v_config:\nexternal/opencore/\ncodecs_v2/utilities/\nm4v_config_parser; class: external; }
+[ libpvfileparserutils ] { label: libpvfileparserutils:\nexternal/opencore/\nfileformats/common/\nparser; class: external; }
+[ surfaceflinger ] { label: surfaceflinger:\nframeworks/base/\ncmds/surfaceflinger; class: frameworks; }
+[ libpvmedialayernode ] { label: libpvmedialayernode:\nexternal/opencore/\nnodes/streaming/\nmedialayernode; class: external; }
+[ showmap ] { label: showmap:\nsystem/extras/\nshowmap; class: system; }
+[ libomx_amrenc_component_lib ] { label: libomx_amrenc_component_lib:\nexternal/opencore/\ncodecs_v2/omx/\nomx_amrenc; class: external; }
+[ libdrm1_jni ] { label: libdrm1_jni:\nframeworks/base/\nmedia/libdrm/\nmobile1; class: frameworks; }
+[ librtprtcp ] { label: librtprtcp:\nexternal/opencore/\nprotocols/rtp; class: external; }
+[ libpvrtsp_cli_eng_node ] { label: libpvrtsp_cli_eng_node:\nexternal/opencore/\nprotocols/rtsp_client_engine; class: external; }
+[ libomx_queue_lib ] { label: libomx_queue_lib:\nexternal/opencore/\ncodecs_v2/omx/\nomx_queue; class: external; }
+[ backup ] { label: backup:\nsystem/extras/\nbackup; class: system; }
+[ libpvm4vencoder ] { label: libpvm4vencoder:\nexternal/opencore/\ncodecs_v2/video/\nm4v_h263/enc; class: external; }
+[ LunarLanderTests ] { label: LunarLanderTests:\ndevelopment/samples/\nLunarLander/tests; class: development; }
+[ wdsclient ] { label: wdsclient:\nexternal/webkit/\nWebKit/android/\nwds/client; class: external; }
+[ libpvmp4decoder ] { label: libpvmp4decoder:\nexternal/opencore/\ncodecs_v2/video/\nm4v_h263/dec; class: external; }
+[ servicemanager ] { label: servicemanager:\nframeworks/base/\ncmds/servicemanager; class: frameworks; }
+[ libpvmp4ffrecognizer ] { label: libpvmp4ffrecognizer:\nexternal/opencore/\npvmi/recognizer/\nplugins/pvmp4ffrecognizer; class: external; }
+[ atree ] { label: atree:\nbuild/tools/\natree; class: build; }
+[ libpvaacparser ] { label: libpvaacparser:\nexternal/opencore/\nfileformats/rawaac/\nparser; class: external; }
+[ libpvmp4interface ] { label: libpvmp4interface:\nexternal/opencore/\nmodules/linux_mp4/\ncore; class: external; }
+[ libosclproc ] { label: libosclproc:\nexternal/opencore/\noscl/oscl/\nosclproc; class: external; }
+[ libprotocolenginenode_base ] { label: libprotocolenginenode_base:\nexternal/opencore/\nnodes/pvprotocolenginenode/\nbase; class: external; }
+[ libpvframemetadatautility ] { label: libpvframemetadatautility:\nexternal/opencore/\nengines/adapters/\nplayer/framemetadatautility; class: external; }
+[ libicudata-eu ] { label: libicudata-eu:\nexternal/icu4c/\nstubdata; class: external; }
+[ libpvfileoutputnode ] { label: libpvfileoutputnode:\nexternal/opencore/\nnodes/pvfileoutputnode; class: external; }
+[ libtinyxml ] { label: libtinyxml:\nexternal/tinyxml; class: external; }
+[ libpvmimeutils ] { label: libpvmimeutils:\nexternal/opencore/\nbaselibs/pv_mime_utils; class: external; }
+[ jfreechart-1.0.9 ] { label: jfreechart-1.0.9:\nprebuilt/common/\njfreechart; class: prebuilt; }
+[ libandroidpv ] { label: libandroidpv:\nexternal/opencore/\nandroid; class: external; }
+[ libpvavifileparser ] { label: libpvavifileparser:\nexternal/opencore/\nfileformats/avi/\nparser; class: external; }
+[ Email ] { label: Email:\npackages/apps/\nEmail; class: packages; }
+[ libxml2 ] { label: libxml2:\nexternal/libxml2; class: external; }
+[ rild ] { label: rild:\nhardware/ril/\nrild; class: hardware; }
+[ libosclio ] { label: libosclio:\nexternal/opencore/\noscl/oscl/\nosclio; class: external; }
+[ libhost ] { label: libhost:\nbuild/libs/\nhost; class: build; }
+[ libpvomxbasedecnode ] { label: libpvomxbasedecnode:\nexternal/opencore/\nnodes/pvomxbasedecnode; class: external; }
+[ libprotocolenginenode_ps ] { label: libprotocolenginenode_ps:\nexternal/opencore/\nnodes/pvprotocolenginenode/\ndownload_protocols/progressive_streaming; class: external; }
+[ libpvsdpparser ] { label: libpvsdpparser:\nexternal/opencore/\nprotocols/sdp/\nparser; class: external; }
+[ libpvmp4ffcomposernode ] { label: libpvmp4ffcomposernode:\nexternal/opencore/\nnodes/pvmp4ffcomposernode; class: external; }
+[ libpvaacffrecognizer ] { label: libpvaacffrecognizer:\nexternal/opencore/\npvmi/recognizer/\nplugins/pvaacffrecognizer; class: external; }
+[ libosclerror ] { label: libosclerror:\nexternal/opencore/\noscl/oscl/\nosclerror; class: external; }
+[ test_defs.xml ] { label: test_defs.xml:\ndevelopment/testrunner; class: development; }
+[ libpvmp4ff ] { label: libpvmp4ff:\nexternal/opencore/\nfileformats/mp4/\nparser; class: external; }
+[ libgif ] { label: libgif:\nexternal/giflib; class: external; }
+[ libjavacore ] { label: libjavacore:\ndalvik/libcore; class: dalvik; }
+[ libpvmfrecognizer ] { label: libpvmfrecognizer:\nexternal/opencore/\npvmi/recognizer; class: external; }
+[ libomx_m4venc_component_lib ] { label: libomx_m4venc_component_lib:\nexternal/opencore/\ncodecs_v2/omx/\nomx_m4venc; class: external; }
+[ libpvomxaudiodecnode ] { label: libpvomxaudiodecnode:\nexternal/opencore/\nnodes/pvomxaudiodecnode; class: external; }
+[ libprotocolenginenode_common ] { label: libprotocolenginenode_common:\nexternal/opencore/\nnodes/pvprotocolenginenode/\nprotocol_common; class: external; }
+[ libpvgsmamrparser ] { label: libpvgsmamrparser:\nexternal/opencore/\nfileformats/rawgsmamr/\nparser; class: external; }
+[ libpvwavffrecognizer ] { label: libpvwavffrecognizer:\nexternal/opencore/\npvmi/recognizer/\nplugins/pvwavffrecognizer; class: external; }
+[ CalendarProviderTests ] -> [ android.test.runner ]
+[ ContactsTests ] -> [ Contacts ]
+[ logwrapper ] -> [ liblog ]
+[ org.eclipse.core.commands_3.2.0.I20060605-1400 ] -> [ acp ]
+[ GlobalTime ] -> [ framework ]
+[ toolbox ] -> [ libcutils ]
+[ libicudata-jp ] -> [ icudata ]
+[ dictTest ] -> [ libSR_Session ]
+[ platform.xml ] -> [ acp ]
+[ ddmlib ] -> [ acp ]
+[ libSR_Recognizer ] -> [ libSR_Grammar ]
+[ layoutlib_utils ] -> [ layoutlib_api ]
+[ libomx_amrdec_sharedlibrary ] -> [ libandroid_runtime ]
+[ test_zipfile ] -> [ acp ]
+[ mediaframeworktest ] -> [ android.test.runner ]
+[ am ] -> [ framework ]
+[ SRecTestAudio ] -> [ libsrec_jni ]
+[ Launcher ] -> [ ext ]
+[ DisabledTestApp ] -> [ ext ]
+[ com.example.android.platform_library.xml ] -> [ acp ]
+[ libomx_avcenc_sharedlibrary ] -> [ libandroid_runtime ]
+[ android-init ] -> [ libcutils ]
+[ FixedGridLayout ] -> [ zipalign ]
+[ core-tests ] -> [ aapt ]
+[ libSR_G2P ] -> [ libESR_Shared ]
+[ surfaceflinger ] -> [ libsurfaceflinger ]
+[ svc ] -> [ framework ]
+[ libopencore_rtspreg ] -> [ libandroid_runtime ]
+[ Stk ] -> [ framework ]
+[ line_endings ] -> [ acp ]
+[ jdwpspy ] -> [ acp ]
+[ Term ] -> [ ext ]
+[ sound ] -> [ acp ]
+[ SubscribedFeedsProvider ] -> [ ext ]
+[ Email ] -> [ ext ]
+[ traceview ] -> [ sdkstats ]
+[ libneo_cgi ] -> [ libneo_cs ]
+[ CalendarProviderTests ] -> [ CalendarProvider ]
+[ libGLESv1_CM ] -> [ libui ]
+[ jcommon-1.0.12 ] -> [ acp ]
+[ angeles ] -> [ libEGL ]
+[ core ] -> [ aapt ]
+[ libhardware_legacy ] -> [ libnetutils ]
+[ SettingsTests ] -> [ android.test.runner ]
+[ libcameraservice ] -> [ libcamera ]
+[ HelloActivity ] -> [ zipalign ]
+[ check_prereq ] -> [ libcutils ]
+[ idegen ] -> [ acp ]
+[ libSR_Recognizer ] -> [ libSR_Nametag ]
+[ AudioHardwareRecordLoop ] -> [ libsrec_jni ]
+[ jasmin ] -> [ acp ]
+[ monkey ] -> [ ext ]
+[ location ] -> [ acp ]
+[ libopencore_player ] -> [ libandroid_runtime ]
+[ libFFTEm ] -> [ libandroid_runtime ]
+[ dumpstate ] -> [ libcutils ]
+[ libnetutils ] -> [ libcutils ]
+[ dx ] -> [ acp ]
+[ libSR_Nametag ] -> [ libSR_Vocabulary ]
+[ hierarchyviewer ] -> [ ddmlib ]
+[ ime ] -> [ ext ]
+[ Home ] -> [ aapt ]
+[ dmtracedump ] -> [ acp ]
+[ SimpleJNI ] -> [ ext ]
+[ FixedGridLayout ] -> [ aapt ]
+[ GoogleContactsProviderTests ] -> [ GoogleContactsProvider ]
+[ SnakeTests ] -> [ android.test.runner ]
+[ TelephonyProvider ] -> [ framework ]
+[ CameraTests ] -> [ android.test.runner ]
+[ SoundRecorder ] -> [ ext ]
+[ clearsilver ] -> [ acp ]
+[ Term ] -> [ framework ]
+[ signapk ] -> [ acp ]
+[ ApiDemosTests ] -> [ android.test.runner ]
+[ services ] -> [ framework ]
+[ ApiDemos ] -> [ zipalign ]
+[ JETBoy ] -> [ framework ]
+[ libswt-atk-gtk-3236 ] -> [ acp ]
+[ Email ] -> [ framework ]
+[ android.policy_phone ] -> [ framework ]
+[ makekeycodes ] -> [ acp ]
+[ libzipfile ] -> [ acp ]
+[ make_ve_grammar ] -> [ libSR_Recognizer ]
+[ googlelogin-client ] -> [ acp ]
+[ Snake ] -> [ aapt ]
+[ safe_iop_test ] -> [ acp ]
+[ SoftKeyboard ] -> [ aapt ]
+[ Stk ] -> [ ext ]
+[ mkbootfs ] -> [ acp ]
+[ ddmuilib ] -> [ jfreechart-1.0.9-swt ]
+[ test-opengl-tritex ] -> [ libEGL ]
+[ DensityTest ] -> [ framework ]
+[ AndroidTests ] -> [ framework-tests ]
+[ localize ] -> [ libutils ]
+[ create_test_dmtrace ] -> [ acp ]
+[ libsgl ] -> [ libemoji ]
+[ PinyinIME ] -> [ ext ]
+[ android.test.runner ] -> [ framework ]
+[ libneo_cs ] -> [ libneo_util ]
+[ logcat ] -> [ liblog ]
+[ GoogleSubscribedFeedsProvider ] -> [ framework ]
+[ GoogleSubscribedFeedsProvider ] -> [ ext ]
+[ latencytop ] -> [ acp ]
+[ CameraTests ] -> [ Camera ]
+[ framework-res ] -> [ zipalign ]
+[ org-openide-util ] -> [ acp ]
+[ GoogleSearch ] -> [ framework ]
+[ DensityTest ] -> [ ext ]
+[ libopencore_mp4localreg ] -> [ libandroid_runtime ]
+[ am ] -> [ ext ]
+[ dumpkey ] -> [ acp ]
+[ libhardware ] -> [ libcutils ]
+[ libembunit ] -> [ acp ]
+[ DrmProvider ] -> [ ext ]
+[ libdvm ] -> [ libnativehelper ]
+[ pvplayer ] -> [ acp ]
+[ sdkstats ] -> [ org.eclipse.jface_3.2.0.I20060605-1400 ]
+[ jfreechart-1.0.9-swt ] -> [ acp ]
+[ libagl ] -> [ libpixelflinger ]
+[ libril ] -> [ libhardware_legacy ]
+[ libwebcore ] -> [ libandroid_runtime ]
+[ hierarchyviewer ] -> [ org-netbeans-api-visual ]
+[ libneo_util ] -> [ acp ]
+[ framework-tests ] -> [ android.test.runner ]
+[ AudioInRecord ] -> [ libsrec_jni ]
+[ event-log-tags ] -> [ acp ]
+[ libomx_aacdec_sharedlibrary ] -> [ libandroid_runtime ]
+[ test-opengl-filter ] -> [ libGLESv1_CM ]
+[ JETBoy ] -> [ ext ]
+[ HelloActivity ] -> [ aapt ]
+[ Contacts ] -> [ ext ]
+[ org.eclipse.equinox.common_3.2.0.v20060603 ] -> [ acp ]
+[ libopencore_author ] -> [ libandroid_runtime ]
+[ libhgl ] -> [ libcutils ]
+[ showmap ] -> [ libcutils ]
+[ CalendarTests ] -> [ Calendar ]
+[ NotePad ] -> [ zipalign ]
+[ libpagemap ] -> [ acp ]
+[ libomx_m4vdec_sharedlibrary ] -> [ libandroid_runtime ]
+[ com.example.android.platform_library ] -> [ ext ]
+[ test-opengl-textures ] -> [ libEGL ]
+[ dictTest ] -> [ libSR_Recognizer ]
+[ libwpa_client ] -> [ libcutils ]
+[ androidprefs ] -> [ acp ]
+[ eventanalyzer ] -> [ ddmlib ]
+[ SmokeTestApp ] -> [ android.test.runner ]
+[ ddms ] -> [ ddmuilib ]
+[ ImfTestTests ] -> [ ImfTest ]
+[ test-opengl-finish ] -> [ libEGL ]
+[ CalendarProvider ] -> [ framework ]
+[ GoogleSearch ] -> [ ext ]
+[ mediaserver ] -> [ libmediaplayerservice ]
+[ com.android.inputmethod.pinyin.lib ] -> [ ext ]
+[ icudata ] -> [ acp ]
+[ libsonivox ] -> [ libutils ]
+[ bison ] -> [ acp ]
+[ EmailTests ] -> [ android.test.runner ]
+[ ContactsProvider ] -> [ framework ]
+[ Compass ] -> [ zipalign ]
+[ parseStringTest ] -> [ libSR_Session ]
+[ LunarLander ] -> [ zipalign ]
+[ libEGL ] -> [ libui ]
+[ Development ] -> [ android.test.runner ]
+[ procmem ] -> [ libpagemap ]
+[ sdklib ] -> [ androidprefs ]
+[ libopencore_rtsp ] -> [ libandroid_runtime ]
+[ droidcore ] -> [ files ]
+[ SslLoad ] -> [ framework ]
+[ PinyinIME ] -> [ framework ]
+[ libpvoma1passthru ] -> [ libandroid_runtime ]
+[ NotePad ] -> [ aapt ]
+[ layoutlib_create ] -> [ asm-3.1 ]
+[ hprof-conv ] -> [ acp ]
+[ libomx_avcdec_sharedlibrary ] -> [ libandroid_runtime ]
+[ procrank ] -> [ libpagemap ]
+[ HelloActivityTests ] -> [ android.test.runner ]
+[ StatusBarTest ] -> [ framework ]
+[ FontLab ] -> [ ext ]
+[ RSSReader ] -> [ aapt ]
+[ libclearsilver-jni ] -> [ libneo_cgi ]
+[ checkapi ] -> [ framework ]
+[ DownloadProvider ] -> [ ext ]
+[ libplatform_library_jni ] -> [ libandroid_runtime ]
+[ libswt-gtk-3236 ] -> [ acp ]
+[ dexopt ] -> [ libdvm ]
+[ ImProvider ] -> [ com.android.im.plugin ]
+[ Browser ] -> [ android.test.runner ]
+[ CalendarProvider ] -> [ ext ]
+[ svc ] -> [ ext ]
+[ libSR_Grammar ] -> [ libSR_Semproc ]
+[ SkeletonApp ] -> [ aapt ]
+[ libcameraservice ] -> [ libmedia ]
+[ droiddoc ] -> [ clearsilver ]
+[ ddmuilib ] -> [ swt ]
+[ ContactsProvider ] -> [ ext ]
+[ make_cfst ] -> [ libSR_Session ]
+[ libSR_AcousticState ] -> [ libSR_Core ]
+[ angeles ] -> [ libGLESv1_CM ]
+[ GoogleContactsProvider ] -> [ ext ]
+[ android.policy_mid ] -> [ framework ]
+[ libhardware_legacy ] -> [ libwpa_client ]
+[ make_g2g ] -> [ libSR_Recognizer ]
+[ ddms ] -> [ sdkstats ]
+[ wbxmltest ] -> [ libutils ]
+[ libgstmediarecorder ] -> [ libmedia ]
+[ test-opengl-filter ] -> [ libEGL ]
+[ sdkstats ] -> [ androidprefs ]
+[ files ] -> [ libandroid_servers ]
+[ make_ve_grammar ] -> [ libSR_Session ]
+[ GoogleContactsProvider ] -> [ framework ]
+[ Settings ] -> [ framework ]
+[ libsoundpool ] -> [ libandroid_runtime ]
+[ libaudioflinger ] -> [ libmedia ]
+[ lights.default ] -> [ libutils ]
+[ grxmlcompile ] -> [ libSR_Session ]
+[ dexlist ] -> [ libcutils ]
+[ Mms ] -> [ SoundRecorder ]
+[ libSR_Vocabulary ] -> [ libSR_Core ]
+[ IM ] -> [ android.test.runner ]
+[ SpareParts ] -> [ ext ]
+[ libvorbisidec ] -> [ acp ]
+[ rild ] -> [ libril ]
+[ VoiceDialer ] -> [ ext ]
+[ Snake ] -> [ zipalign ]
+[ test-opengl-textures ] -> [ libGLESv1_CM ]
+[ test_g2g ] -> [ libSR_Recognizer ]
+[ CoreTests ] -> [ android.test.runner ]
+[ Calculator ] -> [ framework ]
+[ HTMLViewer ] -> [ framework ]
+[ EnabledTestApp ] -> [ ext ]
+[ GlobalTime ] -> [ ext ]
+[ Settings ] -> [ ext ]
+[ adbd ] -> [ libcutils ]
+[ ImfTest ] -> [ ext ]
+[ AliasActivity ] -> [ zipalign ]
+[ libESR_Shared ] -> [ libESR_Portable ]
+[ framework ] -> [ core ]
+[ libwbxml_jni ] -> [ libutils ]
+[ libicudata-us ] -> [ icudata ]
+[ ddmuilib ] -> [ org.eclipse.core.commands_3.2.0.I20060605-1400 ]
+[ android.test.runner ] -> [ ext ]
+[ libexif ] -> [ libnativehelper ]
+[ swt ] -> [ acp ]
+[ libomx_m4venc_sharedlibrary ] -> [ libandroid_runtime ]
+[ android.awt ] -> [ framework ]
+[ android.policy_phone ] -> [ ext ]
+[ gamb ] -> [ libutils ]
+[ libopencore_net_support ] -> [ libandroid_runtime ]
+[ Camera ] -> [ framework ]
+[ browsertestplugin ] -> [ acp ]
+[ libutils ] -> [ libcutils ]
+[ libsqlite ] -> [ libicui18n ]
+[ libswt-cairo-gtk-3236 ] -> [ acp ]
+[ MusicTests ] -> [ Music ]
+[ AppWidgetProvider ] -> [ framework ]
+[ libSR_Semproc ] -> [ libSR_Core ]
+[ framework-res ] -> [ aapt ]
+[ DownloadProvider ] -> [ framework ]
+[ draw9patch ] -> [ swing-worker-1.1 ]
+[ SdkSetup ] -> [ framework ]
+[ makedict ] -> [ acp ]
+[ dalvikvm ] -> [ libdvm ]
+[ Fallback ] -> [ ext ]
+[ run-core-tests ] -> [ acp ]
+[ libcutils ] -> [ liblog ]
+[ libsimplejni ] -> [ libutils ]
+[ libSR_EventLog ] -> [ libESR_Shared ]
+[ DumpRenderTree ] -> [ android.test.runner ]
+[ com.android.inputmethod.pinyin.lib ] -> [ framework ]
+[ apkbuilder ] -> [ jarutils ]
+[ libomx_amrenc_sharedlibrary ] -> [ libandroid_runtime ]
+[ libicuuc ] -> [ libicudata-us ]
+[ libgtkwindow ] -> [ libutils ]
+[ libgstreamer ] -> [ libui ]
+[ LunarLander ] -> [ aapt ]
+[ CalculatorTests ] -> [ android.test.runner ]
+[ libaudio ] -> [ libutils ]
+[ libwbxml ] -> [ libutils ]
+[ libopencore_downloadreg ] -> [ libandroid_runtime ]
+[ radiooptions ] -> [ libcutils ]
+[ test-opengl-codegen ] -> [ libpixelflinger ]
+[ SettingsProvider ] -> [ framework ]
+[ service ] -> [ libutils ]
+[ FrameworkTest ] -> [ android.test.runner ]
+[ layoutlib_api ] -> [ kxml2-2.3.0 ]
+[ libmedia ] -> [ libui ]
+[ libsqlite3_phonetic_string_utils_test ] -> [ acp ]
+[ com.android.im.plugin ] -> [ ext ]
+[ libESR_Portable ] -> [ acp ]
+[ libswt-pi-gtk-3236 ] -> [ acp ]
+[ sdkuilib ] -> [ sdklib ]
+[ NotePadTests ] -> [ android.test.runner ]
+[ libsrec_jni ] -> [ libmedia ]
+[ libandroid_runtime ] -> [ libskiagl ]
+[ Music ] -> [ ext ]
+[ MediaProvider ] -> [ framework ]
+[ gpustate ] -> [ libGLESv1_CM ]
+[ dvz ] -> [ libcutils ]
+[ Phone ] -> [ framework ]
+[ AlarmClock ] -> [ framework ]
+[ jarutils ] -> [ androidprefs ]
+[ libhardware_legacy ] -> [ libutils ]
+[ Contacts ] -> [ framework ]
+[ libSR_AcousticModels ] -> [ libSR_Core ]
+[ test-opengl-tritex ] -> [ libGLESv1_CM ]
+[ SdkSetup ] -> [ ext ]
+[ make_g2g ] -> [ libSR_Session ]
+[ libSR_Vocabulary ] -> [ libSR_G2P ]
+[ ime ] -> [ framework ]
+[ dexdump ] -> [ liblog ]
+[ fs_get_stats ] -> [ acp ]
+[ test_swiarb ] -> [ libSR_Recognizer ]
+[ temp_layoutlib ] -> [ framework ]
+[ VoiceDialer ] -> [ framework ]
+[ ddmuilib ] -> [ jcommon-1.0.12 ]
+[ libxml2wbxml ] -> [ libutils ]
+[ test-opengl-finish ] -> [ libGLESv1_CM ]
+[ libSR_Grammar ] -> [ libSR_Vocabulary ]
+[ SRecTest ] -> [ libsrec_jni ]
+[ test_g2g ] -> [ libSR_Session ]
+[ StatusBarTest ] -> [ ext ]
+[ dumpsys ] -> [ libutils ]
+[ HTMLViewer ] -> [ ext ]
+[ Fallback ] -> [ framework ]
+[ acp ] -> [ libhost ]
+[ android.awt ] -> [ ext ]
+[ mkstubs ] -> [ asm-3.1 ]
+[ librank ] -> [ libpagemap ]
+[ libmediaplayerservice ] -> [ libandroid_runtime ]
+[ genext2fs ] -> [ acp ]
+[ gtkwindow ] -> [ libgtkwindow ]
+[ org-netbeans-api-visual ] -> [ acp ]
+[ su ] -> [ acp ]
+[ RSSReader ] -> [ zipalign ]
+[ launchperf ] -> [ android.test.runner ]
+[ FontLab ] -> [ framework ]
+[ ext ] -> [ core ]
+[ liblog ] -> [ acp ]
+[ libskiagl ] -> [ libGLESv1_CM ]
+[ installd ] -> [ libcutils ]
+[ ImfTest ] -> [ framework ]
+[ libdrm1_jni ] -> [ libutils ]
+[ zipalign ] -> [ libutils ]
+[ libomx_sharedlibrary ] -> [ libandroid_runtime ]
+[ timeinfo ] -> [ libhardware_legacy ]
+[ libomx_mp3dec_sharedlibrary ] -> [ libandroid_runtime ]
+[ EmailTests ] -> [ Email ]
+[ AlarmClock ] -> [ ext ]
+[ CustomLocale ] -> [ ext ]
+[ PackageInstaller ] -> [ ext ]
+[ system_server ] -> [ libutils ]
+[ LunarLanderTests ] -> [ android.test.runner ]
+[ Music ] -> [ framework ]
+[ hierarchyviewer ] -> [ swing-worker-1.1 ]
+[ jasmin.jar ] -> [ acp ]
+[ AT_Translated_Set_2_keyboard.kcm ] -> [ kcm ]
+[ backup ] -> [ libcutils ]
+[ Camera ] -> [ ext ]
+[ AppWidgetHostTest ] -> [ ext ]
+[ preload ] -> [ acp ]
+[ libreference-ril ] -> [ libril ]
+[ bookmarks.xml ] -> [ acp ]
+[ dumpeventlog ] -> [ ddmlib ]
+[ aapt ] -> [ libutils ]
+[ aidl ] -> [ acp ]
+[ com.android.im.plugin ] -> [ framework ]
+[ MediaProvider ] -> [ ext ]
+[ libopencore_common ] -> [ libandroid_runtime ]
+[ hierarchyviewer ] -> [ org-openide-util ]
+[ libSR_AcousticModels ] -> [ libSR_EventLog ]
+[ SoftKeyboard ] -> [ zipalign ]
+[ gpustate ] -> [ libEGL ]
+[ pm ] -> [ ext ]
+[ android ] -> [ acp ]
+[ sdkmanager ] -> [ sdkuilib ]
+[ libnativehelper ] -> [ libsqlite ]
+[ android.policy ] -> [ acp ]
+[ libui ] -> [ libpixelflinger ]
+[ DrmProvider ] -> [ framework ]
+[ Home ] -> [ zipalign ]
+[ CalculatorTests ] -> [ Calculator ]
+[ libemoji ] -> [ libutils ]
+[ com.example.android.platform_library ] -> [ framework ]
+[ swing-worker-1.1 ] -> [ acp ]
+[ libaes ] -> [ acp ]
+[ ContactsTests ] -> [ android.test.runner ]
+[ sdkstats ] -> [ org.eclipse.equinox.common_3.2.0.v20060603 ]
+[ prebuilt ] -> [ grxmlcompile ]
+[ SpareParts ] -> [ framework ]
+[ ddmuilib ] -> [ ddmlib ]
+[ ninepatch ] -> [ acp ]
+[ android.policy_mid ] -> [ ext ]
+[ adb ] -> [ libcutils ]
+[ test_defs.xml ] -> [ acp ]
+[ libcorecg ] -> [ libutils ]
+[ checkapi ] -> [ ext ]
+[ libandroid_servers ] -> [ libsystem_server ]
+[ jfreechart-1.0.9 ] -> [ acp ]
+[ libicui18n ] -> [ libicuuc ]
+[ atree ] -> [ acp ]
+[ libSR_Session ] -> [ libSR_Grammar ]
+[ libpixelflinger ] -> [ libhardware_legacy ]
+[ SslLoad ] -> [ ext ]
+[ TelephonyProvider ] -> [ ext ]
+[ sqlite3 ] -> [ liblog ]
+[ SmokeTest ] -> [ SmokeTestApp ]
+[ apicheck ] -> [ acp ]
+[ sdkstats ] -> [ org.eclipse.core.commands_3.2.0.I20060605-1400 ]
+[ GoogleContactsProviderTests ] -> [ android.test.runner ]
+[ services ] -> [ ext ]
+[ AliasActivity ] -> [ aapt ]
+[ libmedia_jni ] -> [ libomx_amrenc_sharedlibrary ]
+[ libsurfaceflinger ] -> [ libGLESv1_CM ]
+[ kcm ] -> [ acp ]
+[ libjni_pinyinime ] -> [ libutils ]
+[ CustomLocale ] -> [ framework ]
+[ screenshot2 ] -> [ ddmlib ]
+[ libsurfaceflinger ] -> [ libEGL ]
+[ libdrm1 ] -> [ libutils ]
+[ libSR_Core ] -> [ libESR_Shared ]
+[ AppWidgetProvider ] -> [ ext ]
+[ ApiDemos ] -> [ aapt ]
+[ libicudata-default ] -> [ icudata ]
+[ org.eclipse.jface_3.2.0.I20060605-1400 ] -> [ acp ]
+[ Compass ] -> [ aapt ]
+[ properties ] -> [ acp ]
+[ showslab ] -> [ acp ]
+[ monkey ] -> [ framework ]
+[ DisabledTestApp ] -> [ framework ]
+[ libmedia_jni ] -> [ libopencore_author ]
+[ mkbootimg ] -> [ acp ]
+[ ddmuilib ] -> [ org.eclipse.jface_3.2.0.I20060605-1400 ]
+[ MusicTests ] -> [ android.test.runner ]
+[ ddmuilib ] -> [ org.eclipse.equinox.common_3.2.0.v20060603 ]
+[ nmea ] -> [ acp ]
+[ PackageInstaller ] -> [ framework ]
+[ libopencore_mp4local ] -> [ libandroid_runtime ]
+[ Calculator ] -> [ ext ]
+[ prebuilt ] -> [ make_g2g ]
+[ Phone ] -> [ ext ]
+[ libmedia_jni ] -> [ libopencore_player ]
+[ kxml2-2.3.0 ] -> [ acp ]
+[ libsystem_server ] -> [ libmediaplayerservice ]
+[ EnabledTestApp ] -> [ framework ]
+[ sdkstats ] -> [ swt ]
+[ libfst ] -> [ acp ]
+[ test_swiarb ] -> [ libSR_Session ]
+[ libarity ] -> [ acp ]
+[ wdsclient ] -> [ libutils ]
+[ ant ] -> [ acp ]
+[ Calendar ] -> [ android.test.runner ]
+[ ImfTestTests ] -> [ android.test.runner ]
+[ run-core-tests-on-ri ] -> [ acp ]
+[ SoundRecorder ] -> [ framework ]
+[ servicemanager ] -> [ liblog ]
+[ input ] -> [ framework ]
+[ AppWidgetHostTest ] -> [ framework ]
+[ ddmuilib ] -> [ jfreechart-1.0.9 ]
+[ Launcher ] -> [ framework ]
+[ SkeletonApp ] -> [ zipalign ]
+[ libopencore_download ] -> [ libandroid_runtime ]
+[ SimpleJNI ] -> [ framework ]
+[ anttasks ] -> [ apkbuilder ]
+[ make_cfst ] -> [ libSR_Recognizer ]
+[ SettingsTests ] -> [ Settings ]
+[ SkeletonAppTests ] -> [ android.test.runner ]
+[ layoutlib ] -> [ temp_layoutlib ]
+[ libcamera ] -> [ libui ]
+[ libicudata-eu ] -> [ icudata ]
+[ PlatformLibraryClient ] -> [ com.example.android.platform_library ]
+[ framework-tests ] -> [ android.policy_phone ]
+[ input ] -> [ ext ]
+[ AudioHardwareRecord ] -> [ libsrec_jni ]
+[ libSR_Session ] -> [ libSR_Nametag ]
+[ FrameworkTestTests ] -> [ FrameworkTest ]
+[ asm-3.1 ] -> [ acp ]
+[ cmu2nuance ] -> [ acp ]
+[ SettingsProvider ] -> [ ext ]
+[ SubscribedFeedsProvider ] -> [ framework ]
+[ google-framework ] -> [ acp ]
+[ app_process ] -> [ libandroid_runtime ]
+[ pm ] -> [ framework ]

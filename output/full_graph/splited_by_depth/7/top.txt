@@ -1,0 +1,732 @@
+graph { flow: down; }
+
+node.prebuilt { fill: pink; }
+node.system { fill: red; }
+node.frameworks { fill: lightblue; }
+node.external { fill: greenyellow; }
+node.build { fill: lightgrey; }
+node.intel_extras { fill: olive; }
+node.packages { fill: plum; }
+node.hardware { fill: orange; }
+node.dalvik { fill: brown; }
+node.development { fill: green; }
+node.vendor { fill: yellow; }
+
+[ mediaframeworktest ] { label: mediaframeworktest:\nframeworks/base/\nmedia/tests/\nMediaFrameworkTest; class: frameworks; }
+[ framework ] { label: framework:\nframeworks/base; class: frameworks; }
+[ libsrec_jni ] { label: libsrec_jni:\nexternal/srec/\nsrec_jni; class: external; }
+[ GoogleSearch ] { label: GoogleSearch:\npackages/apps/\nGoogleSearch; class: packages; }
+[ libomx_avcenc_sharedlibrary ] { label: libomx_avcenc_sharedlibrary:\nexternal/opencore/\nbuild_config/opencore_dynamic; class: external; }
+[ DensityTest ] { label: DensityTest:\nframeworks/base/\ntests/DpiTest; class: frameworks; }
+[ ImfTest ] { label: ImfTest:\nframeworks/base/\ntests/ImfTest; class: frameworks; }
+[ PackageInstaller ] { label: PackageInstaller:\npackages/apps/\nPackageInstaller; class: packages; }
+[ libplatform_library_jni ] { label: libplatform_library_jni:\ndevelopment/samples/\nPlatformLibrary/jni; class: development; }
+[ libnativehelper ] { label: libnativehelper:\ndalvik/libnativehelper; class: dalvik; }
+[ SmokeTestApp ] { label: SmokeTestApp:\nframeworks/base/\ntests/SmokeTest; class: frameworks; }
+[ libopencore_rtsp ] { label: libopencore_rtsp:\nexternal/opencore/\nbuild_config/opencore_dynamic; class: external; }
+[ libopencore_net_support ] { label: libopencore_net_support:\nexternal/opencore/\nbuild_config/opencore_dynamic; class: external; }
+[ TelephonyProvider ] { label: TelephonyProvider:\npackages/providers/\nTelephonyProvider; class: packages; }
+[ VoiceDialer ] { label: VoiceDialer:\npackages/apps/\nVoiceDialer; class: packages; }
+[ libreference-ril ] { label: libreference-ril:\nhardware/ril/\nreference-ril; class: hardware; }
+[ app_process ] { label: app_process:\nframeworks/base/\ncmds/app_process; class: frameworks; }
+[ libandroid_runtime ] { label: libandroid_runtime:\nframeworks/base/\ncore/jni; class: frameworks; }
+[ CalendarProviderTests ] { label: CalendarProviderTests:\npackages/providers/\nCalendarProvider/tests; class: packages; }
+[ ext ] { label: ext:\nframeworks/base; class: frameworks; }
+[ libui ] { label: libui:\nframeworks/base/\nlibs/ui; class: frameworks; }
+[ libopencore_download ] { label: libopencore_download:\nexternal/opencore/\nbuild_config/opencore_dynamic; class: external; }
+[ SpareParts ] { label: SpareParts:\ndevelopment/apps/\nSpareParts; class: development; }
+[ SkeletonAppTests ] { label: SkeletonAppTests:\ndevelopment/samples/\nSkeletonApp/tests; class: development; }
+[ android.test.runner ] { label: android.test.runner:\nframeworks/base/\ntest-runner; class: frameworks; }
+[ HelloActivityTests ] { label: HelloActivityTests:\ndevelopment/samples/\nHelloActivity/tests; class: development; }
+[ libopencore_rtspreg ] { label: libopencore_rtspreg:\nexternal/opencore/\nbuild_config/opencore_dynamic; class: external; }
+[ libomx_aacdec_sharedlibrary ] { label: libomx_aacdec_sharedlibrary:\nexternal/opencore/\nbuild_config/opencore_dynamic; class: external; }
+[ libomx_amrenc_sharedlibrary ] { label: libomx_amrenc_sharedlibrary:\nexternal/opencore/\nbuild_config/opencore_dynamic; class: external; }
+[ libmedia ] { label: libmedia:\nframeworks/base/\nmedia/libmedia; class: frameworks; }
+[ ImProvider ] { label: ImProvider:\npackages/providers/\nImProvider; class: packages; }
+[ libomx_mp3dec_sharedlibrary ] { label: libomx_mp3dec_sharedlibrary:\nexternal/opencore/\nbuild_config/opencore_dynamic; class: external; }
+[ SettingsProvider ] { label: SettingsProvider:\nframeworks/base/\npackages/SettingsProvider; class: frameworks; }
+[ GoogleContactsProviderTests ] { label: GoogleContactsProviderTests:\npackages/providers/\nGoogleContactsProvider/tests; class: packages; }
+[ rild ] { label: rild:\nhardware/ril/\nrild; class: hardware; }
+[ FrameworkTest ] { label: FrameworkTest:\nframeworks/base/\ntests/FrameworkTest; class: frameworks; }
+[ libopencore_mp4local ] { label: libopencore_mp4local:\nexternal/opencore/\nbuild_config/opencore_dynamic; class: external; }
+[ libopencore_common ] { label: libopencore_common:\nexternal/opencore/\nbuild_config/opencore_dynamic; class: external; }
+[ Settings ] { label: Settings:\npackages/apps/\nSettings; class: packages; }
+[ libomx_m4vdec_sharedlibrary ] { label: libomx_m4vdec_sharedlibrary:\nexternal/opencore/\nbuild_config/opencore_dynamic; class: external; }
+[ AudioHardwareRecord ] { label: AudioHardwareRecord:\nexternal/srec/\naudio/test/\nAudioHardwareRecord; class: external; }
+[ libopencore_player ] { label: libopencore_player:\nexternal/opencore/\nbuild_config/opencore_dynamic; class: external; }
+[ libomx_avcdec_sharedlibrary ] { label: libomx_avcdec_sharedlibrary:\nexternal/opencore/\nbuild_config/opencore_dynamic; class: external; }
+[ libwebcore ] { label: libwebcore:\nexternal/webkit; class: external; }
+[ Contacts ] { label: Contacts:\npackages/apps/\nContacts; class: packages; }
+[ dictTest ] { label: dictTest:\nexternal/srec/\ntools/dictTest; class: external; }
+[ libpvoma1passthru ] { label: libpvoma1passthru:\nexternal/opencore/\nbuild_config/opencore_dynamic; class: external; }
+[ libsystem_server ] { label: libsystem_server:\nframeworks/base/\ncmds/system_server/\nlibrary; class: frameworks; }
+[ libcameraservice ] { label: libcameraservice:\nframeworks/base/\ncamera/libcameraservice; class: frameworks; }
+[ libSR_Recognizer ] { label: libSR_Recognizer:\nexternal/srec/\nsrec/Recognizer; class: external; }
+[ SRecTestAudio ] { label: SRecTestAudio:\nexternal/srec/\nsrec/test/\nSRecTestAudio; class: external; }
+[ com.android.inputmethod.pinyin.lib ] { label: com.android.inputmethod.pinyin.lib:\npackages/inputmethods/\nPinyinIME/PinyinIME/\nlib; class: packages; }
+[ libagl ] { label: libagl:\nframeworks/base/\nopengl/libagl; class: frameworks; }
+[ EmailTests ] { label: EmailTests:\npackages/apps/\nEmail/tests; class: packages; }
+[ Email ] { label: Email:\npackages/apps/\nEmail; class: packages; }
+[ DrmProvider ] { label: DrmProvider:\npackages/providers/\nDrmProvider; class: packages; }
+[ SettingsTests ] { label: SettingsTests:\npackages/apps/\nSettings/tests; class: packages; }
+[ Calculator ] { label: Calculator:\npackages/apps/\nCalculator; class: packages; }
+[ am ] { label: am:\nframeworks/base/\ncmds/am; class: frameworks; }
+[ libopencore_mp4localreg ] { label: libopencore_mp4localreg:\nexternal/opencore/\nbuild_config/opencore_dynamic; class: external; }
+[ test-opengl-tritex ] { label: test-opengl-tritex:\nframeworks/base/\nopengl/tests/\ntritex; class: frameworks; }
+[ Term ] { label: Term:\ndevelopment/apps/\nTerm; class: development; }
+[ libaudioflinger ] { label: libaudioflinger:\nframeworks/base/\nlibs/audioflinger; class: frameworks; }
+[ Calendar ] { label: Calendar:\npackages/apps/\nCalendar; class: packages; }
+[ CalculatorTests ] { label: CalculatorTests:\npackages/apps/\nCalculator/tests; class: packages; }
+[ SoundRecorder ] { label: SoundRecorder:\npackages/apps/\nSoundRecorder; class: packages; }
+[ SmokeTest ] { label: SmokeTest:\nframeworks/base/\ntests/SmokeTest/\ntests; class: frameworks; }
+[ ime ] { label: ime:\nframeworks/base/\ncmds/ime; class: frameworks; }
+[ SslLoad ] { label: SslLoad:\nframeworks/base/\ntests/SslLoad; class: frameworks; }
+[ FrameworkTestTests ] { label: FrameworkTestTests:\nframeworks/base/\ntests/FrameworkTest/\ntests; class: frameworks; }
+[ AudioInRecord ] { label: AudioInRecord:\nexternal/srec/\naudio/test/\nAudioInRecord; class: external; }
+[ libdvm ] { label: libdvm:\ndalvik/vm; class: dalvik; }
+[ MediaProvider ] { label: MediaProvider:\npackages/providers/\nMediaProvider; class: packages; }
+[ framework-tests ] { label: framework-tests:\nframeworks/base/\ntests/framework-tests/\nsrc; class: frameworks; }
+[ JETBoy ] { label: JETBoy:\ndevelopment/samples/\nJetBoy; class: development; }
+[ ImfTestTests ] { label: ImfTestTests:\nframeworks/base/\ntests/ImfTest/\ntests; class: frameworks; }
+[ Music ] { label: Music:\npackages/apps/\nMusic; class: packages; }
+[ SdkSetup ] { label: SdkSetup:\ndevelopment/apps/\nSdkSetup; class: development; }
+[ libomx_amrdec_sharedlibrary ] { label: libomx_amrdec_sharedlibrary:\nexternal/opencore/\nbuild_config/opencore_dynamic; class: external; }
+[ AppWidgetProvider ] { label: AppWidgetProvider:\nframeworks/base/\ntests/appwidgets/\nAppWidgetProviderTest; class: frameworks; }
+[ libomx_m4venc_sharedlibrary ] { label: libomx_m4venc_sharedlibrary:\nexternal/opencore/\nbuild_config/opencore_dynamic; class: external; }
+[ Development ] { label: Development:\ndevelopment/apps/\nDevelopment; class: development; }
+[ PlatformLibraryClient ] { label: PlatformLibraryClient:\ndevelopment/samples/\nPlatformLibrary/client; class: development; }
+[ libopencore_downloadreg ] { label: libopencore_downloadreg:\nexternal/opencore/\nbuild_config/opencore_dynamic; class: external; }
+[ DumpRenderTree ] { label: DumpRenderTree:\nframeworks/base/\ntests/DumpRenderTree; class: frameworks; }
+[ test_g2g ] { label: test_g2g:\nexternal/srec/\ntools/test_g2g; class: external; }
+[ android.awt ] { label: android.awt:\nframeworks/base/\nawt; class: frameworks; }
+[ make_ve_grammar ] { label: make_ve_grammar:\nexternal/srec/\ntools/make_ve_grammar; class: external; }
+[ AlarmClock ] { label: AlarmClock:\npackages/apps/\nAlarmClock; class: packages; }
+[ GlobalTime ] { label: GlobalTime:\ndevelopment/samples/\nGlobalTime; class: development; }
+[ EnabledTestApp ] { label: EnabledTestApp:\nframeworks/base/\ntests/AndroidTests/\nEnabledTestApp; class: frameworks; }
+[ make_cfst ] { label: make_cfst:\nexternal/srec/\ntools/make_cfst; class: external; }
+[ android.policy_mid ] { label: android.policy_mid:\nframeworks/policies/\nbase/mid; class: frameworks; }
+[ GoogleContactsProvider ] { label: GoogleContactsProvider:\npackages/providers/\nGoogleContactsProvider; class: packages; }
+[ ContactsProvider ] { label: ContactsProvider:\npackages/providers/\nContactsProvider; class: packages; }
+[ grxmlcompile ] { label: grxmlcompile:\nexternal/srec/\ntools/grxmlcompile; class: external; }
+[ libandroid_servers ] { label: libandroid_servers:\nframeworks/base/\nservices/jni; class: frameworks; }
+[ test-opengl-textures ] { label: test-opengl-textures:\nframeworks/base/\nopengl/tests/\ntextures; class: frameworks; }
+[ libopencore_author ] { label: libopencore_author:\nexternal/opencore/\nbuild_config/opencore_dynamic; class: external; }
+[ libmediaplayerservice ] { label: libmediaplayerservice:\nframeworks/base/\nmedia/libmediaplayerservice; class: frameworks; }
+[ libgstreamer ] { label: libgstreamer:\nintel-extras/gstreamerplayer; class: intel_extras; }
+[ libsurfaceflinger ] { label: libsurfaceflinger:\nframeworks/base/\nlibs/surfaceflinger; class: frameworks; }
+[ Phone ] { label: Phone:\npackages/apps/\nPhone; class: packages; }
+[ CoreTests ] { label: CoreTests:\nframeworks/base/\ntests/CoreTests/\nandroid; class: frameworks; }
+[ CalendarTests ] { label: CalendarTests:\npackages/apps/\nCalendar/tests; class: packages; }
+[ libmedia_jni ] { label: libmedia_jni:\nframeworks/base/\nmedia/jni; class: frameworks; }
+[ com.android.im.plugin ] { label: com.android.im.plugin:\npackages/apps/\nIM/plugin; class: packages; }
+[ test_swiarb ] { label: test_swiarb:\nexternal/srec/\ntools/test_swiarb; class: external; }
+[ test-opengl-filter ] { label: test-opengl-filter:\nframeworks/base/\nopengl/tests/\nfilter; class: frameworks; }
+[ Browser ] { label: Browser:\npackages/apps/\nBrowser; class: packages; }
+[ svc ] { label: svc:\nframeworks/base/\ncmds/svc; class: frameworks; }
+[ AndroidTests ] { label: AndroidTests:\nframeworks/base/\ntests/AndroidTests; class: frameworks; }
+[ LunarLanderTests ] { label: LunarLanderTests:\ndevelopment/samples/\nLunarLander/tests; class: development; }
+[ libSR_Session ] { label: libSR_Session:\nexternal/srec/\nsrec/Session; class: external; }
+[ Stk ] { label: Stk:\npackages/apps/\nStk; class: packages; }
+[ libsoundpool ] { label: libsoundpool:\nframeworks/base/\nmedia/jni/\nsoundpool; class: frameworks; }
+[ CameraTests ] { label: CameraTests:\npackages/apps/\nCamera/tests; class: packages; }
+[ ContactsTests ] { label: ContactsTests:\npackages/apps/\nContacts/tests; class: packages; }
+[ SimpleJNI ] { label: SimpleJNI:\ndevelopment/samples/\nSimpleJNI; class: development; }
+[ make_g2g ] { label: make_g2g:\nexternal/srec/\ntools/make_g2g; class: external; }
+[ ApiDemosTests ] { label: ApiDemosTests:\ndevelopment/samples/\nApiDemos/tests; class: development; }
+[ Mms ] { label: Mms:\npackages/apps/\nMms; class: packages; }
+[ FontLab ] { label: FontLab:\ndevelopment/apps/\nFontLab; class: development; }
+[ libomx_sharedlibrary ] { label: libomx_sharedlibrary:\nexternal/opencore/\nbuild_config/opencore_dynamic; class: external; }
+[ GoogleSubscribedFeedsProvider ] { label: GoogleSubscribedFeedsProvider:\npackages/providers/\nGoogleSubscribedFeedsProvider; class: packages; }
+[ Camera ] { label: Camera:\npackages/apps/\nCamera; class: packages; }
+[ input ] { label: input:\nframeworks/base/\ncmds/input; class: frameworks; }
+[ surfaceflinger ] { label: surfaceflinger:\nframeworks/base/\ncmds/surfaceflinger; class: frameworks; }
+[ libGLESv1_CM ] { label: libGLESv1_CM:\nframeworks/base/\nopengl/libs; class: frameworks; }
+[ services ] { label: services:\nframeworks/base/\nservices/java; class: frameworks; }
+[ AudioHardwareRecordLoop ] { label: AudioHardwareRecordLoop:\nexternal/srec/\naudio/test/\nAudioHardwareRecordLoop; class: external; }
+[ com.example.android.platform_library ] { label: com.example.android.platform_library:\ndevelopment/samples/\nPlatformLibrary; class: development; }
+[ Launcher ] { label: Launcher:\npackages/apps/\nLauncher; class: packages; }
+[ PinyinIME ] { label: PinyinIME:\npackages/inputmethods/\nPinyinIME/PinyinIME; class: packages; }
+[ test-opengl-finish ] { label: test-opengl-finish:\nframeworks/base/\nopengl/tests/\nfinish; class: frameworks; }
+[ CalendarProvider ] { label: CalendarProvider:\npackages/providers/\nCalendarProvider; class: packages; }
+[ libgstmediarecorder ] { label: libgstmediarecorder:\nintel-extras/gstmediarecorder; class: intel_extras; }
+[ temp_layoutlib ] { label: temp_layoutlib:\nframeworks/base/\ntools/layoutlib; class: frameworks; }
+[ HTMLViewer ] { label: HTMLViewer:\npackages/apps/\nHTMLViewer; class: packages; }
+[ NotePadTests ] { label: NotePadTests:\ndevelopment/samples/\nNotePad/tests; class: development; }
+[ SubscribedFeedsProvider ] { label: SubscribedFeedsProvider:\nframeworks/base/\npackages/SubscribedFeedsProvider; class: frameworks; }
+[ parseStringTest ] { label: parseStringTest:\nexternal/srec/\ntools/parseStringTest; class: external; }
+[ IM ] { label: IM:\npackages/apps/\nIM; class: packages; }
+[ DownloadProvider ] { label: DownloadProvider:\npackages/providers/\nDownloadProvider; class: packages; }
+[ StatusBarTest ] { label: StatusBarTest:\nframeworks/base/\ntests/StatusBar; class: frameworks; }
+[ MusicTests ] { label: MusicTests:\npackages/apps/\nMusic/tests; class: packages; }
+[ launchperf ] { label: launchperf:\ndevelopment/apps/\nlaunchperf; class: development; }
+[ dexopt ] { label: dexopt:\ndalvik/dexopt; class: dalvik; }
+[ angeles ] { label: angeles:\nframeworks/base/\nopengl/tests/\nangeles; class: frameworks; }
+[ libcamera ] { label: libcamera:\nintel-extras/libcamera_v4l2; class: intel_extras; }
+[ SnakeTests ] { label: SnakeTests:\ndevelopment/samples/\nSnake/tests; class: development; }
+[ DisabledTestApp ] { label: DisabledTestApp:\nframeworks/base/\ntests/AndroidTests/\nDisabledTestApp; class: frameworks; }
+[ gpustate ] { label: gpustate:\nframeworks/base/\nopengl/tests/\nangeles; class: frameworks; }
+[ android.policy_phone ] { label: android.policy_phone:\nframeworks/policies/\nbase/phone; class: frameworks; }
+[ pm ] { label: pm:\nframeworks/base/\ncmds/pm; class: frameworks; }
+[ CustomLocale ] { label: CustomLocale:\ndevelopment/apps/\nCustomLocale; class: development; }
+[ libEGL ] { label: libEGL:\nframeworks/base/\nopengl/libs; class: frameworks; }
+[ AppWidgetHostTest ] { label: AppWidgetHostTest:\nframeworks/base/\ntests/appwidgets/\nAppWidgetHostTest; class: frameworks; }
+[ Fallback ] { label: Fallback:\ndevelopment/apps/\nFallback; class: development; }
+[ libskiagl ] { label: libskiagl:\nexternal/skia; class: external; }
+[ monkey ] { label: monkey:\ndevelopment/cmds/\nmonkey; class: development; }
+[ SRecTest ] { label: SRecTest:\nexternal/srec/\nsrec/test/\nSRecTest; class: external; }
+[ dalvikvm ] { label: dalvikvm:\ndalvik/dalvikvm; class: dalvik; }
+[ mediaserver ] { label: mediaserver:\nframeworks/base/\nmedia/mediaserver; class: frameworks; }
+[ layoutlib ] { label: layoutlib:\nframeworks/base/\ntools/layoutlib/\nbridge; class: frameworks; }
+[ test-opengl-codegen ] { label: test-opengl-codegen:\nsystem/core/\nlibpixelflinger/tests/\ncodegen; class: system; }
+[ SmokeTest ] -> [ android.test.runner ]
+[ CalendarProviderTests ] -> [ CalendarProvider ]
+[ files ] -> [ PackageInstaller ]
+[ libopencore_mp4local ] -> [ libmedia ]
+[ libomx_amrdec_sharedlibrary ] -> [ libui ]
+[ libandroid_runtime ] -> [ libEGL ]
+[ GoogleContactsProviderTests ] -> [ framework ]
+[ files ] -> [ EnabledTestApp ]
+[ test-opengl-finish ] -> [ libGLESv1_CM ]
+[ dictTest ] -> [ libSR_Session ]
+[ SettingsProvider ] -> [ ext ]
+[ ContactsTests ] -> [ android.test.runner ]
+[ libomx_avcenc_sharedlibrary ] -> [ libmedia ]
+[ Camera ] -> [ ext ]
+[ CoreTests ] -> [ ext ]
+[ files ] -> [ android.policy_phone ]
+[ files ] -> [ AlarmClock ]
+[ libmedia_jni ] -> [ libomx_amrenc_sharedlibrary ]
+[ libomx_amrenc_sharedlibrary ] -> [ libmedia ]
+[ files ] -> [ CalendarTests ]
+[ files ] -> [ test-opengl-finish ]
+[ files ] -> [ pm ]
+[ libopencore_player ] -> [ libmedia ]
+[ libomx_amrenc_sharedlibrary ] -> [ libui ]
+[ files ] -> [ Email ]
+[ ContactsTests ] -> [ ext ]
+[ DownloadProvider ] -> [ framework ]
+[ AppWidgetProvider ] -> [ framework ]
+[ SkeletonAppTests ] -> [ ext ]
+[ SettingsProvider ] -> [ framework ]
+[ files ] -> [ SettingsProvider ]
+[ files ] -> [ FontLab ]
+[ surfaceflinger ] -> [ libsurfaceflinger ]
+[ libmediaplayerservice ] -> [ libmedia ]
+[ GoogleSearch ] -> [ ext ]
+[ SkeletonAppTests ] -> [ framework ]
+[ files ] -> [ AudioHardwareRecord ]
+[ files ] -> [ Browser ]
+[ SubscribedFeedsProvider ] -> [ ext ]
+[ test-opengl-tritex ] -> [ libui ]
+[ test-opengl-finish ] -> [ libui ]
+[ files ] -> [ launchperf ]
+[ SnakeTests ] -> [ framework ]
+[ files ] -> [ test-opengl-codegen ]
+[ AppWidgetHostTest ] -> [ ext ]
+[ libgstreamer ] -> [ libui ]
+[ files ] -> [ mediaframeworktest ]
+[ mediaframeworktest ] -> [ android.test.runner ]
+[ libomx_amrdec_sharedlibrary ] -> [ libandroid_runtime ]
+[ libmedia_jni ] -> [ libandroid_runtime ]
+[ SimpleJNI ] -> [ framework ]
+[ files ] -> [ angeles ]
+[ libopencore_common ] -> [ libui ]
+[ libomx_m4venc_sharedlibrary ] -> [ libmedia ]
+[ libopencore_rtsp ] -> [ libandroid_runtime ]
+[ files ] -> [ libGLESv1_CM ]
+[ Launcher ] -> [ framework ]
+[ FontLab ] -> [ ext ]
+[ files ] -> [ ime ]
+[ files ] -> [ libomx_sharedlibrary ]
+[ files ] -> [ dalvikvm ]
+[ libsrec_jni ] -> [ libSR_Recognizer ]
+[ test-opengl-filter ] -> [ libGLESv1_CM ]
+[ LunarLanderTests ] -> [ android.test.runner ]
+[ launchperf ] -> [ android.test.runner ]
+[ libandroid_runtime ] -> [ libnativehelper ]
+[ files ] -> [ libaudioflinger ]
+[ files ] -> [ grxmlcompile ]
+[ Phone ] -> [ framework ]
+[ FontLab ] -> [ framework ]
+[ files ] -> [ libsystem_server ]
+[ Contacts ] -> [ framework ]
+[ test-opengl-filter ] -> [ libEGL ]
+[ ImfTest ] -> [ ext ]
+[ HTMLViewer ] -> [ ext ]
+[ checkapi ] -> [ framework ]
+[ pm ] -> [ framework ]
+[ ContactsTests ] -> [ framework ]
+[ checkapi ] -> [ ext ]
+[ libopencore_common ] -> [ libmedia ]
+[ libmedia ] -> [ libui ]
+[ files ] -> [ Music ]
+[ DumpRenderTree ] -> [ android.test.runner ]
+[ make_cfst ] -> [ libSR_Session ]
+[ GoogleContactsProviderTests ] -> [ ext ]
+[ SRecTestAudio ] -> [ libsrec_jni ]
+[ app_process ] -> [ libandroid_runtime ]
+[ TelephonyProvider ] -> [ framework ]
+[ SoundRecorder ] -> [ ext ]
+[ libmedia_jni ] -> [ libopencore_author ]
+[ AppWidgetProvider ] -> [ ext ]
+[ test_swiarb ] -> [ libSR_Recognizer ]
+[ Stk ] -> [ framework ]
+[ svc ] -> [ ext ]
+[ files ] -> [ libcameraservice ]
+[ CameraTests ] -> [ framework ]
+[ Calculator ] -> [ ext ]
+[ Contacts ] -> [ ext ]
+[ SmokeTestApp ] -> [ ext ]
+[ libopencore_rtspreg ] -> [ libmedia ]
+[ CalculatorTests ] -> [ framework ]
+[ files ] -> [ TelephonyProvider ]
+[ AndroidTests ] -> [ framework ]
+[ files ] -> [ libEGL ]
+[ DumpRenderTree ] -> [ ext ]
+[ StatusBarTest ] -> [ framework ]
+[ HelloActivityTests ] -> [ ext ]
+[ files ] -> [ android.awt ]
+[ libomx_amrenc_sharedlibrary ] -> [ libandroid_runtime ]
+[ CalendarProvider ] -> [ framework ]
+[ Mms ] -> [ SoundRecorder ]
+[ files ] -> [ android.test.runner ]
+[ libsystem_server ] -> [ libsurfaceflinger ]
+[ test_swiarb ] -> [ libSR_Session ]
+[ ImProvider ] -> [ ext ]
+[ libopencore_author ] -> [ libui ]
+[ MusicTests ] -> [ android.test.runner ]
+[ libmediaplayerservice ] -> [ libandroid_runtime ]
+[ Fallback ] -> [ framework ]
+[ files ] -> [ dexopt ]
+[ EnabledTestApp ] -> [ ext ]
+[ JETBoy ] -> [ framework ]
+[ files ] -> [ temp_layoutlib ]
+[ ime ] -> [ framework ]
+[ files ] -> [ input ]
+[ libsystem_server ] -> [ libaudioflinger ]
+[ libsurfaceflinger ] -> [ libGLESv1_CM ]
+[ files ] -> [ libui ]
+[ SoundRecorder ] -> [ framework ]
+[ libopencore_download ] -> [ libmedia ]
+[ AudioHardwareRecordLoop ] -> [ libsrec_jni ]
+[ files ] -> [ libcamera ]
+[ AndroidTests ] -> [ android.test.runner ]
+[ libopencore_mp4localreg ] -> [ libandroid_runtime ]
+[ files ] -> [ dictTest ]
+[ libsrec_jni ] -> [ libmedia ]
+[ PinyinIME ] -> [ framework ]
+[ CalendarTests ] -> [ ext ]
+[ SettingsTests ] -> [ ext ]
+[ files ] -> [ GoogleSearch ]
+[ files ] -> [ SubscribedFeedsProvider ]
+[ libomx_aacdec_sharedlibrary ] -> [ libui ]
+[ AlarmClock ] -> [ framework ]
+[ ImProvider ] -> [ com.android.im.plugin ]
+[ make_ve_grammar ] -> [ libSR_Recognizer ]
+[ dexopt ] -> [ libdvm ]
+[ SslLoad ] -> [ ext ]
+[ libopencore_mp4localreg ] -> [ libmedia ]
+[ libopencore_download ] -> [ libandroid_runtime ]
+[ PackageInstaller ] -> [ framework ]
+[ LunarLanderTests ] -> [ framework ]
+[ libandroid_runtime ] -> [ libmedia ]
+[ MusicTests ] -> [ ext ]
+[ monkey ] -> [ framework ]
+[ libmedia_jni ] -> [ libmedia ]
+[ libsoundpool ] -> [ libnativehelper ]
+[ files ] -> [ HelloActivityTests ]
+[ SimpleJNI ] -> [ ext ]
+[ files ] -> [ libopencore_player ]
+[ files ] -> [ AppWidgetHostTest ]
+[ ImfTestTests ] -> [ ext ]
+[ files ] -> [ CalendarProvider ]
+[ libopencore_mp4local ] -> [ libandroid_runtime ]
+[ SettingsTests ] -> [ android.test.runner ]
+[ files ] -> [ GoogleContactsProviderTests ]
+[ PackageInstaller ] -> [ ext ]
+[ monkey ] -> [ ext ]
+[ files ] -> [ make_ve_grammar ]
+[ libgstmediarecorder ] -> [ libui ]
+[ dalvikvm ] -> [ libdvm ]
+[ SmokeTest ] -> [ framework ]
+[ files ] -> [ NotePadTests ]
+[ libwebcore ] -> [ libnativehelper ]
+[ ContactsProvider ] -> [ ext ]
+[ libcameraservice ] -> [ libmedia ]
+[ Development ] -> [ android.test.runner ]
+[ CoreTests ] -> [ framework ]
+[ SmokeTest ] -> [ SmokeTestApp ]
+[ SpareParts ] -> [ framework ]
+[ android.policy_phone ] -> [ ext ]
+[ AlarmClock ] -> [ ext ]
+[ files ] -> [ libopencore_download ]
+[ SubscribedFeedsProvider ] -> [ framework ]
+[ MediaProvider ] -> [ framework ]
+[ MediaProvider ] -> [ ext ]
+[ angeles ] -> [ libui ]
+[ Settings ] -> [ framework ]
+[ files ] -> [ CoreTests ]
+[ files ] -> [ DensityTest ]
+[ libcameraservice ] -> [ libcamera ]
+[ files ] -> [ test-opengl-tritex ]
+[ files ] -> [ com.example.android.platform_library ]
+[ libsurfaceflinger ] -> [ libui ]
+[ launchperf ] -> [ framework ]
+[ files ] -> [ AndroidTests ]
+[ files ] -> [ libnativehelper ]
+[ files ] -> [ AppWidgetProvider ]
+[ libcamera ] -> [ libui ]
+[ files ] -> [ libdvm ]
+[ files ] -> [ libomx_mp3dec_sharedlibrary ]
+[ CalendarProviderTests ] -> [ ext ]
+[ Email ] -> [ ext ]
+[ NotePadTests ] -> [ framework ]
+[ CalendarProvider ] -> [ ext ]
+[ SmokeTestApp ] -> [ android.test.runner ]
+[ files ] -> [ Calendar ]
+[ ImfTestTests ] -> [ android.test.runner ]
+[ files ] -> [ ImfTest ]
+[ Calendar ] -> [ framework ]
+[ files ] -> [ libandroid_servers ]
+[ files ] -> [ FrameworkTestTests ]
+[ libpvoma1passthru ] -> [ libmedia ]
+[ libopencore_downloadreg ] -> [ libmedia ]
+[ files ] -> [ libomx_aacdec_sharedlibrary ]
+[ test-opengl-textures ] -> [ libGLESv1_CM ]
+[ CustomLocale ] -> [ ext ]
+[ NotePadTests ] -> [ ext ]
+[ DumpRenderTree ] -> [ framework ]
+[ FrameworkTest ] -> [ framework ]
+[ libopencore_net_support ] -> [ libmedia ]
+[ NotePadTests ] -> [ android.test.runner ]
+[ CalendarTests ] -> [ Calendar ]
+[ files ] -> [ android.policy_mid ]
+[ files ] -> [ app_process ]
+[ libomx_m4vdec_sharedlibrary ] -> [ libmedia ]
+[ mediaframeworktest ] -> [ framework ]
+[ libomx_avcdec_sharedlibrary ] -> [ libmedia ]
+[ files ] -> [ FrameworkTest ]
+[ am ] -> [ framework ]
+[ CalendarProviderTests ] -> [ framework ]
+[ SdkSetup ] -> [ framework ]
+[ files ] -> [ test-opengl-textures ]
+[ libomx_m4vdec_sharedlibrary ] -> [ libui ]
+[ files ] -> [ monkey ]
+[ files ] -> [ SettingsTests ]
+[ svc ] -> [ framework ]
+[ angeles ] -> [ libGLESv1_CM ]
+[ files ] -> [ libgstmediarecorder ]
+[ DisabledTestApp ] -> [ framework ]
+[ libandroid_servers ] -> [ libui ]
+[ libplatform_library_jni ] -> [ libandroid_runtime ]
+[ SRecTest ] -> [ libsrec_jni ]
+[ make_g2g ] -> [ libSR_Recognizer ]
+[ libomx_avcdec_sharedlibrary ] -> [ libandroid_runtime ]
+[ GoogleSubscribedFeedsProvider ] -> [ framework ]
+[ libandroid_servers ] -> [ libnativehelper ]
+[ AudioHardwareRecord ] -> [ libsrec_jni ]
+[ IM ] -> [ ext ]
+[ android.policy_mid ] -> [ framework ]
+[ Stk ] -> [ ext ]
+[ android.awt ] -> [ framework ]
+[ libsystem_server ] -> [ libandroid_runtime ]
+[ files ] -> [ ImfTestTests ]
+[ framework-tests ] -> [ android.policy_phone ]
+[ files ] -> [ com.android.inputmethod.pinyin.lib ]
+[ libomx_m4venc_sharedlibrary ] -> [ libui ]
+[ libomx_mp3dec_sharedlibrary ] -> [ libandroid_runtime ]
+[ AndroidTests ] -> [ ext ]
+[ files ] -> [ libgstreamer ]
+[ Settings ] -> [ ext ]
+[ gpustate ] -> [ libEGL ]
+[ libsurfaceflinger ] -> [ libEGL ]
+[ files ] -> [ test-opengl-filter ]
+[ services ] -> [ framework ]
+[ files ] -> [ Contacts ]
+[ files ] -> [ surfaceflinger ]
+[ files ] -> [ libopencore_common ]
+[ TelephonyProvider ] -> [ ext ]
+[ android.awt ] -> [ ext ]
+[ files ] -> [ PlatformLibraryClient ]
+[ files ] -> [ Stk ]
+[ ImfTestTests ] -> [ framework ]
+[ GlobalTime ] -> [ ext ]
+[ prebuilt ] -> [ make_g2g ]
+[ IM ] -> [ android.test.runner ]
+[ CameraTests ] -> [ ext ]
+[ GoogleContactsProviderTests ] -> [ android.test.runner ]
+[ FrameworkTestTests ] -> [ framework ]
+[ CalculatorTests ] -> [ android.test.runner ]
+[ SettingsTests ] -> [ Settings ]
+[ Browser ] -> [ android.test.runner ]
+[ files ] -> [ libomx_amrenc_sharedlibrary ]
+[ ime ] -> [ ext ]
+[ libsystem_server ] -> [ libcameraservice ]
+[ libmedia_jni ] -> [ libui ]
+[ files ] -> [ Fallback ]
+[ files ] -> [ SpareParts ]
+[ ImProvider ] -> [ framework ]
+[ framework-tests ] -> [ framework ]
+[ android.test.runner ] -> [ ext ]
+[ SmokeTest ] -> [ ext ]
+[ android.test.runner ] -> [ framework ]
+[ EmailTests ] -> [ android.test.runner ]
+[ libomx_sharedlibrary ] -> [ libmedia ]
+[ files ] -> [ framework ]
+[ Development ] -> [ ext ]
+[ files ] -> [ prebuilt ]
+[ files ] -> [ parseStringTest ]
+[ files ] -> [ ext ]
+[ files ] -> [ LunarLanderTests ]
+[ files ] -> [ SnakeTests ]
+[ libopencore_player ] -> [ libandroid_runtime ]
+[ test-opengl-tritex ] -> [ libEGL ]
+[ files ] -> [ libandroid_runtime ]
+[ files ] -> [ GoogleSubscribedFeedsProvider ]
+[ files ] -> [ Settings ]
+[ files ] -> [ AudioHardwareRecordLoop ]
+[ libopencore_author ] -> [ libandroid_runtime ]
+[ libandroid_servers ] -> [ libsystem_server ]
+[ files ] -> [ libsrec_jni ]
+[ libdvm ] -> [ libnativehelper ]
+[ libcameraservice ] -> [ libui ]
+[ dictTest ] -> [ libSR_Recognizer ]
+[ libopencore_net_support ] -> [ libui ]
+[ libaudioflinger ] -> [ libmedia ]
+[ files ] -> [ libmedia_jni ]
+[ files ] -> [ libsoundpool ]
+[ files ] -> [ libSR_Session ]
+[ libomx_sharedlibrary ] -> [ libandroid_runtime ]
+[ files ] -> [ SoundRecorder ]
+[ EnabledTestApp ] -> [ framework ]
+[ libomx_m4venc_sharedlibrary ] -> [ libandroid_runtime ]
+[ libomx_avcenc_sharedlibrary ] -> [ libandroid_runtime ]
+[ CalendarTests ] -> [ android.test.runner ]
+[ files ] -> [ DisabledTestApp ]
+[ com.android.im.plugin ] -> [ framework ]
+[ gpustate ] -> [ libGLESv1_CM ]
+[ ImfTestTests ] -> [ ImfTest ]
+[ libopencore_rtsp ] -> [ libui ]
+[ SslLoad ] -> [ framework ]
+[ framework-tests ] -> [ ext ]
+[ libomx_sharedlibrary ] -> [ libui ]
+[ Phone ] -> [ ext ]
+[ services ] -> [ ext ]
+[ libopencore_mp4localreg ] -> [ libui ]
+[ CalculatorTests ] -> [ ext ]
+[ Term ] -> [ framework ]
+[ Browser ] -> [ framework ]
+[ pm ] -> [ ext ]
+[ HelloActivityTests ] -> [ framework ]
+[ SkeletonAppTests ] -> [ android.test.runner ]
+[ GoogleSubscribedFeedsProvider ] -> [ ext ]
+[ Term ] -> [ ext ]
+[ libpvoma1passthru ] -> [ libui ]
+[ files ] -> [ AudioInRecord ]
+[ Camera ] -> [ framework ]
+[ GoogleContactsProvider ] -> [ ext ]
+[ input ] -> [ framework ]
+[ files ] -> [ SkeletonAppTests ]
+[ FrameworkTestTests ] -> [ android.test.runner ]
+[ files ] -> [ Phone ]
+[ Mms ] -> [ ext ]
+[ test-opengl-finish ] -> [ libEGL ]
+[ Email ] -> [ framework ]
+[ files ] -> [ svc ]
+[ files ] -> [ Calculator ]
+[ files ] -> [ libagl ]
+[ libskiagl ] -> [ libGLESv1_CM ]
+[ GoogleContactsProviderTests ] -> [ GoogleContactsProvider ]
+[ files ] -> [ Camera ]
+[ droidcore ] -> [ checkapi ]
+[ libopencore_player ] -> [ libui ]
+[ test_g2g ] -> [ libSR_Session ]
+[ files ] -> [ GoogleContactsProvider ]
+[ PlatformLibraryClient ] -> [ com.example.android.platform_library ]
+[ files ] -> [ libmedia ]
+[ EmailTests ] -> [ Email ]
+[ files ] -> [ libomx_avcenc_sharedlibrary ]
+[ libomx_aacdec_sharedlibrary ] -> [ libmedia ]
+[ SnakeTests ] -> [ ext ]
+[ CustomLocale ] -> [ framework ]
+[ ContactsProvider ] -> [ framework ]
+[ layoutlib ] -> [ temp_layoutlib ]
+[ GlobalTime ] -> [ framework ]
+[ files ] -> [ SimpleJNI ]
+[ files ] -> [ libopencore_rtspreg ]
+[ make_cfst ] -> [ libSR_Recognizer ]
+[ libmediaplayerservice ] -> [ libgstmediarecorder ]
+[ libopencore_downloadreg ] -> [ libandroid_runtime ]
+[ GoogleSearch ] -> [ framework ]
+[ files ] -> [ Term ]
+[ files ] -> [ SmokeTest ]
+[ DensityTest ] -> [ framework ]
+[ files ] -> [ SslLoad ]
+[ files ] -> [ GlobalTime ]
+[ files ] -> [ Development ]
+[ GoogleContactsProvider ] -> [ framework ]
+[ files ] -> [ SmokeTestApp ]
+[ HTMLViewer ] -> [ framework ]
+[ files ] -> [ libSR_Recognizer ]
+[ libopencore_download ] -> [ libui ]
+[ droidcore ] -> [ files ]
+[ libopencore_author ] -> [ libmedia ]
+[ files ] -> [ CustomLocale ]
+[ mediaframeworktest ] -> [ ext ]
+[ files ] -> [ JETBoy ]
+[ libopencore_mp4local ] -> [ libui ]
+[ com.example.android.platform_library ] -> [ framework ]
+[ files ] -> [ mediaserver ]
+[ temp_layoutlib ] -> [ framework ]
+[ PinyinIME ] -> [ ext ]
+[ libomx_m4vdec_sharedlibrary ] -> [ libandroid_runtime ]
+[ files ] -> [ libopencore_author ]
+[ files ] -> [ Mms ]
+[ files ] -> [ libopencore_net_support ]
+[ grxmlcompile ] -> [ libSR_Session ]
+[ libandroid_runtime ] -> [ libGLESv1_CM ]
+[ libomx_amrdec_sharedlibrary ] -> [ libmedia ]
+[ JETBoy ] -> [ ext ]
+[ angeles ] -> [ libEGL ]
+[ files ] -> [ DumpRenderTree ]
+[ files ] -> [ libmediaplayerservice ]
+[ Development ] -> [ framework ]
+[ files ] -> [ SRecTest ]
+[ files ] -> [ HTMLViewer ]
+[ files ] -> [ StatusBarTest ]
+[ test-opengl-tritex ] -> [ libGLESv1_CM ]
+[ android.policy_phone ] -> [ framework ]
+[ AndroidTests ] -> [ framework-tests ]
+[ libGLESv1_CM ] -> [ libui ]
+[ Launcher ] -> [ ext ]
+[ files ] -> [ libomx_m4vdec_sharedlibrary ]
+[ libomx_aacdec_sharedlibrary ] -> [ libandroid_runtime ]
+[ libandroid_runtime ] -> [ libui ]
+[ files ] -> [ PinyinIME ]
+[ libmedia_jni ] -> [ libnativehelper ]
+[ libopencore_common ] -> [ libandroid_runtime ]
+[ ApiDemosTests ] -> [ android.test.runner ]
+[ files ] -> [ DrmProvider ]
+[ CoreTests ] -> [ android.test.runner ]
+[ FrameworkTestTests ] -> [ FrameworkTest ]
+[ launchperf ] -> [ ext ]
+[ files ] -> [ CameraTests ]
+[ test-opengl-textures ] -> [ libEGL ]
+[ LunarLanderTests ] -> [ ext ]
+[ com.android.im.plugin ] -> [ ext ]
+[ libsoundpool ] -> [ libandroid_runtime ]
+[ SettingsTests ] -> [ framework ]
+[ files ] -> [ CalculatorTests ]
+[ files ] -> [ MediaProvider ]
+[ libomx_avcdec_sharedlibrary ] -> [ libui ]
+[ StatusBarTest ] -> [ ext ]
+[ libopencore_rtspreg ] -> [ libui ]
+[ libsrec_jni ] -> [ libSR_Session ]
+[ libEGL ] -> [ libui ]
+[ DrmProvider ] -> [ ext ]
+[ Calculator ] -> [ framework ]
+[ ImfTest ] -> [ framework ]
+[ libwebcore ] -> [ libmedia ]
+[ test-opengl-filter ] -> [ libui ]
+[ files ] -> [ VoiceDialer ]
+[ files ] -> [ libreference-ril ]
+[ files ] -> [ libomx_avcdec_sharedlibrary ]
+[ DensityTest ] -> [ ext ]
+[ CameraTests ] -> [ android.test.runner ]
+[ files ] -> [ libpvoma1passthru ]
+[ test_g2g ] -> [ libSR_Recognizer ]
+[ files ] -> [ rild ]
+[ files ] -> [ com.android.im.plugin ]
+[ libopencore_net_support ] -> [ libandroid_runtime ]
+[ input ] -> [ ext ]
+[ libsoundpool ] -> [ libmedia ]
+[ SdkSetup ] -> [ ext ]
+[ files ] -> [ am ]
+[ files ] -> [ EmailTests ]
+[ com.example.android.platform_library ] -> [ ext ]
+[ libwebcore ] -> [ libui ]
+[ CameraTests ] -> [ Camera ]
+[ libwebcore ] -> [ libandroid_runtime ]
+[ VoiceDialer ] -> [ ext ]
+[ files ] -> [ gpustate ]
+[ files ] -> [ libskiagl ]
+[ IM ] -> [ framework ]
+[ SnakeTests ] -> [ android.test.runner ]
+[ FrameworkTest ] -> [ android.test.runner ]
+[ files ] -> [ ImProvider ]
+[ Calendar ] -> [ android.test.runner ]
+[ libmedia_jni ] -> [ libopencore_player ]
+[ CalendarProviderTests ] -> [ android.test.runner ]
+[ com.android.inputmethod.pinyin.lib ] -> [ ext ]
+[ files ] -> [ test_g2g ]
+[ files ] -> [ libomx_amrdec_sharedlibrary ]
+[ MusicTests ] -> [ Music ]
+[ files ] -> [ SdkSetup ]
+[ files ] -> [ libsurfaceflinger ]
+[ Calendar ] -> [ ext ]
+[ files ] -> [ services ]
+[ libomx_mp3dec_sharedlibrary ] -> [ libmedia ]
+[ libopencore_rtspreg ] -> [ libandroid_runtime ]
+[ Fallback ] -> [ ext ]
+[ libomx_mp3dec_sharedlibrary ] -> [ libui ]
+[ Music ] -> [ framework ]
+[ DrmProvider ] -> [ framework ]
+[ libopencore_rtsp ] -> [ libmedia ]
+[ am ] -> [ ext ]
+[ files ] -> [ DownloadProvider ]
+[ SpareParts ] -> [ ext ]
+[ test-opengl-textures ] -> [ libui ]
+[ files ] -> [ libomx_m4venc_sharedlibrary ]
+[ files ] -> [ ContactsTests ]
+[ HelloActivityTests ] -> [ android.test.runner ]
+[ files ] -> [ libopencore_mp4local ]
+[ mediaserver ] -> [ libcameraservice ]
+[ libandroid_runtime ] -> [ libskiagl ]
+[ files ] -> [ libwebcore ]
+[ com.android.inputmethod.pinyin.lib ] -> [ framework ]
+[ files ] -> [ libopencore_rtsp ]
+[ mediaserver ] -> [ libmediaplayerservice ]
+[ DownloadProvider ] -> [ ext ]
+[ files ] -> [ make_cfst ]
+[ MusicTests ] -> [ framework ]
+[ files ] -> [ IM ]
+[ files ] -> [ libplatform_library_jni ]
+[ libopencore_downloadreg ] -> [ libui ]
+[ files ] -> [ make_g2g ]
+[ DisabledTestApp ] -> [ ext ]
+[ Browser ] -> [ ext ]
+[ files ] -> [ layoutlib ]
+[ files ] -> [ test_swiarb ]
+[ make_g2g ] -> [ libSR_Session ]
+[ files ] -> [ Launcher ]
+[ parseStringTest ] -> [ libSR_Session ]
+[ android.policy_mid ] -> [ ext ]
+[ libpvoma1passthru ] -> [ libandroid_runtime ]
+[ FrameworkTestTests ] -> [ ext ]
+[ libmediaplayerservice ] -> [ libgstreamer ]
+[ Music ] -> [ ext ]
+[ framework-tests ] -> [ android.test.runner ]
+[ files ] -> [ libopencore_downloadreg ]
+[ files ] -> [ MusicTests ]
+[ Mms ] -> [ framework ]
+[ libsystem_server ] -> [ libmediaplayerservice ]
+[ VoiceDialer ] -> [ framework ]
+[ AudioInRecord ] -> [ libsrec_jni ]
+[ files ] -> [ CalendarProviderTests ]
+[ files ] -> [ ContactsProvider ]
+[ prebuilt ] -> [ grxmlcompile ]
+[ libandroid_runtime ] -> [ libdvm ]
+[ files ] -> [ SRecTestAudio ]
+[ FrameworkTest ] -> [ ext ]
+[ CalendarTests ] -> [ framework ]
+[ libomx_avcenc_sharedlibrary ] -> [ libui ]
+[ CalculatorTests ] -> [ Calculator ]
+[ mediaserver ] -> [ libaudioflinger ]
+[ libplatform_library_jni ] -> [ libnativehelper ]
+[ make_ve_grammar ] -> [ libSR_Session ]
+[ SmokeTestApp ] -> [ framework ]
+[ ContactsTests ] -> [ Contacts ]
+[ files ] -> [ ApiDemosTests ]
+[ files ] -> [ libopencore_mp4localreg ]
+[ AppWidgetHostTest ] -> [ framework ]
+[ files ] -> [ framework-tests ]

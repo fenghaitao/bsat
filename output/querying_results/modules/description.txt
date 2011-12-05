@@ -1,0 +1,33 @@
+Description of the querying result:
+    The querying directories are: frameworks/base/libs
+
+The following modules are involved with this querying request:
+    libsgl
+    libft2
+    libsonivox
+    acp
+    libutils
+    libmedia
+    libcutils
+    liblog
+    libhost
+    libui
+    libpixelflinger
+    libnetutils
+    libhardware_legacy
+    libaudioflinger
+    libsurfaceflinger
+    libcorecg
+    libhardware
+    libEGL
+    libemoji
+    libGLESv1_CM
+    libgtkwindow
+    libaudio
+    libwpa_client
+    libpng
+    libaudiointerface
+    libjpeg
+    libgif
+
+Please view the modules_dg.png for detailed dependence information.

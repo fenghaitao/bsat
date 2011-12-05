@@ -1,0 +1,11 @@
+build: lightgrey
+dalvik: brown
+development: green
+external: greenyellow
+frameworks: lightblue
+intel-extras: olive
+hardware: orange
+packages: plum
+prebuilt: pink
+system: red
+vendor: yellow

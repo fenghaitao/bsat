@@ -1,0 +1,26 @@
+graph { flow: east; }
+
+node.prebuilt { fill: pink; }
+node.system { fill: red; }
+node.frameworks { fill: lightblue; }
+node.external { fill: greenyellow; }
+node.build { fill: lightgrey; }
+node.intel_extras { fill: olive; }
+node.packages { fill: plum; }
+node.hardware { fill: orange; }
+node.dalvik { fill: brown; }
+node.development { fill: green; }
+node.vendor { fill: yellow; }
+
+[ dev_image ] { label: Moblin\nDeveloper Image; class: prebuilt; }
+[ user_image ] { label: Moblin\nNormal Image; class: packages; }
+[ sim_image ] { label: Moblin\nSimulation Image; class: frameworks; }
+[ chroot ] { label: Moblin Chroot\nfile system; class: prebuilt; }
+[ cross_dev ] { label: Moblin cross-dev system\n\(Linux and Windows\); class: frameworks; }
+[ emulator ] { label: Moblin Emulator\n\(Linux and Windows\); class: frameworks; }
+[ netbook ] { label: Moblin Netbook; class: hardware; }
+[ dev_image ] -- Moblin\nchrooted --> [ chroot ]
+[ chroot ]  -- Copied\n into sys-root --> { flow: down; }[ cross_dev ]
+[ sim_image ] -- Launched by --> [ emulator ]
+[ user_image ] -- Launched by --> [ netbook ]
+[ SDK\nComponents ] {class: frameworks; }

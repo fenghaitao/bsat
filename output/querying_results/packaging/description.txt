@@ -1,0 +1,39 @@
+Description of the querying result:
+    The querying directories are: dalvik
+
+The following modules are involved with this querying request:
+    aapt
+    core
+    dx
+    libpng
+    acp
+    libcutils
+    libutils
+    dexdump
+    libdex
+    libicudata-us
+    icudata
+    libdvm
+    dalvikvm
+    run-core-tests-on-ri
+    dmtracedump
+    dvz
+    libicui18n
+    libicuuc
+    liblog
+    run-core-tests
+    jasmin
+    create_test_dmtrace
+    libsqlite
+    libsqlite3_android
+    core-tests
+    libnativehelper
+    libfdlibm
+    jasmin.jar
+    dexlist
+    hprof-conv
+    dexopt
+    libhost
+    libjavacore
+
+Please view the modules_dg.png for detailed dependence information.

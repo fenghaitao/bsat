@@ -1,0 +1,44 @@
+graph { flow: down; }
+node { fill: #ffe0e0; }
+node.core { fill: #e0ffe0; }
+
+[ Carp ] { class: core; }
+[ File-Basename ] { class: core; }
+[ File-Spec ] { label: File-Spec\n (PathTools); class: core; }
+[ Filter-Util-Call ] { label: Filter-Util-Call\n (Filter); class: core; }
+[ Module-CoreList ] { class: core; }
+[ Scalar-Util ] { label: Scalar-Util\n (Scalar-List-Utils); class: core; }
+[ Storable ] { class: core; }
+[ Test-Harness ] { class: core; }
+[ Test-More ] { label: Test-More\n (Test-Simple); class: core; }
+[ Test-Simple ] { class: core; }
+
+(
+[ Carp ]
+[ File-Basename ]
+){ label: Group; fill : red; }
+
+[ CPAN-Dependency ] --> [ DBI ]
+[ CPAN-Dependency ] --> [ File-Spec ]
+[ CPAN-Dependency ] --> [ YAML ]
+[ CPAN-Dependency ] --> [ DBD-SQLite ]
+[ CPAN-Dependency ] --> [ Module-CoreList ]
+[ CPAN-Dependency ] --> [ CPANPLUS ]
+[ CPAN-Dependency ] --> [ File-Slurp ]
+[ DBD-SQLite ] --> [ DBI ]
+[ DBI ] --> [ Storable ]
+[ DBI ] --> [ Test-Simple ]
+[ File-Spec ] --> [ Carp ]
+[ File-Spec ] --> [ File-Basename ]
+[ Module-CoreList ] --> [ Test-More ]
+[ YAML ] --> [ Test-Base ]
+[ YAML ] --> [ Class-Spiffy ]
+[ Class-Spiffy ] --> [ Scalar-Util ]
+[ Test-Base ] --> [ Spiffy ]
+[ Test-Base ] --> [ Test-More ]
+[ Test-Base ] --> [ Algorithm-Diff ]
+[ Test-Base ] --> [ Text-Diff ]
+[ Test-More ] --> [ Test-Harness ]
+[ Spiffy ] --> [ Filter-Util-Call ]
+[ Spiffy ] --> [ Scalar-Util ]
+[ Test-Harness ] --> [ File-Spec ]

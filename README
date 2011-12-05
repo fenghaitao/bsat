@@ -1,0 +1,49 @@
+BSAT (Build System Analyzing Tool)
+==========
+
+This module helps you to analyze the build system of the huge project and visualize the build dependence graph by using Graph-Easy.
+
+
+Required Tools and Installation
+======
+
+The Graph-Easy-0.64.tar.gz is contained in the "graph-easy-package". Please follow its installation guide after unzipping it.
+
+The Graph-Easy requires graphviz. Please install it by doing "sudo apt-get install graphviz" on Ubuntu System.
+
+Usage
+======
+
+cd bin
+
+./produce_module_dg.pl: This tool could create a module dependence graph after analyzing the make logs with modules map. It reads the input/android_make.log and input/android_modules.map and writes the dependence graph to output/android_modules.dg. You could reuse those inputs in this package or create your own. 
+
+    The android_make.log could be achieved by "make --debug=v >./android_make.log" at the top level of the Google Android build system. 
+
+    The android_modules.map could be achieved by adding the following line:
+        $(shell echo $(LOCAL_MODULE): $(LOCAL_PATH) $(LOCAL_BUILT_MODULE) $(LOCAL_INSTALLED_MODULE) >> ./android_modules.map)
+    After  
+        .PHONY: $(LOCAL_MODULE)
+        $(LOCAL_MODULE): $(LOCAL_BUILT_MODULE) $(LOCAL_INSTALLED_MODULE)
+    in build/core/base_rules.mk.                      
+
+./produce_full_graph.pl: This tool could visualize the full dependence graph. It reads the output/android_modules.dg and input/color.txt and writes the Graph-Easy input to output/full_graph and then invokes the graph-easy. It would split the dependence graph to a top part and a bottom part because Graph-Easy could not visualize the full graph pretty due to the large size of the graph.
+
+./produce_auto_package.pl: This tool could create a possible topological sort of the dependence graph and visualize it. It proves the automatic OBS packing is feasible and gives a possible packing order at output/auto_packaging.
+
+./query_module_graph.pl: This tool could visualize the dependence graph for specified modules or source directories. 
+    Some sample usage:
+        ./query_module_graph.pl -m "libcamera libcameraservice"
+        ./query_module_graph.pl -d "external/skia hardware"
+        ./query_module_graph.pl -m "libcamera libcameraservice" -d "external/skia hardware"
+The graph would be saved in the output/querying_results with a description. Please move it to other folders if you want it because the next invocation of ./query_module_graph would rewrite them.
+
+
+Have fun!
+
+
+AUTHOR
+======
+
+Feng, Haitao
+haitao.feng@intel.com
